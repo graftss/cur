@@ -1,0 +1,2198 @@
+{
+  "Mirror of Kalandra": {
+    "value": 16127.13,
+    "type": "currency"
+  },
+  "Mirror Shard": {
+    "value": 657.63,
+    "type": "currency"
+  },
+  "Blessing of Chayula": {
+    "value": 179.02,
+    "type": "currency"
+  },
+  "Exalted Orb": {
+    "value": 89.48,
+    "type": "currency"
+  },
+  "Divine Orb": {
+    "value": 14.15,
+    "type": "currency"
+  },
+  "Ancient Orb": {
+    "value": 14,
+    "type": "currency"
+  },
+  "Harbinger's Orb": {
+    "value": 7.4,
+    "type": "currency"
+  },
+  "Exalted Shard": {
+    "value": 4.1,
+    "type": "currency"
+  },
+  "Orb of Annulment": {
+    "value": 4,
+    "type": "currency"
+  },
+  "Master Cartographer's Sextant": {
+    "value": 3.79,
+    "type": "currency"
+  },
+  "Blessing of Esh": {
+    "value": 2.88,
+    "type": "currency"
+  },
+  "Journeyman Cartographer's Sextant": {
+    "value": 2.08,
+    "type": "currency"
+  },
+  "Blessing of Tul": {
+    "value": 2,
+    "type": "currency"
+  },
+  "Blessing of Uul-Netol": {
+    "value": 1.37,
+    "type": "currency"
+  },
+  "Blessing of Xoph": {
+    "value": 1.02,
+    "type": "currency"
+  },
+  "Gemcutter's Prism": {
+    "value": 0.96,
+    "type": "currency"
+  },
+  "Splinter of Chayula": {
+    "value": 0.96,
+    "type": "currency"
+  },
+  "Vaal Orb": {
+    "value": 0.93,
+    "type": "currency"
+  },
+  "Orb of Regret": {
+    "value": 0.84,
+    "type": "currency"
+  },
+  "Apprentice Cartographer's Sextant": {
+    "value": 0.64,
+    "type": "currency"
+  },
+  "Annulment Shard": {
+    "value": 0.58,
+    "type": "currency"
+  },
+  "Regal Orb": {
+    "value": 0.51,
+    "type": "currency"
+  },
+  "Orb of Horizons": {
+    "value": 0.43,
+    "type": "currency"
+  },
+  "Orb of Fusing": {
+    "value": 0.42,
+    "type": "currency"
+  },
+  "Orb of Scouring": {
+    "value": 0.42,
+    "type": "currency"
+  },
+  "Cartographer's Chisel": {
+    "value": 0.35,
+    "type": "currency"
+  },
+  "Blessed Orb": {
+    "value": 0.29,
+    "type": "currency"
+  },
+  "Orb of Alchemy": {
+    "value": 0.2,
+    "type": "currency"
+  },
+  "Silver Coin": {
+    "value": 0.18,
+    "type": "currency"
+  },
+  "Orb of Binding": {
+    "value": 0.18,
+    "type": "currency"
+  },
+  "Splinter of Xoph": {
+    "value": 0.16,
+    "type": "currency"
+  },
+  "Splinter of Uul-Netol": {
+    "value": 0.11,
+    "type": "currency"
+  },
+  "Jeweller's Orb": {
+    "value": 0.1,
+    "type": "currency"
+  },
+  "Orb of Chance": {
+    "value": 0.1,
+    "type": "currency"
+  },
+  "Engineer's Orb": {
+    "value": 0.1,
+    "type": "currency"
+  },
+  "Glassblower's Bauble": {
+    "value": 0.08,
+    "type": "currency"
+  },
+  "Splinter of Tul": {
+    "value": 0.08,
+    "type": "currency"
+  },
+  "Orb of Alteration": {
+    "value": 0.07,
+    "type": "currency"
+  },
+  "Splinter of Esh": {
+    "value": 0.07,
+    "type": "currency"
+  },
+  "Chromatic Orb": {
+    "value": 0.06,
+    "type": "currency"
+  },
+  "Orb of Augmentation": {
+    "value": 0.02,
+    "type": "currency"
+  },
+  "Blacksmith's Whetstone": {
+    "value": 0.02,
+    "type": "currency"
+  },
+  "Perandus Coin": {
+    "value": 0.01,
+    "type": "currency"
+  },
+  "Orb of Transmutation": {
+    "value": 0.01,
+    "type": "currency"
+  },
+  "Portal Scroll": {
+    "value": 0.01,
+    "type": "currency"
+  },
+  "Armourer's Scrap": {
+    "value": 0.01,
+    "type": "currency"
+  },
+  "House of Mirrors": {
+    "value": 1476.42,
+    "type": "divinationCard"
+  },
+  "The Doctor": {
+    "value": 598.38,
+    "type": "divinationCard"
+  },
+  "The Fiend": {
+    "value": 439.91,
+    "type": "divinationCard"
+  },
+  "Mawr Blaidd": {
+    "value": 326.72,
+    "type": "divinationCard"
+  },
+  "The Spark and the Flame": {
+    "value": 183.03,
+    "type": "divinationCard"
+  },
+  "The Queen": {
+    "value": 182.27,
+    "type": "divinationCard"
+  },
+  "Hunter's Reward": {
+    "value": 181.88,
+    "type": "divinationCard"
+  },
+  "The Immortal": {
+    "value": 103.73,
+    "type": "divinationCard"
+  },
+  "Abandoned Wealth": {
+    "value": 50,
+    "type": "divinationCard"
+  },
+  "The Standoff": {
+    "value": 39.98,
+    "type": "divinationCard"
+  },
+  "The Wolf": {
+    "value": 39.49,
+    "type": "divinationCard"
+  },
+  "Last Hope": {
+    "value": 25,
+    "type": "divinationCard"
+  },
+  "Wealth and Power": {
+    "value": 24.7,
+    "type": "divinationCard"
+  },
+  "The Wolven King's Bite": {
+    "value": 23.87,
+    "type": "divinationCard"
+  },
+  "The King's Heart": {
+    "value": 21,
+    "type": "divinationCard"
+  },
+  "Pride Before the Fall": {
+    "value": 18,
+    "type": "divinationCard"
+  },
+  "The Vast": {
+    "value": 17.82,
+    "type": "divinationCard"
+  },
+  "Heterochromia": {
+    "value": 17.03,
+    "type": "divinationCard"
+  },
+  "The Dragon's Heart": {
+    "value": 15.31,
+    "type": "divinationCard"
+  },
+  "The Celestial Justicar": {
+    "value": 15,
+    "type": "divinationCard"
+  },
+  "The Saint's Treasure": {
+    "value": 15,
+    "type": "divinationCard"
+  },
+  "Bowyer's Dream": {
+    "value": 14.82,
+    "type": "divinationCard"
+  },
+  "The Hunger": {
+    "value": 14,
+    "type": "divinationCard"
+  },
+  "The Valkyrie": {
+    "value": 13,
+    "type": "divinationCard"
+  },
+  "The Last One Standing": {
+    "value": 12,
+    "type": "divinationCard"
+  },
+  "The Sephirot": {
+    "value": 12,
+    "type": "divinationCard"
+  },
+  "The Artist": {
+    "value": 10.47,
+    "type": "divinationCard"
+  },
+  "The Thaumaturgist": {
+    "value": 10,
+    "type": "divinationCard"
+  },
+  "The Brittle Emperor": {
+    "value": 8,
+    "type": "divinationCard"
+  },
+  "The Demoness": {
+    "value": 7.9,
+    "type": "divinationCard"
+  },
+  "The Formless Sea": {
+    "value": 7.76,
+    "type": "divinationCard"
+  },
+  "Time-Lost Relic": {
+    "value": 7,
+    "type": "divinationCard"
+  },
+  "The Wind": {
+    "value": 6.99,
+    "type": "divinationCard"
+  },
+  "The Ethereal": {
+    "value": 6.11,
+    "type": "divinationCard"
+  },
+  "The Polymath": {
+    "value": 6,
+    "type": "divinationCard"
+  },
+  "The Hoarder": {
+    "value": 5.92,
+    "type": "divinationCard"
+  },
+  "Chaotic Disposition": {
+    "value": 5,
+    "type": "divinationCard"
+  },
+  "The Enlightened": {
+    "value": 5,
+    "type": "divinationCard"
+  },
+  "The Void": {
+    "value": 5,
+    "type": "divinationCard"
+  },
+  "The Dapper Prodigy": {
+    "value": 4,
+    "type": "divinationCard"
+  },
+  "Lucky Deck": {
+    "value": 3.22,
+    "type": "divinationCard"
+  },
+  "The Risk": {
+    "value": 3,
+    "type": "divinationCard"
+  },
+  "The Valley of Steel Boxes": {
+    "value": 3,
+    "type": "divinationCard"
+  },
+  "The Cartographer": {
+    "value": 2.5,
+    "type": "divinationCard"
+  },
+  "The Fletcher": {
+    "value": 2.31,
+    "type": "divinationCard"
+  },
+  "The Jester": {
+    "value": 2.17,
+    "type": "divinationCard"
+  },
+  "Emperor of Purity": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Chains that Bind": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Offering": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Soul": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Stormcaller": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Warlord": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "The Porcupine": {
+    "value": 2,
+    "type": "divinationCard"
+  },
+  "Merciless Armament": {
+    "value": 1.56,
+    "type": "divinationCard"
+  },
+  "The Dark Mage": {
+    "value": 1.03,
+    "type": "divinationCard"
+  },
+  "Audacity": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Birth of the Three": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Blind Venture": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Boundless Realms": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Dialla's Subjugation": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Earth Drinker": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Emperor's Luck": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Gemcutter's Promise": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Glimmer of Hope": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Hope": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Humility": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Hunter's Resolve": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Jack in the Box": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Light and Truth": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Lysah's Respite": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Scholar of the Seas": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Aesthete": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Avenger": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Battle Born": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Body": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Calling": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Cataclysm": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Cursed King": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Drunken Aristocrat": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Endurance": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Inventor": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Mercenary": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The One With All": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Penitent": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Scavenger": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Spoiled Prince": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Throne": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Tower": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Tyrant": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Union": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Wrath": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Vinia's Token": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Mitts": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Wretched": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Lingering Remnants": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Garish Power": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "The Forsaken": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Atziri's Arsenal": {
+    "value": 1,
+    "type": "divinationCard"
+  },
+  "Hubris": {
+    "value": 0.99,
+    "type": "divinationCard"
+  },
+  "Treasure Hunter": {
+    "value": 0.95,
+    "type": "divinationCard"
+  },
+  "The Pact": {
+    "value": 0.93,
+    "type": "divinationCard"
+  },
+  "The Traitor": {
+    "value": 0.93,
+    "type": "divinationCard"
+  },
+  "The Gemcutter": {
+    "value": 0.92,
+    "type": "divinationCard"
+  },
+  "The Conduit": {
+    "value": 0.9,
+    "type": "divinationCard"
+  },
+  "The Surgeon": {
+    "value": 0.88,
+    "type": "divinationCard"
+  },
+  "The Fox": {
+    "value": 0.86,
+    "type": "divinationCard"
+  },
+  "The Survivalist": {
+    "value": 0.86,
+    "type": "divinationCard"
+  },
+  "The Lion": {
+    "value": 0.85,
+    "type": "divinationCard"
+  },
+  "Lucky Connections": {
+    "value": 0.83,
+    "type": "divinationCard"
+  },
+  "Gift of the Gemling Queen": {
+    "value": 0.8,
+    "type": "divinationCard"
+  },
+  "The Gladiator": {
+    "value": 0.79,
+    "type": "divinationCard"
+  },
+  "Grave Knowledge": {
+    "value": 0.77,
+    "type": "divinationCard"
+  },
+  "The Harvester": {
+    "value": 0.74,
+    "type": "divinationCard"
+  },
+  "The Explorer": {
+    "value": 0.73,
+    "type": "divinationCard"
+  },
+  "The Poet": {
+    "value": 0.73,
+    "type": "divinationCard"
+  },
+  "Rats": {
+    "value": 0.7,
+    "type": "divinationCard"
+  },
+  "The Gentleman": {
+    "value": 0.7,
+    "type": "divinationCard"
+  },
+  "The Road to Power": {
+    "value": 0.7,
+    "type": "divinationCard"
+  },
+  "The Encroaching Darkness": {
+    "value": 0.69,
+    "type": "divinationCard"
+  },
+  "Coveted Possession": {
+    "value": 0.67,
+    "type": "divinationCard"
+  },
+  "Call to the First Ones": {
+    "value": 0.64,
+    "type": "divinationCard"
+  },
+  "Lost Worlds": {
+    "value": 0.62,
+    "type": "divinationCard"
+  },
+  "Shard of Fate": {
+    "value": 0.6,
+    "type": "divinationCard"
+  },
+  "The Arena Champion": {
+    "value": 0.53,
+    "type": "divinationCard"
+  },
+  "Loyalty": {
+    "value": 0.49,
+    "type": "divinationCard"
+  },
+  "The Sun": {
+    "value": 0.49,
+    "type": "divinationCard"
+  },
+  "The Gambler": {
+    "value": 0.48,
+    "type": "divinationCard"
+  },
+  "The Betrayal": {
+    "value": 0.44,
+    "type": "divinationCard"
+  },
+  "The Doppelganger": {
+    "value": 0.43,
+    "type": "divinationCard"
+  },
+  "The Catalyst": {
+    "value": 0.42,
+    "type": "divinationCard"
+  },
+  "The Lord in Black": {
+    "value": 0.42,
+    "type": "divinationCard"
+  },
+  "Three Faces in the Dark": {
+    "value": 0.42,
+    "type": "divinationCard"
+  },
+  "The Dragon": {
+    "value": 0.4,
+    "type": "divinationCard"
+  },
+  "Might is Right": {
+    "value": 0.39,
+    "type": "divinationCard"
+  },
+  "Her Mask": {
+    "value": 0.38,
+    "type": "divinationCard"
+  },
+  "The Opulent": {
+    "value": 0.35,
+    "type": "divinationCard"
+  },
+  "The Twins": {
+    "value": 0.34,
+    "type": "divinationCard"
+  },
+  "The Lich": {
+    "value": 0.33,
+    "type": "divinationCard"
+  },
+  "The Siren": {
+    "value": 0.32,
+    "type": "divinationCard"
+  },
+  "Death": {
+    "value": 0.3,
+    "type": "divinationCard"
+  },
+  "Tranquillity": {
+    "value": 0.28,
+    "type": "divinationCard"
+  },
+  "The Sigil": {
+    "value": 0.24,
+    "type": "divinationCard"
+  },
+  "The Summoner": {
+    "value": 0.24,
+    "type": "divinationCard"
+  },
+  "The Surveyor": {
+    "value": 0.24,
+    "type": "divinationCard"
+  },
+  "The Visionary": {
+    "value": 0.22,
+    "type": "divinationCard"
+  },
+  "A Mother's Parting Gift": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Anarchy's Price": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Assassin's Favour": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Cartographer's Delight": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Destined to Crumble": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Doedre's Madness": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Dying Anguish": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Lantador's Lost Love": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Prosperity": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Rain of Chaos": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Rain Tempter": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Feast": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Flora's Gift": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Incantation": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Inoculated": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The King's Blade": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Lover": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Lunaris Priestess": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Metalsmith's Gift": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Oath": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Pack Leader": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Rabid Rhoa": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Scarred Meadow": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Scholar": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Trial": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Warden": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Watcher": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Web": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Wolf's Shadow": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Thunderous Skies": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Turn the Other Cheek": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Volatile Power": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Coming Storm": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Wolverine": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "Struck by Lightning": {
+    "value": 0.2,
+    "type": "divinationCard"
+  },
+  "The Carrion Crow": {
+    "value": 0.17,
+    "type": "divinationCard"
+  },
+  "The Hermit": {
+    "value": 0.16,
+    "type": "divinationCard"
+  },
+  "Essence of Horror": {
+    "value": 37.4,
+    "type": "essence"
+  },
+  "Essence of Delirium": {
+    "value": 30,
+    "type": "essence"
+  },
+  "Essence of Hysteria": {
+    "value": 30,
+    "type": "essence"
+  },
+  "Essence of Insanity": {
+    "value": 28,
+    "type": "essence"
+  },
+  "Deafening Essence of Scorn": {
+    "value": 23.83,
+    "type": "essence"
+  },
+  "Deafening Essence of Wrath": {
+    "value": 20,
+    "type": "essence"
+  },
+  "Deafening Essence of Anger": {
+    "value": 15,
+    "type": "essence"
+  },
+  "Deafening Essence of Contempt": {
+    "value": 15,
+    "type": "essence"
+  },
+  "Deafening Essence of Envy": {
+    "value": 15,
+    "type": "essence"
+  },
+  "Deafening Essence of Zeal": {
+    "value": 14.87,
+    "type": "essence"
+  },
+  "Deafening Essence of Greed": {
+    "value": 13.3,
+    "type": "essence"
+  },
+  "Deafening Essence of Torment": {
+    "value": 12,
+    "type": "essence"
+  },
+  "Deafening Essence of Spite": {
+    "value": 8.09,
+    "type": "essence"
+  },
+  "Shrieking Essence of Anger": {
+    "value": 7,
+    "type": "essence"
+  },
+  "Shrieking Essence of Wrath": {
+    "value": 7,
+    "type": "essence"
+  },
+  "Deafening Essence of Fear": {
+    "value": 6,
+    "type": "essence"
+  },
+  "Shrieking Essence of Contempt": {
+    "value": 6,
+    "type": "essence"
+  },
+  "Deafening Essence of Misery": {
+    "value": 5.5,
+    "type": "essence"
+  },
+  "Deafening Essence of Hatred": {
+    "value": 5,
+    "type": "essence"
+  },
+  "Deafening Essence of Loathing": {
+    "value": 5,
+    "type": "essence"
+  },
+  "Deafening Essence of Rage": {
+    "value": 5,
+    "type": "essence"
+  },
+  "Shrieking Essence of Scorn": {
+    "value": 5,
+    "type": "essence"
+  },
+  "Shrieking Essence of Envy": {
+    "value": 4.95,
+    "type": "essence"
+  },
+  "Shrieking Essence of Greed": {
+    "value": 4.81,
+    "type": "essence"
+  },
+  "Deafening Essence of Woe": {
+    "value": 4,
+    "type": "essence"
+  },
+  "Remnant of Corruption": {
+    "value": 4,
+    "type": "essence"
+  },
+  "Shrieking Essence of Torment": {
+    "value": 4,
+    "type": "essence"
+  },
+  "Shrieking Essence of Zeal": {
+    "value": 4,
+    "type": "essence"
+  },
+  "Shrieking Essence of Fear": {
+    "value": 3,
+    "type": "essence"
+  },
+  "Shrieking Essence of Rage": {
+    "value": 3,
+    "type": "essence"
+  },
+  "Deafening Essence of Doubt": {
+    "value": 2.36,
+    "type": "essence"
+  },
+  "Deafening Essence of Anguish": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Deafening Essence of Dread": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Deafening Essence of Sorrow": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Deafening Essence of Suffering": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Screaming Essence of Anger": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Shrieking Essence of Hatred": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Shrieking Essence of Spite": {
+    "value": 2,
+    "type": "essence"
+  },
+  "Screaming Essence of Wrath": {
+    "value": 1.95,
+    "type": "essence"
+  },
+  "Shrieking Essence of Loathing": {
+    "value": 1.76,
+    "type": "essence"
+  },
+  "Shrieking Essence of Misery": {
+    "value": 1.05,
+    "type": "essence"
+  },
+  "Screaming Essence of Contempt": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Screaming Essence of Envy": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Screaming Essence of Greed": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Screaming Essence of Scorn": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Screaming Essence of Zeal": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Anguish": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Doubt": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Dread": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Sorrow": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Suffering": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Shrieking Essence of Woe": {
+    "value": 1,
+    "type": "essence"
+  },
+  "Screaming Essence of Torment": {
+    "value": 0.97,
+    "type": "essence"
+  },
+  "Screaming Essence of Fear": {
+    "value": 0.91,
+    "type": "essence"
+  },
+  "Wailing Essence of Anger": {
+    "value": 0.78,
+    "type": "essence"
+  },
+  "Wailing Essence of Wrath": {
+    "value": 0.58,
+    "type": "essence"
+  },
+  "Screaming Essence of Loathing": {
+    "value": 0.55,
+    "type": "essence"
+  },
+  "Screaming Essence of Rage": {
+    "value": 0.39,
+    "type": "essence"
+  },
+  "Screaming Essence of Hatred": {
+    "value": 0.27,
+    "type": "essence"
+  },
+  "Muttering Essence of Contempt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Fear": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Greed": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Hatred": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Sorrow": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Torment": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Anguish": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Doubt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Dread": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Misery": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Sorrow": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Spite": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Suffering": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Screaming Essence of Woe": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Anguish": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Contempt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Doubt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Fear": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Greed": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Hatred": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Loathing": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Rage": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Sorrow": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Spite": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Suffering": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Torment": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Woe": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Wailing Essence of Zeal": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Anger": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Contempt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Doubt": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Fear": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Greed": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Hatred": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Rage": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Sorrow": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Torment": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Woe": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Weeping Essence of Wrath": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Whispering Essence of Hatred": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Whispering Essence of Woe": {
+    "value": 0.2,
+    "type": "essence"
+  },
+  "Muttering Essence of Anger": {
+    "value": 0.19,
+    "type": "essence"
+  },
+  "Whispering Essence of Greed": {
+    "value": 0.18,
+    "type": "essence"
+  },
+  "Muttering Essence of Woe": {
+    "value": 0.16,
+    "type": "essence"
+  },
+  "Weeping Essence of Suffering": {
+    "value": 0.16,
+    "type": "essence"
+  },
+  "Whispering Essence of Contempt": {
+    "value": 0.13,
+    "type": "essence"
+  },
+  "Chayula's Breachstone": {
+    "value": 113.62,
+    "type": "fragment"
+  },
+  "Mortal Hope": {
+    "value": 95.82,
+    "type": "fragment"
+  },
+  "Mortal Ignorance": {
+    "value": 56.75,
+    "type": "fragment"
+  },
+  "Volkuur's Key": {
+    "value": 28.49,
+    "type": "fragment"
+  },
+  "Inya's Key": {
+    "value": 24.99,
+    "type": "fragment"
+  },
+  "Xoph's Breachstone": {
+    "value": 14.2,
+    "type": "fragment"
+  },
+  "Yriel's Key": {
+    "value": 7.94,
+    "type": "fragment"
+  },
+  "Uul-Netol's Breachstone": {
+    "value": 7,
+    "type": "fragment"
+  },
+  "Fragment of the Chimera": {
+    "value": 6.96,
+    "type": "fragment"
+  },
+  "Tul's Breachstone": {
+    "value": 6,
+    "type": "fragment"
+  },
+  "Esh's Breachstone": {
+    "value": 6,
+    "type": "fragment"
+  },
+  "Sacrifice at Midnight": {
+    "value": 5,
+    "type": "fragment"
+  },
+  "Eber's Key": {
+    "value": 4.93,
+    "type": "fragment"
+  },
+  "Fragment of the Phoenix": {
+    "value": 4.87,
+    "type": "fragment"
+  },
+  "Offering to the Goddess": {
+    "value": 4.7,
+    "type": "fragment"
+  },
+  "Mortal Rage": {
+    "value": 4.59,
+    "type": "fragment"
+  },
+  "Fragment of the Hydra": {
+    "value": 4.44,
+    "type": "fragment"
+  },
+  "Fragment of the Minotaur": {
+    "value": 4.31,
+    "type": "fragment"
+  },
+  "Mortal Grief": {
+    "value": 2.35,
+    "type": "fragment"
+  },
+  "Sacrifice at Noon": {
+    "value": 1,
+    "type": "fragment"
+  },
+  "Sacrifice at Dusk": {
+    "value": 0.95,
+    "type": "fragment"
+  },
+  "Sacrifice at Dawn": {
+    "value": 0.83,
+    "type": "fragment"
+  },
+  "Divine Vessel": {
+    "value": 0.74,
+    "type": "fragment"
+  },
+  "Vaal Temple Map": {
+    "value": 20,
+    "type": "map"
+  },
+  "Maze of the Minotaur Map": {
+    "value": 5.25,
+    "type": "map"
+  },
+  "Pit of the Chimera Map": {
+    "value": 5.18,
+    "type": "map"
+  },
+  "Forge of the Phoenix Map": {
+    "value": 5.14,
+    "type": "map"
+  },
+  "Lair of the Hydra Map": {
+    "value": 5,
+    "type": "map"
+  },
+  "Shaped Temple Map": {
+    "value": 5,
+    "type": "map"
+  },
+  "Shaped Terrace Map": {
+    "value": 5,
+    "type": "map"
+  },
+  "Overgrown Ruin Map": {
+    "value": 4,
+    "type": "map"
+  },
+  "Shaped Colonnade Map": {
+    "value": 4,
+    "type": "map"
+  },
+  "Vault Map": {
+    "value": 4,
+    "type": "map"
+  },
+  "Shaped Courtyard Map": {
+    "value": 3.94,
+    "type": "map"
+  },
+  "Shaped Underground River Map": {
+    "value": 3.6,
+    "type": "map"
+  },
+  "Abyss Map": {
+    "value": 3.5,
+    "type": "map"
+  },
+  "Colosseum Map": {
+    "value": 3,
+    "type": "map"
+  },
+  "Core Map": {
+    "value": 3,
+    "type": "map"
+  },
+  "Dark Forest Map": {
+    "value": 3,
+    "type": "map"
+  },
+  "Shaped Malformation Map": {
+    "value": 2.99,
+    "type": "map"
+  },
+  "Shaped Arsenal Map": {
+    "value": 2.98,
+    "type": "map"
+  },
+  "Shaped Port Map": {
+    "value": 2.72,
+    "type": "map"
+  },
+  "Shaped Catacombs Map": {
+    "value": 2.71,
+    "type": "map"
+  },
+  "Shaped Ramparts Map": {
+    "value": 2.2,
+    "type": "map"
+  },
+  "Shaped Armoury Map": {
+    "value": 2.19,
+    "type": "map"
+  },
+  "Mineral Pools Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Shaped Bog Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Shaped Castle Ruins Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Shaped Reef Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Shaped Spider Forest Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Shrine Map": {
+    "value": 2,
+    "type": "map"
+  },
+  "Maze Map": {
+    "value": 1.96,
+    "type": "map"
+  },
+  "Shaped Crypt Map": {
+    "value": 1.94,
+    "type": "map"
+  },
+  "Volcano Map": {
+    "value": 1.94,
+    "type": "map"
+  },
+  "Shaped Cemetery Map": {
+    "value": 1.92,
+    "type": "map"
+  },
+  "Springs Map": {
+    "value": 1.92,
+    "type": "map"
+  },
+  "Shaped Racecourse Map": {
+    "value": 1.86,
+    "type": "map"
+  },
+  "Shaped Arachnid Nest Map": {
+    "value": 1.67,
+    "type": "map"
+  },
+  "Shaped Coves Map": {
+    "value": 1.61,
+    "type": "map"
+  },
+  "Shaped Orchard Map": {
+    "value": 1.57,
+    "type": "map"
+  },
+  "Shaped Shore Map": {
+    "value": 1.54,
+    "type": "map"
+  },
+  "Palace Map": {
+    "value": 1.4,
+    "type": "map"
+  },
+  "Shaped Promenade Map": {
+    "value": 1.4,
+    "type": "map"
+  },
+  "Shaped Tropical Island Map": {
+    "value": 1.4,
+    "type": "map"
+  },
+  "Shaped Arena Map": {
+    "value": 1.37,
+    "type": "map"
+  },
+  "Shaped Overgrown Shrine Map": {
+    "value": 1.31,
+    "type": "map"
+  },
+  "Gorge Map": {
+    "value": 1.3,
+    "type": "map"
+  },
+  "Shaped Museum Map": {
+    "value": 1.27,
+    "type": "map"
+  },
+  "Shaped Barrows Map": {
+    "value": 1.24,
+    "type": "map"
+  },
+  "Beacon Map": {
+    "value": 1.05,
+    "type": "map"
+  },
+  "High Gardens Map": {
+    "value": 1.05,
+    "type": "map"
+  },
+  "Lair Map": {
+    "value": 1.05,
+    "type": "map"
+  },
+  "Shaped Atoll Map": {
+    "value": 1.05,
+    "type": "map"
+  },
+  "Plaza Map": {
+    "value": 1.02,
+    "type": "map"
+  },
+  "Waterways Map": {
+    "value": 1.01,
+    "type": "map"
+  },
+  "Scriptorium Map": {
+    "value": 1,
+    "type": "map"
+  },
+  "Shaped Mud Geyser Map": {
+    "value": 1,
+    "type": "map"
+  },
+  "Shaped Wharf Map": {
+    "value": 1,
+    "type": "map"
+  },
+  "Shaped Arachnid Tomb Map": {
+    "value": 0.97,
+    "type": "map"
+  },
+  "Shaped Pier Map": {
+    "value": 0.84,
+    "type": "map"
+  },
+  "Shaped Cells Map": {
+    "value": 0.83,
+    "type": "map"
+  },
+  "Shaped Ashen Wood Map": {
+    "value": 0.82,
+    "type": "map"
+  },
+  "Residence Map": {
+    "value": 0.81,
+    "type": "map"
+  },
+  "Shaped Strand Map": {
+    "value": 0.78,
+    "type": "map"
+  },
+  "Bazaar Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Chateau Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Crematorium Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Estuary Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Excavation Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Ivory Temple Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Necropolis Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Plateau Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Precinct Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Shaped Canyon Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Shipyard Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Sulphur Wastes Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Torture Chamber Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Underground Sea Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Wasteland Map": {
+    "value": 0.7,
+    "type": "map"
+  },
+  "Shaped Spider Lair Map": {
+    "value": 0.56,
+    "type": "map"
+  },
+  "Shaped Tower Map": {
+    "value": 0.52,
+    "type": "map"
+  },
+  "Shaped Academy Map": {
+    "value": 0.35,
+    "type": "map"
+  },
+  "Shaped Burial Chambers Map": {
+    "value": 0.35,
+    "type": "map"
+  },
+  "Shaped Mesa Map": {
+    "value": 0.35,
+    "type": "map"
+  },
+  "Shaped Villa Map": {
+    "value": 0.34,
+    "type": "map"
+  },
+  "Shaped Dunes Map": {
+    "value": 0.26,
+    "type": "map"
+  },
+  "Shaped Pit Map": {
+    "value": 0.24,
+    "type": "map"
+  },
+  "Shaped Primordial Pool Map": {
+    "value": 0.24,
+    "type": "map"
+  },
+  "Shaped Cavern Map": {
+    "value": 0.22,
+    "type": "map"
+  },
+  "Academy Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arachnid Nest Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arachnid Tomb Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arcade Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arena Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arid Lake Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Arsenal Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Ashen Wood Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Atoll Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Barrows Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Beach Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Bog Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Burial Chambers Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Canyon Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Castle Ruins Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Catacombs Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Cavern Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Cells Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Cemetery Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Channel Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Colonnade Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Courtyard Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Coves Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Crypt Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Crystal Ore Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Desert Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Dunes Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Dungeon Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Factory Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Graveyard Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Grotto Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Jungle Valley Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Malformation Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Marshes Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Mesa Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Mud Geyser Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Museum Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Oasis Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Orchard Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Overgrown Shrine Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Peninsula Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Phantasmagoria Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Pier Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Pit Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Primordial Pool Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Promenade Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Quarry Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Racecourse Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Ramparts Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Reef Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Sewer Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Acid Lakes Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Arcade Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Arid Lake Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Beach Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Channel Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Crystal Ore Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Desert Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Dungeon Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Factory Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Ghetto Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Graveyard Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Grotto Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Jungle Valley Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Marshes Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Oasis Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Peninsula Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Phantasmagoria Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Sewer Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Vaal Pyramid Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shaped Waste Pool Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Shore Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Spider Forest Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Spider Lair Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Strand Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Temple Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Terrace Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Thicket Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Tower Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Tropical Island Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Underground River Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Vaal City Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Vaal Pyramid Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Villa Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Waste Pool Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Wharf Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Armoury Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Port Map": {
+    "value": 0.2,
+    "type": "map"
+  },
+  "Acid Lakes Map": {
+    "value": 0.19,
+    "type": "map"
+  },
+  "Ghetto Map": {
+    "value": 0.14,
+    "type": "map"
+  },
+  "The Perandus Manor": {
+    "value": 1073.76,
+    "type": "uniqueMap"
+  },
+  "The Putrid Cloister": {
+    "value": 80,
+    "type": "uniqueMap"
+  },
+  "The Vinktar Square": {
+    "value": 40,
+    "type": "uniqueMap"
+  },
+  "The Beachhead": {
+    "value": 23.26,
+    "type": "uniqueMap"
+  },
+  "Mao Kun": {
+    "value": 10,
+    "type": "uniqueMap"
+  },
+  "Poorjoy's Asylum": {
+    "value": 9,
+    "type": "uniqueMap"
+  },
+  "Vaults of Atziri": {
+    "value": 5,
+    "type": "uniqueMap"
+  },
+  "Hall of Grandmasters": {
+    "value": 4.94,
+    "type": "uniqueMap"
+  },
+  "Oba's Cursed Trove": {
+    "value": 2.88,
+    "type": "uniqueMap"
+  },
+  "Caer Blaidd, Wolfpack's Den": {
+    "value": 2.8,
+    "type": "uniqueMap"
+  },
+  "The Coward's Trial": {
+    "value": 1.75,
+    "type": "uniqueMap"
+  },
+  "Hallowed Ground": {
+    "value": 1.05,
+    "type": "uniqueMap"
+  },
+  "Acton's Nightmare": {
+    "value": 0.7,
+    "type": "uniqueMap"
+  },
+  "Death and Taxes": {
+    "value": 0.7,
+    "type": "uniqueMap"
+  },
+  "Maelström of Chaos": {
+    "value": 0.7,
+    "type": "uniqueMap"
+  },
+  "Olmec's Sanctum": {
+    "value": 0.7,
+    "type": "uniqueMap"
+  },
+  "Whakawairua Tuahu": {
+    "value": 0.7,
+    "type": "uniqueMap"
+  }
+}

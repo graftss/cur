@@ -1,0 +1,1532 @@
+{
+  "tabList": [
+    {
+      "color": {
+        "r": 124,
+        "g": 84,
+        "b": 54
+      },
+      "id": "ae391a714207afd4f1edcea0ab996332e8a629942d2cf31e5673dd476ed5972a",
+      "index": 0,
+      "name": "3"
+    },
+    {
+      "color": {
+        "r": 124,
+        "g": 84,
+        "b": 54
+      },
+      "id": "0a4af200c30a51a81c39d65e7c5613258764c0cc4c1ff710694da7543fc66abc",
+      "index": 1,
+      "name": "2"
+    },
+    {
+      "color": {
+        "r": 124,
+        "g": 84,
+        "b": 54
+      },
+      "id": "4000c7ae03982d6feb4b4cde05e59e16548e1dd40413494dbd44ac154ced4284",
+      "index": 2,
+      "name": "4"
+    },
+    {
+      "color": {
+        "r": 124,
+        "g": 84,
+        "b": 54
+      },
+      "id": "46c088203bf2bfdb500e17f6bb98dd3a86364643d530deeafca2997ac7cbedec",
+      "index": 3,
+      "name": "1"
+    },
+    {
+      "color": {
+        "r": 204,
+        "g": 0,
+        "b": 154
+      },
+      "id": "d795458602bb59700d5c71a9818a104eee191ad0c5957830f60041442c9cb63b",
+      "index": 4,
+      "name": "ex"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "4f989644ed79a8041491d09b1123c2104bd524a15d1b758dd4b3c60a96ba125f",
+      "index": 5,
+      "name": "$"
+    },
+    {
+      "color": {
+        "r": 191,
+        "g": 0,
+        "b": 0
+      },
+      "id": "9e82552e66496e6d5935b801eb74c9c7f09636e7a2ef74929090168f3b4c3aa4",
+      "index": 6,
+      "name": "vt"
+    },
+    {
+      "color": {
+        "r": 191,
+        "g": 0,
+        "b": 0
+      },
+      "id": "3bfa5d897e30f9c617b9b68191c6b21f41d5d4ae70d420dc21802f26a2492842",
+      "index": 7,
+      "name": "vt"
+    },
+    {
+      "color": {
+        "r": 191,
+        "g": 0,
+        "b": 0
+      },
+      "id": "c2d5c7ee16d880d1f8ebfaaeed83091dbfb01eb6b19475b3696bb05f5d892f7c",
+      "index": 8,
+      "name": "vt"
+    },
+    {
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 255
+      },
+      "id": "863a19bb568bb3d63c86bcec7634a8ba2092f5b1946a5d0fa6efa7c4d08eaf4f",
+      "index": 9,
+      "name": "vt"
+    },
+    {
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 128
+      },
+      "id": "8194f99d36f5d9b9a56acfc2a8a88c364fb66b686f30fb728de4738f07c806ef",
+      "index": 10,
+      "name": "ves"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "8c0d4a58fb26415c99cc6acc9d4512ecebaf70866b699f826cc5800867d0e9a1",
+      "index": 11,
+      "name": "gear"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "565d6284a8f1e2edad3473db8666cab18a57433d089564520b46d13ef9c2f529",
+      "index": 12,
+      "name": "pcs"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "58b2f99b18742115513ee881bfd6cd94ea804ecc6bbeb8253e4efd7743f83c37",
+      "index": 13,
+      "name": "jew"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "f20f5ce55c140d44f97bfd9f3ed8e2260e25754d763ae2197ba2fc4d169549fc",
+      "index": 14,
+      "name": "mb"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "67254b7837f22aa533ecffe53816f32df80c2bde73a22aeaaffc5b97d207fc61",
+      "index": 15,
+      "name": "gem"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "067100548c52160d6c24b3721dcfd7d50e235015c99ff5324cc4db677f361019",
+      "index": 16,
+      "name": "fl"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "49dfb0a320677a4ab89edd7865ea8999e912d96bd998fe0ef21f4c2aaef1a7c9",
+      "index": 17,
+      "name": "frg"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "2aba36c645c8ba8781738b8c23fedcd73319440e5915fbee04256c69246b75d8",
+      "index": 18,
+      "name": "uq"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "81bba922f22b84a53df4c1e93f37b2b3bccc344e49a313e95a5368c25612e1ad",
+      "index": 19,
+      "name": "car"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "24dbbf5b1825cb8be02aabbe629f6e5977526136ef76da8457e41eb68d737389",
+      "index": 20,
+      "name": "ess"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "6429b65444544d498a24a2baf6a5be98df6662fd9d56a365b5107edbf01c93af",
+      "index": 21,
+      "name": "?"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "8a92624db18afab43513e17fd1f79b75bdf6b56dd8c200ddef7c06ce974c00e1",
+      "index": 22,
+      "name": "pee"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "c8b43975c8ca9151a371fbbd5cf67dcea3652df82612fa25d9e9e9bd42853c94",
+      "index": 23,
+      "name": "~b/o 4/5 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "0673af81f6952d7c87c52604489caddc59867ee74dfad905903b9d248b169b29",
+      "index": 24,
+      "name": "~b/o 3 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "057ff83e095b2b5905cdf736cc10f656d2140162774ad47fc352936b8487af34",
+      "index": 25,
+      "name": "~b/o 4 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "09ef132ebfbaeddda0fc6475817de8533ad1a2addc99932481bf55a7b31dcac1",
+      "index": 26,
+      "name": "~b/o 29 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "a028b90b59a5c1249696fddef9033c3a1a4422b3a5be26d8e0be03dbab4d5247",
+      "index": 27,
+      "name": "~b/o 2 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "1d8d45c733cc11f15c1d3bd9e89852b15b0fe40782ab84ca5eacf57ca737a761",
+      "index": 28,
+      "name": "~b/o 4 chaos"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "4c4968506bfb1df9e2512be70822c3327b29b5478eaf5494c406e1a41957addb",
+      "index": 29,
+      "name": "red"
+    },
+    {
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 128
+      },
+      "id": "535b3c6cc2e6da085465143b2e22e62a33f44cdb96c65ceb7c0b00c2c8d70061",
+      "index": 30,
+      "name": "sf"
+    },
+    {
+      "color": {
+        "r": 44,
+        "g": 0,
+        "b": 89
+      },
+      "id": "ffec6de49d6da7f77ed0a28963caa83a88a95103fce286af9ea52b23f2a549a5",
+      "index": 31,
+      "name": "~b/o 3 chisel"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "75112c0351b0753668d18574fef937ec0ac6e12dd38ef735f26d14b8e7fb0d24",
+      "index": 32,
+      "name": "~b/o 3 chisel"
+    },
+    {
+      "color": {
+        "r": 204,
+        "g": 0,
+        "b": 154
+      },
+      "id": "515b9b6a2be361a395bf4cc236665b9fbf1a63fcd634889782d6f3c50ae6ba89",
+      "index": 33,
+      "name": "--"
+    },
+    {
+      "color": {
+        "r": 99,
+        "g": 128,
+        "b": 0
+      },
+      "id": "9178e7df64835b749683787b35b9cf1099b87df59cc3dd47f74c31658c69393d",
+      "index": 34,
+      "name": "--"
+    }
+  ],
+  "items": [
+    {
+      "tabId": "6429b65444544d498a24a2baf6a5be98df6662fd9d56a365b5107edbf01c93af",
+      "tabIndex": 14,
+      "items": [
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Catacombs Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/olmec.png?scale=1&scaleIndex=0&w=1&h=1&v=17ff2ef074314e8ecd1bca6734ba08053"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Overgrown Shrine Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/OvergrownShrine2.png?scale=1&scaleIndex=0&w=1&h=1&v=9c3213191f140d1d68a3fc49560d97e23"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Superior Vaal Pyramid Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/VaalPyramid1.png?scale=1&scaleIndex=0&w=1&h=1&v=1bcf90bc8244d243de0f8d7f4f7bf90d3"
+        },
+        {
+          "typeLine": "Shaped Graveyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Graveyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=56c462069dfbfd5ddf4d9f901de094cf3"
+        },
+        {
+          "typeLine": "Primordial Pool Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/PrimordialPool1.png?scale=1&scaleIndex=0&w=1&h=1&v=bdaa9bfd4696a1c01ad47a0446c6180b3"
+        },
+        {
+          "typeLine": "Courtyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Courtyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=e9e8901e28f976aea904e60caf9277103"
+        },
+        {
+          "typeLine": "Arsenal Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arsenal2.png?scale=1&scaleIndex=0&w=1&h=1&v=af9c1a0a8aacdaab4d877eeba46fa55e3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Catacombs Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/olmec.png?scale=1&scaleIndex=0&w=1&h=1&v=17ff2ef074314e8ecd1bca6734ba08053"
+        },
+        {
+          "typeLine": "Arsenal Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arsenal2.png?scale=1&scaleIndex=0&w=1&h=1&v=af9c1a0a8aacdaab4d877eeba46fa55e3"
+        },
+        {
+          "typeLine": "Superior Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Malformation Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Malformation2.png?scale=1&scaleIndex=0&w=1&h=1&v=84768661fc6adc1e0d1dbe0b2ab0e4ff3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Courtyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Courtyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=e9e8901e28f976aea904e60caf9277103"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Jungle Valley Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/JungleValley2.png?scale=1&scaleIndex=0&w=1&h=1&v=ea5ba5f7dc1ff1f4ff24c5143bb427b53"
+        },
+        {
+          "typeLine": "Superior Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Arsenal Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arsenal2.png?scale=1&scaleIndex=0&w=1&h=1&v=af9c1a0a8aacdaab4d877eeba46fa55e3"
+        },
+        {
+          "typeLine": "Canyon Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Canyon2.png?scale=1&scaleIndex=0&w=1&h=1&v=ab30d069c1968c70a8421308aea8e8b83"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Vaal Pyramid Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/VaalPyramid1.png?scale=1&scaleIndex=0&w=1&h=1&v=1bcf90bc8244d243de0f8d7f4f7bf90d3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Courtyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Courtyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=e9e8901e28f976aea904e60caf9277103"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Jungle Valley Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/JungleValley2.png?scale=1&scaleIndex=0&w=1&h=1&v=ea5ba5f7dc1ff1f4ff24c5143bb427b53"
+        },
+        {
+          "typeLine": "Shaped Graveyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Graveyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=56c462069dfbfd5ddf4d9f901de094cf3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Channel Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Channel2.png?scale=1&scaleIndex=0&w=1&h=1&v=8c9a1e1de9b98b6e97c4718e75c6696d3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Tropical Island Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/TropicalIsland2.png?scale=1&scaleIndex=0&w=1&h=1&v=547435bae04b09e3929bc8965c3ef2d13"
+        },
+        {
+          "typeLine": "Temple Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Temple2.png?scale=1&scaleIndex=0&w=1&h=1&v=1655be2680e46408cbed5a6f0bce3fb63"
+        },
+        {
+          "typeLine": "Shaped Channel Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Channel2.png?scale=1&scaleIndex=0&w=1&h=1&v=8c9a1e1de9b98b6e97c4718e75c6696d3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Terrace Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Terrace2.png?scale=1&scaleIndex=0&w=1&h=1&v=a75c873776e0549f8a2a139e5c9405ca3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Colonnade Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Colonnade2.png?scale=1&scaleIndex=0&w=1&h=1&v=fc32e10bce122e68a133852db775249b3"
+        },
+        {
+          "typeLine": "Courtyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Courtyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=e9e8901e28f976aea904e60caf9277103"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Malformation Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Malformation2.png?scale=1&scaleIndex=0&w=1&h=1&v=84768661fc6adc1e0d1dbe0b2ab0e4ff3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Bog Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Bog2.png?scale=1&scaleIndex=0&w=1&h=1&v=d45b89884e858e565ac14ad7356577e13"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Strand Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/UniqueMapEye.png?scale=1&scaleIndex=0&w=1&h=1&v=6ab3c0f5b018f6553bd84000639188833"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Atoll Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Atoll2.png?scale=1&scaleIndex=0&w=1&h=1&v=2fbe2c1d8ecd42adf6af31c8984db85b3"
+        },
+        {
+          "typeLine": "Catacombs Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Catacomb2.png?scale=1&scaleIndex=0&w=1&h=1&v=462f39acd8966d56ea327ac642c1a45e3"
+        },
+        {
+          "typeLine": "Orchard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Orchard2.png?scale=1&scaleIndex=0&w=1&h=1&v=cf7ee600a464b10d08e479bc1e3fa3a43"
+        },
+        {
+          "typeLine": "Shaped Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes2.png?scale=1&scaleIndex=0&w=1&h=1&v=5329bf8eb0167e98f120920980426d1a3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Superior Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Pit Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Pit1.png?scale=1&scaleIndex=0&w=1&h=1&v=cb38e57c5923e24fbfaf4839b281ffd93"
+        },
+        {
+          "typeLine": "Courtyard Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Courtyard2.png?scale=1&scaleIndex=0&w=1&h=1&v=e9e8901e28f976aea904e60caf9277103"
+        },
+        {
+          "typeLine": "Superior Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Superior Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Arsenal Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arsenal2.png?scale=1&scaleIndex=0&w=1&h=1&v=af9c1a0a8aacdaab4d877eeba46fa55e3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Terrace Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Terrace2.png?scale=1&scaleIndex=0&w=1&h=1&v=a75c873776e0549f8a2a139e5c9405ca3"
+        },
+        {
+          "typeLine": "Arsenal Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arsenal2.png?scale=1&scaleIndex=0&w=1&h=1&v=af9c1a0a8aacdaab4d877eeba46fa55e3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Waste Pool Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/WastePool1.png?scale=1&scaleIndex=0&w=1&h=1&v=8ea37ac6d2aa1ef611b66cbdc9ffe0e53"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Malformation Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Malformation2.png?scale=1&scaleIndex=0&w=1&h=1&v=84768661fc6adc1e0d1dbe0b2ab0e4ff3"
+        },
+        {
+          "typeLine": "Arachnid Tomb Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/ArachnidTomb2.png?scale=1&scaleIndex=0&w=1&h=1&v=852a0bd2f995d2cabfbed3a9ae60f2cd3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Bog Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Bog2.png?scale=1&scaleIndex=0&w=1&h=1&v=d45b89884e858e565ac14ad7356577e13"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Superior Wharf Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Wharf2.png?scale=1&scaleIndex=0&w=1&h=1&v=2fda6ead729e98b4fafab176785162263"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Dunes Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Dunes1.png?scale=1&scaleIndex=0&w=1&h=1&v=3dcec4ba9675ab0726ae256eb25286bc3"
+        },
+        {
+          "typeLine": "Castle Ruins Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/CastleRuins2.png?scale=1&scaleIndex=0&w=1&h=1&v=7e75e5df4f542808292a009cc5436b363"
+        },
+        {
+          "typeLine": "Tropical Island Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/TropicalIsland2.png?scale=1&scaleIndex=0&w=1&h=1&v=547435bae04b09e3929bc8965c3ef2d13"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Ashen Wood Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/DryWoods2.png?scale=1&scaleIndex=0&w=1&h=1&v=85fef8f5455a53d878193a979771a2093"
+        },
+        {
+          "typeLine": "Bog Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Bog2.png?scale=1&scaleIndex=0&w=1&h=1&v=d45b89884e858e565ac14ad7356577e13"
+        },
+        {
+          "typeLine": "Shaped Channel Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Channel2.png?scale=1&scaleIndex=0&w=1&h=1&v=8c9a1e1de9b98b6e97c4718e75c6696d3"
+        },
+        {
+          "typeLine": "Tropical Island Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/TropicalIsland2.png?scale=1&scaleIndex=0&w=1&h=1&v=547435bae04b09e3929bc8965c3ef2d13"
+        },
+        {
+          "typeLine": "Bog Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Bog2.png?scale=1&scaleIndex=0&w=1&h=1&v=d45b89884e858e565ac14ad7356577e13"
+        },
+        {
+          "typeLine": "Cells Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cells2.png?scale=1&scaleIndex=0&w=1&h=1&v=b3559be1729231402aaac4c9306829a63"
+        },
+        {
+          "typeLine": "Shaped Channel Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Channel2.png?scale=1&scaleIndex=0&w=1&h=1&v=8c9a1e1de9b98b6e97c4718e75c6696d3"
+        },
+        {
+          "typeLine": "Arena Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Arena2.png?scale=1&scaleIndex=0&w=1&h=1&v=f19c81119592f5239fdc6caf2e2d991b3"
+        },
+        {
+          "typeLine": "Shaped Beach Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Cemetery Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Tropical Island Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/TropicalIsland2.png?scale=1&scaleIndex=0&w=1&h=1&v=547435bae04b09e3929bc8965c3ef2d13"
+        },
+        {
+          "typeLine": "Superior Catacombs Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Catacomb2.png?scale=1&scaleIndex=0&w=1&h=1&v=462f39acd8966d56ea327ac642c1a45e3"
+        },
+        {
+          "typeLine": "<<set:MS>><<set:M>><<set:S>>Anarchic Cemetery Map of Impotence",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Cemetery2.png?scale=1&scaleIndex=0&w=1&h=1&v=0e123ff2ea520a943138e8c8d793ec6f3"
+        },
+        {
+          "typeLine": "Atoll Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Atoll2.png?scale=1&scaleIndex=0&w=1&h=1&v=2fbe2c1d8ecd42adf6af31c8984db85b3"
+        },
+        {
+          "typeLine": "Shore Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Shore2.png?scale=1&scaleIndex=0&w=1&h=1&v=ecaea75a28eaa01a871f88f4493c348d3"
+        },
+        {
+          "typeLine": "Overgrown Shrine Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/OvergrownShrine2.png?scale=1&scaleIndex=0&w=1&h=1&v=9c3213191f140d1d68a3fc49560d97e23"
+        },
+        {
+          "typeLine": "<<set:MS>><<set:M>><<set:S>>Burning Shore Map of Elemental Weakness",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Shore2.png?scale=1&scaleIndex=0&w=1&h=1&v=ecaea75a28eaa01a871f88f4493c348d3"
+        },
+        {
+          "typeLine": "<<set:MS>><<set:M>><<set:S>>Titan's Bog Map of Rust",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Bog2.png?scale=1&scaleIndex=0&w=1&h=1&v=d45b89884e858e565ac14ad7356577e13"
+        },
+        {
+          "typeLine": "Mesa Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Mesa1.png?scale=1&scaleIndex=0&w=1&h=1&v=b7ccc9f2a7d4d3be5cf891c028449d0a3"
+        },
+        {
+          "typeLine": "Superior Phantasmagoria Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Phantasmagoria1.png?scale=1&scaleIndex=0&w=1&h=1&v=d6c562ed68d068a7129539ad038ab0803"
+        },
+        {
+          "typeLine": "<<set:MS>><<set:M>><<set:S>>Fecund Shaped Beach Map of Desecration",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Beach2.png?scale=1&scaleIndex=0&w=1&h=1&v=502b712baed1eca77f130331f3640d7c3"
+        },
+        {
+          "typeLine": "Shore Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/Shore2.png?scale=1&scaleIndex=0&w=1&h=1&v=ecaea75a28eaa01a871f88f4493c348d3"
+        }
+      ]
+    },
+    {
+      "tabId": "515b9b6a2be361a395bf4cc236665b9fbf1a63fcd634889782d6f3c50ae6ba89",
+      "tabIndex": 19,
+      "items": [
+        {
+          "stackSize": 2,
+          "typeLine": "The Endurance",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Gentleman",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Calling",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Summoner",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Shard of Fate",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Gift of the Gemling Queen",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Inventor",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Soul",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Fletcher",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Wretched",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Three Faces in the Dark",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "Doedre's Madness",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Cartographer's Delight",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Opulent",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Birth of the Three",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Earth Drinker",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Valkyrie",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Flora's Gift",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Scholar of the Seas",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Wrath",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Body",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Volatile Power",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Lion",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Last Hope",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Tower",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Incantation",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Road to Power",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Emperor's Luck",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Death",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Rabid Rhoa",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Sephirot",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Humility",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Destined to Crumble",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Garish Power",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "A Mother's Parting Gift",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Visionary",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Tranquillity",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Demoness",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Valley of Steel Boxes",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Betrayal",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Time-Lost Relic",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Survivalist",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Catalyst",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Loyalty",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Warden",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Wolverine",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Gemcutter's Promise",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Stormcaller",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Battle Born",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Surgeon",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Rain of Chaos",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Dapper Prodigy",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Lingering Remnants",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Jack in the Box",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Coming Storm",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Lunaris Priestess",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Atziri's Arsenal",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Audacity",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Wolf's Shadow",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Emperor of Purity",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Struck by Lightning",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Traitor",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Lich",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Coveted Possession",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Pack Leader",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "The Oath",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 6,
+          "typeLine": "The Trial",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=6&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Rain Tempter",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Spoiled Prince",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Blind Venture",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Mercenary",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Cataclysm",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Glimmer of Hope",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Fox",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Feast",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Surveyor",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Sun",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Twins",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Dark Mage",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Call to the First Ones",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Lucky Connections",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Watcher",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Arena Champion",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Lysah's Respite",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "Dialla's Subjugation",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Harvester",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Mitts",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Siren",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "Might is Right",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Penitent",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Pact",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Scarred Meadow",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "Prosperity",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "The Union",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Conduit",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Lord in Black",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The One With All",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 6,
+          "typeLine": "Hunter's Resolve",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=6&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "The Drunken Aristocrat",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 2,
+          "typeLine": "Hope",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=2&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "Treasure Hunter",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 3,
+          "typeLine": "The Scavenger",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=3&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 8,
+          "typeLine": "The Hermit",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=8&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 4,
+          "typeLine": "The Explorer",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=4&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 7,
+          "typeLine": "The Web",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=7&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Poet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 7,
+          "typeLine": "The Chains that Bind",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=7&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 1,
+          "typeLine": "The Cursed King",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=1&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        },
+        {
+          "stackSize": 5,
+          "typeLine": "Grave Knowledge",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Divination/InventoryIcon.png?scale=1&scaleIndex=0&stackSize=5&w=1&h=1&v=a8ae131b97fad3c64de0e6d9f250d7433"
+        }
+      ]
+    },
+    {
+      "tabId": "81bba922f22b84a53df4c1e93f37b2b3bccc344e49a313e95a5368c25612e1ad",
+      "tabIndex": 21,
+      "items": [
+        {
+          "typeLine": "Crimson Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?scale=1&scaleIndex=0&w=1&h=1&v=5496129c557831c118a679c1001f3df93"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Lapis Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet5.png?scale=1&scaleIndex=0&w=1&h=1&v=574b38016f547495a51268177882d5cc3"
+        },
+        {
+          "typeLine": "Imperial Staff",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6unique.png?scale=1&scaleIndex=0&w=2&h=4&v=d2e8ef91b21959805d65c9110d356ada3"
+        },
+        {
+          "typeLine": "Citrine Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmulet.png?scale=1&scaleIndex=0&w=1&h=1&v=392b4ef08d8b72daaf1d0ec50d0173983"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Crimson Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?scale=1&scaleIndex=0&w=1&h=1&v=5496129c557831c118a679c1001f3df93"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Cutlass",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/EternalSleep1.png?scale=1&scaleIndex=0&w=1&h=3&v=99508f35306299dad0f086c8037b509c3"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Crimson Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?scale=1&scaleIndex=0&w=1&h=1&v=5496129c557831c118a679c1001f3df93"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Onyx Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet7.png?scale=1&scaleIndex=0&w=1&h=1&v=ecac1e6f4574572eeef0379d955811cd3"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Two-Stone Ring",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/SapphireRuby.png?scale=1&scaleIndex=0&w=1&h=1&v=ff4c9f8b5c539efd2e99a46303e849f63"
+        },
+        {
+          "typeLine": "Crimson Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?scale=1&scaleIndex=0&w=1&h=1&v=5496129c557831c118a679c1001f3df93"
+        },
+        {
+          "typeLine": "Jade Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet4.png?scale=1&scaleIndex=0&w=1&h=1&v=cc3ec167ca9ea10dfa05b2d55b5dcf623"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Amber Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet3.png?scale=1&scaleIndex=0&w=1&h=1&v=ab799e48c3d205973c8cd93ab478d20c3"
+        },
+        {
+          "typeLine": "Vaal Temple Map",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/AtlasMaps/VaalTemple3.png?scale=1&scaleIndex=0&w=1&h=1&v=b87cbedaeca9fd028389223289d01dd03"
+        },
+        {
+          "typeLine": "Citrine Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmulet.png?scale=1&scaleIndex=0&w=1&h=1&v=392b4ef08d8b72daaf1d0ec50d0173983"
+        },
+        {
+          "typeLine": "Citrine Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmulet.png?scale=1&scaleIndex=0&w=1&h=1&v=392b4ef08d8b72daaf1d0ec50d0173983"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        },
+        {
+          "typeLine": "Crimson Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicstr.png?scale=1&scaleIndex=0&w=1&h=1&v=5496129c557831c118a679c1001f3df93"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Cobalt Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicint.png?scale=1&scaleIndex=0&w=1&h=1&v=cd579ea22c05f1c6ad2fd015d7a710bd3"
+        },
+        {
+          "typeLine": "Jade Amulet",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet4.png?scale=1&scaleIndex=0&w=1&h=1&v=cc3ec167ca9ea10dfa05b2d55b5dcf623"
+        },
+        {
+          "typeLine": "Viridian Jewel",
+          "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/basicdex.png?scale=1&scaleIndex=0&w=1&h=1&v=7375b3bb90a9809870b31d1aa4aa68b93"
+        }
+      ]
+    },
+    {
+      "tabId": "f20f5ce55c140d44f97bfd9f3ed8e2260e25754d763ae2197ba2fc4d169549fc",
+      "tabIndex": 33,
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,2128 @@
+{
+  "currency": [
+    {
+      "name": "Mirror Shard",
+      "chaosValue": 607.12
+    },
+    {
+      "name": "Blessing of Chayula",
+      "chaosValue": 281.33
+    },
+    {
+      "name": "Exalted Orb",
+      "chaosValue": 80.5
+    },
+    {
+      "name": "Ancient Orb",
+      "chaosValue": 15
+    },
+    {
+      "name": "Divine Orb",
+      "chaosValue": 14.5
+    },
+    {
+      "name": "Master Cartographer's Sextant",
+      "chaosValue": 4.67
+    },
+    {
+      "name": "Harbinger's Orb",
+      "chaosValue": 4.67
+    },
+    {
+      "name": "Blessing of Uul-Netol",
+      "chaosValue": 4
+    },
+    {
+      "name": "Exalted Shard",
+      "chaosValue": 3.8
+    },
+    {
+      "name": "Orb of Annulment",
+      "chaosValue": 3.51
+    },
+    {
+      "name": "Journeyman Cartographer's Sextant",
+      "chaosValue": 3.32
+    },
+    {
+      "name": "Blessing of Esh",
+      "chaosValue": 3
+    },
+    {
+      "name": "Blessing of Xoph",
+      "chaosValue": 2
+    },
+    {
+      "name": "Blessing of Tul",
+      "chaosValue": 2
+    },
+    {
+      "name": "Splinter of Chayula",
+      "chaosValue": 1.76
+    },
+    {
+      "name": "Apprentice Cartographer's Sextant",
+      "chaosValue": 1.03
+    },
+    {
+      "name": "Vaal Orb",
+      "chaosValue": 1.01
+    },
+    {
+      "name": "Orb of Regret",
+      "chaosValue": 1.01
+    },
+    {
+      "name": "Gemcutter's Prism",
+      "chaosValue": 1
+    },
+    {
+      "name": "Regal Orb",
+      "chaosValue": 0.67
+    },
+    {
+      "name": "Orb of Scouring",
+      "chaosValue": 0.62
+    },
+    {
+      "name": "Orb of Fusing",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "Cartographer's Chisel",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Blessed Orb",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Annulment Shard",
+      "chaosValue": 0.31
+    },
+    {
+      "name": "Orb of Horizons",
+      "chaosValue": 0.3
+    },
+    {
+      "name": "Orb of Alchemy",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Orb of Binding",
+      "chaosValue": 0.22
+    },
+    {
+      "name": "Silver Coin",
+      "chaosValue": 0.21
+    },
+    {
+      "name": "Splinter of Xoph",
+      "chaosValue": 0.18
+    },
+    {
+      "name": "Orb of Chance",
+      "chaosValue": 0.15
+    },
+    {
+      "name": "Splinter of Uul-Netol",
+      "chaosValue": 0.14
+    },
+    {
+      "name": "Jeweller's Orb",
+      "chaosValue": 0.12
+    },
+    {
+      "name": "Glassblower's Bauble",
+      "chaosValue": 0.11
+    },
+    {
+      "name": "Orb of Alteration",
+      "chaosValue": 0.09
+    },
+    {
+      "name": "Chromatic Orb",
+      "chaosValue": 0.09
+    },
+    {
+      "name": "Splinter of Tul",
+      "chaosValue": 0.08
+    },
+    {
+      "name": "Splinter of Esh",
+      "chaosValue": 0.08
+    },
+    {
+      "name": "Engineer's Orb",
+      "chaosValue": 0.07
+    },
+    {
+      "name": "Orb of Augmentation",
+      "chaosValue": 0.03
+    },
+    {
+      "name": "Perandus Coin",
+      "chaosValue": 0.02
+    },
+    {
+      "name": "Blacksmith's Whetstone",
+      "chaosValue": 0.02
+    },
+    {
+      "name": "Orb of Transmutation",
+      "chaosValue": 0.01
+    },
+    {
+      "name": "Portal Scroll",
+      "chaosValue": 0.01
+    },
+    {
+      "name": "Armourer's Scrap",
+      "chaosValue": 0.01
+    }
+  ],
+  "divinationCard": [
+    {
+      "name": "House of Mirrors",
+      "chaosValue": 1348.64
+    },
+    {
+      "name": "The Doctor",
+      "chaosValue": 741.75
+    },
+    {
+      "name": "The Fiend",
+      "chaosValue": 556.37
+    },
+    {
+      "name": "Mawr Blaidd",
+      "chaosValue": 247.58
+    },
+    {
+      "name": "The Queen",
+      "chaosValue": 200.79
+    },
+    {
+      "name": "The Spark and the Flame",
+      "chaosValue": 190
+    },
+    {
+      "name": "Hunter's Reward",
+      "chaosValue": 177.1
+    },
+    {
+      "name": "The Immortal",
+      "chaosValue": 132.49
+    },
+    {
+      "name": "The Standoff",
+      "chaosValue": 70
+    },
+    {
+      "name": "The Wolf",
+      "chaosValue": 48.66
+    },
+    {
+      "name": "Abandoned Wealth",
+      "chaosValue": 46
+    },
+    {
+      "name": "The Dragon's Heart",
+      "chaosValue": 38.26
+    },
+    {
+      "name": "Wealth and Power",
+      "chaosValue": 35
+    },
+    {
+      "name": "The Wolven King's Bite",
+      "chaosValue": 35
+    },
+    {
+      "name": "Pride Before the Fall",
+      "chaosValue": 33
+    },
+    {
+      "name": "The King's Heart",
+      "chaosValue": 32
+    },
+    {
+      "name": "The Celestial Justicar",
+      "chaosValue": 26.92
+    },
+    {
+      "name": "The Last One Standing",
+      "chaosValue": 25.59
+    },
+    {
+      "name": "Heterochromia",
+      "chaosValue": 25
+    },
+    {
+      "name": "Last Hope",
+      "chaosValue": 25
+    },
+    {
+      "name": "The Hunger",
+      "chaosValue": 20
+    },
+    {
+      "name": "The Brittle Emperor",
+      "chaosValue": 18
+    },
+    {
+      "name": "Bowyer's Dream",
+      "chaosValue": 17.05
+    },
+    {
+      "name": "The Thaumaturgist",
+      "chaosValue": 17
+    },
+    {
+      "name": "The Vast",
+      "chaosValue": 16
+    },
+    {
+      "name": "The Artist",
+      "chaosValue": 15.68
+    },
+    {
+      "name": "The Saint's Treasure",
+      "chaosValue": 15
+    },
+    {
+      "name": "The Fletcher",
+      "chaosValue": 13
+    },
+    {
+      "name": "The Valkyrie",
+      "chaosValue": 13
+    },
+    {
+      "name": "The Sephirot",
+      "chaosValue": 11.76
+    },
+    {
+      "name": "Time-Lost Relic",
+      "chaosValue": 10.44
+    },
+    {
+      "name": "The Wind",
+      "chaosValue": 10
+    },
+    {
+      "name": "The Void",
+      "chaosValue": 9.25
+    },
+    {
+      "name": "The Enlightened",
+      "chaosValue": 9
+    },
+    {
+      "name": "The Formless Sea",
+      "chaosValue": 9
+    },
+    {
+      "name": "The Ethereal",
+      "chaosValue": 7.37
+    },
+    {
+      "name": "The Polymath",
+      "chaosValue": 7
+    },
+    {
+      "name": "The Dapper Prodigy",
+      "chaosValue": 6.7
+    },
+    {
+      "name": "The Hoarder",
+      "chaosValue": 6
+    },
+    {
+      "name": "The Risk",
+      "chaosValue": 6
+    },
+    {
+      "name": "The Valley of Steel Boxes",
+      "chaosValue": 5
+    },
+    {
+      "name": "The Offering",
+      "chaosValue": 4.46
+    },
+    {
+      "name": "Chaotic Disposition",
+      "chaosValue": 4.4
+    },
+    {
+      "name": "Lucky Deck",
+      "chaosValue": 4
+    },
+    {
+      "name": "The Cartographer",
+      "chaosValue": 4
+    },
+    {
+      "name": "The Cursed King",
+      "chaosValue": 4
+    },
+    {
+      "name": "The Wretched",
+      "chaosValue": 4
+    },
+    {
+      "name": "The Porcupine",
+      "chaosValue": 4
+    },
+    {
+      "name": "Emperor of Purity",
+      "chaosValue": 3
+    },
+    {
+      "name": "The Stormcaller",
+      "chaosValue": 3
+    },
+    {
+      "name": "Merciless Armament",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Chains that Bind",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Dark Mage",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Soul",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Warlord",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Lion",
+      "chaosValue": 1.99
+    },
+    {
+      "name": "Humility",
+      "chaosValue": 1.91
+    },
+    {
+      "name": "The Body",
+      "chaosValue": 1.65
+    },
+    {
+      "name": "Vinia's Token",
+      "chaosValue": 1.57
+    },
+    {
+      "name": "The Inventor",
+      "chaosValue": 1.5
+    },
+    {
+      "name": "Lingering Remnants",
+      "chaosValue": 1.5
+    },
+    {
+      "name": "Lucky Connections",
+      "chaosValue": 1.06
+    },
+    {
+      "name": "Blind Venture",
+      "chaosValue": 1
+    },
+    {
+      "name": "Emperor's Luck",
+      "chaosValue": 1
+    },
+    {
+      "name": "Hope",
+      "chaosValue": 1
+    },
+    {
+      "name": "Jack in the Box",
+      "chaosValue": 1
+    },
+    {
+      "name": "Scholar of the Seas",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Aesthete",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Avenger",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Calling",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Jester",
+      "chaosValue": 1
+    },
+    {
+      "name": "The One With All",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Penitent",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Road to Power",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Throne",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Traitor",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Union",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Wrath",
+      "chaosValue": 1
+    },
+    {
+      "name": "The Forsaken",
+      "chaosValue": 1
+    },
+    {
+      "name": "Atziri's Arsenal",
+      "chaosValue": 0.99
+    },
+    {
+      "name": "The Battle Born",
+      "chaosValue": 0.98
+    },
+    {
+      "name": "Shard of Fate",
+      "chaosValue": 0.96
+    },
+    {
+      "name": "Dialla's Subjugation",
+      "chaosValue": 0.95
+    },
+    {
+      "name": "The Dragon",
+      "chaosValue": 0.93
+    },
+    {
+      "name": "The Drunken Aristocrat",
+      "chaosValue": 0.92
+    },
+    {
+      "name": "The Pact",
+      "chaosValue": 0.92
+    },
+    {
+      "name": "The Tyrant",
+      "chaosValue": 0.91
+    },
+    {
+      "name": "Treasure Hunter",
+      "chaosValue": 0.91
+    },
+    {
+      "name": "Audacity",
+      "chaosValue": 0.89
+    },
+    {
+      "name": "Gemcutter's Promise",
+      "chaosValue": 0.88
+    },
+    {
+      "name": "The Poet",
+      "chaosValue": 0.88
+    },
+    {
+      "name": "Earth Drinker",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Hunter's Resolve",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Lysah's Respite",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Rats",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "The Demoness",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "The Endurance",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "The Gentleman",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "The Scavenger",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Mitts",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Call to the First Ones",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Gift of the Gemling Queen",
+      "chaosValue": 0.83
+    },
+    {
+      "name": "The Garish Power",
+      "chaosValue": 0.83
+    },
+    {
+      "name": "Hubris",
+      "chaosValue": 0.81
+    },
+    {
+      "name": "The Encroaching Darkness",
+      "chaosValue": 0.78
+    },
+    {
+      "name": "The Sun",
+      "chaosValue": 0.76
+    },
+    {
+      "name": "The Wolverine",
+      "chaosValue": 0.76
+    },
+    {
+      "name": "The Survivalist",
+      "chaosValue": 0.72
+    },
+    {
+      "name": "The Harvester",
+      "chaosValue": 0.61
+    },
+    {
+      "name": "The Arena Champion",
+      "chaosValue": 0.6
+    },
+    {
+      "name": "The Cataclysm",
+      "chaosValue": 0.57
+    },
+    {
+      "name": "The Tower",
+      "chaosValue": 0.57
+    },
+    {
+      "name": "Lost Worlds",
+      "chaosValue": 0.56
+    },
+    {
+      "name": "The Mercenary",
+      "chaosValue": 0.56
+    },
+    {
+      "name": "Glimmer of Hope",
+      "chaosValue": 0.54
+    },
+    {
+      "name": "Coveted Possession",
+      "chaosValue": 0.53
+    },
+    {
+      "name": "The Gladiator",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "The Oath",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "The Spoiled Prince",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "The Summoner",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "Three Faces in the Dark",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "The Fox",
+      "chaosValue": 0.5
+    },
+    {
+      "name": "The Lord in Black",
+      "chaosValue": 0.5
+    },
+    {
+      "name": "Grave Knowledge",
+      "chaosValue": 0.49
+    },
+    {
+      "name": "The Doppelganger",
+      "chaosValue": 0.46
+    },
+    {
+      "name": "Loyalty",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "The Conduit",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "The Trial",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "The Opulent",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Birth of the Three",
+      "chaosValue": 0.34
+    },
+    {
+      "name": "The Siren",
+      "chaosValue": 0.32
+    },
+    {
+      "name": "A Mother's Parting Gift",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Anarchy's Price",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Boundless Realms",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Cartographer's Delight",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Death",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Destined to Crumble",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Doedre's Madness",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Dying Anguish",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Her Mask",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Light and Truth",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Prosperity",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Rain of Chaos",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Rain Tempter",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Betrayal",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Catalyst",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Explorer",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Feast",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Gambler",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Gemcutter",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Inoculated",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Lich",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Lover",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Lunaris Priestess",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Metalsmith's Gift",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Pack Leader",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Rabid Rhoa",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Scarred Meadow",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Scholar",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Sigil",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Surgeon",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Surveyor",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Twins",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Visionary",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Warden",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Watcher",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Web",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Wolf's Shadow",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Tranquillity",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Turn the Other Cheek",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Volatile Power",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "The Coming Storm",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Might is Right",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Struck by Lightning",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Assassin's Favour",
+      "chaosValue": 0.26
+    },
+    {
+      "name": "Thunderous Skies",
+      "chaosValue": 0.24
+    },
+    {
+      "name": "The Flora's Gift",
+      "chaosValue": 0.21
+    },
+    {
+      "name": "The Carrion Crow",
+      "chaosValue": 0.2
+    },
+    {
+      "name": "The Hermit",
+      "chaosValue": 0.18
+    },
+    {
+      "name": "Lantador's Lost Love",
+      "chaosValue": 0.17
+    },
+    {
+      "name": "The Incantation",
+      "chaosValue": 0.14
+    },
+    {
+      "name": "The King's Blade",
+      "chaosValue": 0.1
+    }
+  ],
+  "essence": [
+    {
+      "name": "Essence of Horror",
+      "chaosValue": 43
+    },
+    {
+      "name": "Essence of Delirium",
+      "chaosValue": 35
+    },
+    {
+      "name": "Essence of Hysteria",
+      "chaosValue": 30
+    },
+    {
+      "name": "Essence of Insanity",
+      "chaosValue": 29.68
+    },
+    {
+      "name": "Deafening Essence of Contempt",
+      "chaosValue": 20
+    },
+    {
+      "name": "Deafening Essence of Envy",
+      "chaosValue": 20
+    },
+    {
+      "name": "Deafening Essence of Scorn",
+      "chaosValue": 20
+    },
+    {
+      "name": "Deafening Essence of Wrath",
+      "chaosValue": 20
+    },
+    {
+      "name": "Deafening Essence of Anger",
+      "chaosValue": 19.3
+    },
+    {
+      "name": "Deafening Essence of Greed",
+      "chaosValue": 17
+    },
+    {
+      "name": "Deafening Essence of Zeal",
+      "chaosValue": 14.93
+    },
+    {
+      "name": "Shrieking Essence of Wrath",
+      "chaosValue": 9.59
+    },
+    {
+      "name": "Deafening Essence of Torment",
+      "chaosValue": 8.97
+    },
+    {
+      "name": "Shrieking Essence of Anger",
+      "chaosValue": 8
+    },
+    {
+      "name": "Shrieking Essence of Contempt",
+      "chaosValue": 8
+    },
+    {
+      "name": "Deafening Essence of Rage",
+      "chaosValue": 7.82
+    },
+    {
+      "name": "Deafening Essence of Spite",
+      "chaosValue": 7.78
+    },
+    {
+      "name": "Deafening Essence of Fear",
+      "chaosValue": 7
+    },
+    {
+      "name": "Deafening Essence of Misery",
+      "chaosValue": 7
+    },
+    {
+      "name": "Shrieking Essence of Envy",
+      "chaosValue": 7
+    },
+    {
+      "name": "Shrieking Essence of Greed",
+      "chaosValue": 7
+    },
+    {
+      "name": "Shrieking Essence of Zeal",
+      "chaosValue": 7
+    },
+    {
+      "name": "Deafening Essence of Hatred",
+      "chaosValue": 6
+    },
+    {
+      "name": "Shrieking Essence of Scorn",
+      "chaosValue": 6
+    },
+    {
+      "name": "Deafening Essence of Doubt",
+      "chaosValue": 5.49
+    },
+    {
+      "name": "Deafening Essence of Loathing",
+      "chaosValue": 5
+    },
+    {
+      "name": "Deafening Essence of Woe",
+      "chaosValue": 5
+    },
+    {
+      "name": "Remnant of Corruption",
+      "chaosValue": 5
+    },
+    {
+      "name": "Shrieking Essence of Torment",
+      "chaosValue": 5
+    },
+    {
+      "name": "Screaming Essence of Anger",
+      "chaosValue": 3.43
+    },
+    {
+      "name": "Deafening Essence of Suffering",
+      "chaosValue": 3
+    },
+    {
+      "name": "Screaming Essence of Envy",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shrieking Essence of Fear",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shrieking Essence of Rage",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shrieking Essence of Spite",
+      "chaosValue": 2.87
+    },
+    {
+      "name": "Shrieking Essence of Hatred",
+      "chaosValue": 2.39
+    },
+    {
+      "name": "Deafening Essence of Dread",
+      "chaosValue": 2.26
+    },
+    {
+      "name": "Deafening Essence of Anguish",
+      "chaosValue": 2
+    },
+    {
+      "name": "Screaming Essence of Contempt",
+      "chaosValue": 2
+    },
+    {
+      "name": "Screaming Essence of Wrath",
+      "chaosValue": 2
+    },
+    {
+      "name": "Screaming Essence of Zeal",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shrieking Essence of Loathing",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shrieking Essence of Misery",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shrieking Essence of Woe",
+      "chaosValue": 2
+    },
+    {
+      "name": "Screaming Essence of Scorn",
+      "chaosValue": 1.92
+    },
+    {
+      "name": "Shrieking Essence of Dread",
+      "chaosValue": 1.32
+    },
+    {
+      "name": "Deafening Essence of Sorrow",
+      "chaosValue": 1.07
+    },
+    {
+      "name": "Screaming Essence of Greed",
+      "chaosValue": 1
+    },
+    {
+      "name": "Screaming Essence of Torment",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shrieking Essence of Doubt",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shrieking Essence of Sorrow",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shrieking Essence of Suffering",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shrieking Essence of Anguish",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Screaming Essence of Fear",
+      "chaosValue": 0.52
+    },
+    {
+      "name": "Wailing Essence of Greed",
+      "chaosValue": 0.52
+    },
+    {
+      "name": "Screaming Essence of Spite",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "Wailing Essence of Contempt",
+      "chaosValue": 0.51
+    },
+    {
+      "name": "Screaming Essence of Hatred",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Screaming Essence of Misery",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Screaming Essence of Rage",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Wailing Essence of Wrath",
+      "chaosValue": 0.36
+    },
+    {
+      "name": "Muttering Essence of Contempt",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Muttering Essence of Fear",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Muttering Essence of Torment",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Muttering Essence of Woe",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Anguish",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Doubt",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Dread",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Loathing",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Sorrow",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Suffering",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Screaming Essence of Woe",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Anger",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Doubt",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Hatred",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Rage",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Sorrow",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Spite",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Suffering",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Torment",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Woe",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Zeal",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Anger",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Contempt",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Fear",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Greed",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Rage",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Sorrow",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Torment",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Weeping Essence of Woe",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Whispering Essence of Contempt",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wailing Essence of Loathing",
+      "chaosValue": 0.26
+    },
+    {
+      "name": "Muttering Essence of Sorrow",
+      "chaosValue": 0.25
+    },
+    {
+      "name": "Weeping Essence of Suffering",
+      "chaosValue": 0.24
+    },
+    {
+      "name": "Whispering Essence of Woe",
+      "chaosValue": 0.24
+    },
+    {
+      "name": "Muttering Essence of Anger",
+      "chaosValue": 0.23
+    },
+    {
+      "name": "Weeping Essence of Wrath",
+      "chaosValue": 0.21
+    },
+    {
+      "name": "Muttering Essence of Hatred",
+      "chaosValue": 0.18
+    },
+    {
+      "name": "Wailing Essence of Anguish",
+      "chaosValue": 0.18
+    },
+    {
+      "name": "Weeping Essence of Doubt",
+      "chaosValue": 0.18
+    },
+    {
+      "name": "Wailing Essence of Fear",
+      "chaosValue": 0.17
+    },
+    {
+      "name": "Weeping Essence of Hatred",
+      "chaosValue": 0.17
+    },
+    {
+      "name": "Whispering Essence of Greed",
+      "chaosValue": 0.15
+    },
+    {
+      "name": "Muttering Essence of Greed",
+      "chaosValue": 0.13
+    },
+    {
+      "name": "Whispering Essence of Hatred",
+      "chaosValue": 0.13
+    }
+  ],
+  "map": [
+    {
+      "name": "Vaal Temple Map",
+      "chaosValue": 22.94
+    },
+    {
+      "name": "Forge of the Phoenix Map",
+      "chaosValue": 4
+    },
+    {
+      "name": "Maze of the Minotaur Map",
+      "chaosValue": 4
+    },
+    {
+      "name": "Shaped Arsenal Map",
+      "chaosValue": 4
+    },
+    {
+      "name": "Lair of the Hydra Map",
+      "chaosValue": 3.94
+    },
+    {
+      "name": "Vault Map",
+      "chaosValue": 3.5
+    },
+    {
+      "name": "Shaped Port Map",
+      "chaosValue": 3.44
+    },
+    {
+      "name": "Abyss Map",
+      "chaosValue": 3.3
+    },
+    {
+      "name": "Pit of the Chimera Map",
+      "chaosValue": 3.3
+    },
+    {
+      "name": "Shaped Terrace Map",
+      "chaosValue": 3.26
+    },
+    {
+      "name": "Dark Forest Map",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shaped Colonnade Map",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shaped Courtyard Map",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shaped Malformation Map",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shaped Underground River Map",
+      "chaosValue": 3
+    },
+    {
+      "name": "Shaped Cells Map",
+      "chaosValue": 2.69
+    },
+    {
+      "name": "Core Map",
+      "chaosValue": 2.62
+    },
+    {
+      "name": "Shaped Spider Forest Map",
+      "chaosValue": 2.58
+    },
+    {
+      "name": "Colosseum Map",
+      "chaosValue": 2.51
+    },
+    {
+      "name": "Overgrown Ruin Map",
+      "chaosValue": 2.4
+    },
+    {
+      "name": "Maze Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shaped Crypt Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shaped Museum Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shaped Orchard Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shaped Temple Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Volcano Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Shaped Armoury Map",
+      "chaosValue": 2
+    },
+    {
+      "name": "Palace Map",
+      "chaosValue": 1.89
+    },
+    {
+      "name": "Shaped Cemetery Map",
+      "chaosValue": 1.88
+    },
+    {
+      "name": "Shaped Coves Map",
+      "chaosValue": 1.88
+    },
+    {
+      "name": "Springs Map",
+      "chaosValue": 1.88
+    },
+    {
+      "name": "Shaped Overgrown Shrine Map",
+      "chaosValue": 1.87
+    },
+    {
+      "name": "Shaped Barrows Map",
+      "chaosValue": 1.86
+    },
+    {
+      "name": "Shrine Map",
+      "chaosValue": 1.78
+    },
+    {
+      "name": "Shaped Strand Map",
+      "chaosValue": 1.77
+    },
+    {
+      "name": "Shaped Canyon Map",
+      "chaosValue": 1.73
+    },
+    {
+      "name": "Mineral Pools Map",
+      "chaosValue": 1.72
+    },
+    {
+      "name": "Shaped Promenade Map",
+      "chaosValue": 1.72
+    },
+    {
+      "name": "Shaped Reef Map",
+      "chaosValue": 1.72
+    },
+    {
+      "name": "Shaped Tropical Island Map",
+      "chaosValue": 1.72
+    },
+    {
+      "name": "Shaped Pier Map",
+      "chaosValue": 1.62
+    },
+    {
+      "name": "Shaped Shore Map",
+      "chaosValue": 1.61
+    },
+    {
+      "name": "Shaped Arachnid Tomb Map",
+      "chaosValue": 1.6
+    },
+    {
+      "name": "Shaped Racecourse Map",
+      "chaosValue": 1.59
+    },
+    {
+      "name": "Shaped Arena Map",
+      "chaosValue": 1.58
+    },
+    {
+      "name": "Shaped Arachnid Nest Map",
+      "chaosValue": 1.48
+    },
+    {
+      "name": "Shaped Atoll Map",
+      "chaosValue": 1.35
+    },
+    {
+      "name": "Plaza Map",
+      "chaosValue": 1.31
+    },
+    {
+      "name": "Gorge Map",
+      "chaosValue": 1.29
+    },
+    {
+      "name": "High Gardens Map",
+      "chaosValue": 1.29
+    },
+    {
+      "name": "Shaped Bog Map",
+      "chaosValue": 1.29
+    },
+    {
+      "name": "Shaped Quarry Map",
+      "chaosValue": 1.29
+    },
+    {
+      "name": "Lair Map",
+      "chaosValue": 1.19
+    },
+    {
+      "name": "Scriptorium Map",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shaped Castle Ruins Map",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shaped Mud Geyser Map",
+      "chaosValue": 1
+    },
+    {
+      "name": "Shaped Ramparts Map",
+      "chaosValue": 1
+    },
+    {
+      "name": "Waterways Map",
+      "chaosValue": 1
+    },
+    {
+      "name": "Beacon Map",
+      "chaosValue": 0.99
+    },
+    {
+      "name": "Estuary Map",
+      "chaosValue": 0.98
+    },
+    {
+      "name": "Shaped Dunes Map",
+      "chaosValue": 0.96
+    },
+    {
+      "name": "Shaped Catacombs Map",
+      "chaosValue": 0.89
+    },
+    {
+      "name": "Chateau Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Crematorium Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Excavation Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Ivory Temple Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Necropolis Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Plateau Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Precinct Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Residence Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Shaped Ashen Wood Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Shaped Vaal City Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Shaped Wharf Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Shipyard Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Sulphur Wastes Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Torture Chamber Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Underground Sea Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Wasteland Map",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Bazaar Map",
+      "chaosValue": 0.84
+    },
+    {
+      "name": "Shaped Primordial Pool Map",
+      "chaosValue": 0.58
+    },
+    {
+      "name": "Shaped Cavern Map",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Shaped Mesa Map",
+      "chaosValue": 0.43
+    },
+    {
+      "name": "Reef Map",
+      "chaosValue": 0.38
+    },
+    {
+      "name": "Shaped Phantasmagoria Map",
+      "chaosValue": 0.35
+    },
+    {
+      "name": "Shaped Burial Chambers Map",
+      "chaosValue": 0.33
+    },
+    {
+      "name": "Spider Forest Map",
+      "chaosValue": 0.29
+    },
+    {
+      "name": "Academy Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arachnid Nest Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arachnid Tomb Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arcade Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arena Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arid Lake Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Arsenal Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Ashen Wood Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Atoll Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Barrows Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Beach Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Bog Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Burial Chambers Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Canyon Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Castle Ruins Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Catacombs Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Cavern Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Cells Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Cemetery Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Channel Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Colonnade Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Courtyard Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Coves Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Crypt Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Desert Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Dunes Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Factory Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Ghetto Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Graveyard Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Grotto Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Jungle Valley Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Malformation Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Marshes Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Mesa Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Mud Geyser Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Museum Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Oasis Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Orchard Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Overgrown Shrine Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Peninsula Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Phantasmagoria Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Pier Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Pit Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Primordial Pool Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Promenade Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Quarry Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Racecourse Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Ramparts Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Sewer Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Academy Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Acid Lakes Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Arcade Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Arid Lake Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Beach Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Channel Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Crystal Ore Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Desert Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Dungeon Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Factory Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Ghetto Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Graveyard Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Grotto Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Jungle Valley Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Marshes Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Oasis Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Peninsula Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Pit Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Sewer Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Spider Lair Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Tower Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Vaal Pyramid Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Villa Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shaped Waste Pool Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Shore Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Spider Lair Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Strand Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Temple Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Terrace Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Thicket Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Tower Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Tropical Island Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Underground River Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Vaal City Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Vaal Pyramid Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Villa Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Waste Pool Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Wharf Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Armoury Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Port Map",
+      "chaosValue": 0.27
+    },
+    {
+      "name": "Dungeon Map",
+      "chaosValue": 0.26
+    },
+    {
+      "name": "Acid Lakes Map",
+      "chaosValue": 0.21
+    },
+    {
+      "name": "Crystal Ore Map",
+      "chaosValue": 0.17
+    }
+  ],
+  "uniqueMap": [
+    {
+      "name": "The Perandus Manor",
+      "chaosValue": 697.53
+    },
+    {
+      "name": "The Putrid Cloister",
+      "chaosValue": 95.48
+    },
+    {
+      "name": "The Vinktar Square",
+      "chaosValue": 71.74
+    },
+    {
+      "name": "The Beachhead",
+      "chaosValue": 30
+    },
+    {
+      "name": "The Beachhead",
+      "chaosValue": 28.07
+    },
+    {
+      "name": "The Beachhead",
+      "chaosValue": 27
+    },
+    {
+      "name": "Mao Kun",
+      "chaosValue": 9.89
+    },
+    {
+      "name": "Poorjoy's Asylum",
+      "chaosValue": 8.64
+    },
+    {
+      "name": "Hall of Grandmasters",
+      "chaosValue": 4.73
+    },
+    {
+      "name": "Vaults of Atziri",
+      "chaosValue": 4
+    },
+    {
+      "name": "Caer Blaidd, Wolfpack's Den",
+      "chaosValue": 3.44
+    },
+    {
+      "name": "Oba's Cursed Trove",
+      "chaosValue": 3
+    },
+    {
+      "name": "Hallowed Ground",
+      "chaosValue": 2
+    },
+    {
+      "name": "The Coward's Trial",
+      "chaosValue": 1.41
+    },
+    {
+      "name": "Death and Taxes",
+      "chaosValue": 1
+    },
+    {
+      "name": "Olmec's Sanctum",
+      "chaosValue": 1
+    },
+    {
+      "name": "Acton's Nightmare",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Maelström of Chaos",
+      "chaosValue": 0.86
+    },
+    {
+      "name": "Whakawairua Tuahu",
+      "chaosValue": 0.86
+    }
+  ]
+}
