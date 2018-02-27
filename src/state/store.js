@@ -17,7 +17,7 @@ export default ({ history }) => {
     reducer,
     compose(
       middleware,
-      // persistState(),
+      persistState(),
     ),
   );
 };
