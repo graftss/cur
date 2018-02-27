@@ -7,7 +7,7 @@ import Navbar from '../Navbar';
 import NewAppraisalRoute from '../NewAppraisalRoute';
 import TrackAppraisalRoute from '../TrackAppraisalRoute';
 
-export default class IdentifiedApp extends Component{
+class IdentifiedApp extends Component{
   render() {
     return (
       <div className="App">
@@ -23,3 +23,5 @@ export default class IdentifiedApp extends Component{
     );
   }
 }
+
+export default IdentifiedApp;

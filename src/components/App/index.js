@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { ConnectedRouter } from 'react-router-redux';
 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
@@ -20,20 +21,25 @@ class App extends Component {
 
   render() {
     const {
+      history,
       loggedIn,
       loggingIn,
       routerPathname,
     } = this.props;
 
     return (
-      loggedIn ?
-        <IdentifiedApp
-          routerPathname={routerPathname}
-          verifyingLogin={loggingIn}
-        /> :
-        <UnidentifiedApp
-          routerPathname={routerPathname}
-        />
+      <ConnectedRouter history={history}>
+       {
+          loggedIn ?
+            <IdentifiedApp
+              routerPathname={routerPathname}
+              verifyingLogin={loggingIn}
+            /> :
+            <UnidentifiedApp
+              routerPathname={routerPathname}
+            />
+         }
+       </ConnectedRouter>
     );
   }
 }
