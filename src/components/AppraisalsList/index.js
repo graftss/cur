@@ -16,7 +16,7 @@ export default ({
         key={id(appraisal)}
         lastUpdated={lastUpdated(appraisal)}
         name={name(appraisal)}
-        onDeleteClick={() => onDeleteClick(id(appraisal))}
+        onDeleteClick={() => onDeleteClick(appraisal)}
         tabCount={tabIds(appraisal).length}
       />
     ))}

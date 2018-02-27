@@ -4,18 +4,19 @@ import { Card } from 'semantic-ui-react';
 import Link from '../Link';
 
 export default ({
+  lastUpdated,
   onDeleteClick,
   name,
   tabCount,
 }) => (
   <Card
-    description="description"
-    extra="extra"
-    header={name}
-    meta={
+    description={`tracking ${tabCount} tabs`}
+    extra={
       <div>
         <Link onClick={onDeleteClick}> delete </Link>
       </div>
     }
+    header={name}
+    meta={`last updated ${lastUpdated}`}
   />
 );

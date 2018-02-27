@@ -14,9 +14,11 @@ export default () => (
       verticalAlign="middle"
     >
       <Grid.Column style={{ width: '450px' }}>
-        <Header content="Currrrrrrrrr (ency tracker)" />
-        <LoginForm />
-        <a href={poesessidFaqUri}><small>what is a POESESSID???</small></a>
+        <div style={{ marginTop: '30%' }}>
+          <Header content="Currrrrrrrrr (ency tracker)" />
+          <LoginForm />
+          <a href={poesessidFaqUri}><small>what is a POESESSID???</small></a>
+        </div>
       </Grid.Column>
     </Grid>
   </div>
