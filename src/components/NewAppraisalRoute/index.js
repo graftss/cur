@@ -6,7 +6,7 @@ import { newAppraisal } from '../../state/schema/appraisal';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['createAppraisal'],
+  actions: ['createAppraisal', 'push'],
   selectors: ['allTabs'],
 };
 
@@ -36,6 +36,7 @@ class NewAppraisalRouteContainer extends Component {
   onAppraisalSubmit = () => {
     const appraisal = newAppraisal(this.state.name, this.selectedTabIds());
     this.props.createAppraisal(appraisal);
+    this.props.push('/all');
   }
 
   canSubmit = () => {
