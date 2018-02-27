@@ -16,7 +16,7 @@ export default () => (
       <Grid.Column style={{ width: '450px' }}>
         <Header content="Currrrrrrrrr (ency tracker)" />
         <LoginForm />
-        (<a href={poesessidFaqUri}><h7>what is a POESESSID???</h7></a>)
+        <a href={poesessidFaqUri}><small>what is a POESESSID???</small></a>
       </Grid.Column>
     </Grid>
   </div>

@@ -28,12 +28,12 @@ module.exports = ({ DEFAULT_LEAGUE, priceMonitor }) => {
   });
 
   apiRouter.get('/tabs', (req, res) => {
-    const { accountName, sessionId, tabIds } = req.query;
+    const { username, poesessid, tabIds } = req.query;
 
     const query = {
-      accountName,
+      accountName: username,
       league: DEFAULT_LEAGUE,
-      sessionId,
+      sessionId: poesessid,
       // tabIds: parseTabIds(tabIds || ''),
       tabIds: Array.isArray(tabIds) ? tabIds : [tabIds],
     };

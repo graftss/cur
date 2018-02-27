@@ -1,8 +1,14 @@
 import React, { Component } from 'react';
 
-import LoginForm from './LoginForm';
+import withState from '../../state/withState';
+import LoginFormComponent from './LoginFormComponent';
 
-export default class LoginFormContainer extends Component {
+const connection = {
+  actions: ['login'],
+  selectors: ['loggedIn', 'loggingIn'],
+};
+
+class LoginFormContainer extends Component {
   constructor(props) {
     super(props);
 
@@ -16,13 +22,17 @@ export default class LoginFormContainer extends Component {
 
   onPoesessidChange = e => this.setState({ poesessid: e.target.value })
 
-  onSubmit = () => console.log('hahaa', this.state)
+  onSubmit = () => {
+    const { poesessid, username } = this.state;
+
+    this.props.login(username, poesessid);
+  }
 
   render() {
     const { poesessid, username } = this.state;
 
     return (
-      <LoginForm
+      <LoginFormComponent
         onUsernameChange={this.onUsernameChange}
         onPoesessidChange={this.onPoesessidChange}
         onSubmit={this.onSubmit}
@@ -32,3 +42,5 @@ export default class LoginFormContainer extends Component {
     );
   }
 }
+
+export default withState(connection)(LoginFormContainer);
