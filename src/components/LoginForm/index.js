@@ -5,7 +5,7 @@ import LoginFormComponent from './LoginFormComponent';
 
 const connection = {
   actions: ['login'],
-  selectors: ['loggedIn', 'loggingIn'],
+  selectors: ['loggedIn', 'loggingIn', 'loginError'],
 };
 
 class LoginFormContainer extends Component {
@@ -30,9 +30,12 @@ class LoginFormContainer extends Component {
 
   render() {
     const { poesessid, username } = this.state;
+    const { loginError, loggingIn } = this.props;
 
     return (
       <LoginFormComponent
+        error={loginError}
+        loading={loggingIn}
         onUsernameChange={this.onUsernameChange}
         onPoesessidChange={this.onPoesessidChange}
         onSubmit={this.onSubmit}

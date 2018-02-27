@@ -3,6 +3,7 @@ import { TYPES } from './actions';
 const initialState = {
   loggedIn: false,
   loggingIn: false,
+  error: false,
   username: '',
   poesessid: '',
 };
@@ -10,17 +11,22 @@ const initialState = {
 export default (state = initialState, action) => {
   switch (action.type) {
     case TYPES.USER_LOGIN_REQUEST: {
-      return { ...state, loggingIn: true, loggedIn: false };
+      const loginState = { loggingIn: true, loggedIn: false, error: false };
+
+      return { ...state, ...loginState };
     }
 
     case TYPES.USER_LOGIN_FAILURE: {
-      return { ...state, loggingIn: false, loggedIn: false };
+      const loginState = { loggingIn: false, loggedIn: false, error: true };
+
+      return { ...state, ...loginState };
     }
 
     case TYPES.USER_LOGIN_SUCCESS: {
       const { username, poesessid } = action.payload;
+      const loginState = { loggingIn: false, loggedIn: true, error: false };
 
-      return { ...state, loggingIn: false, loggedIn: true, username, poesessid };
+      return { ...state, ...loginState, username, poesessid };
     }
 
     default: return state;

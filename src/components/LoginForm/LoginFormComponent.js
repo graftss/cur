@@ -1,16 +1,22 @@
 import React from 'react';
-import { Button, Form, Input, Segment } from 'semantic-ui-react';
+import { Button, Form, Input, Message, Segment } from 'semantic-ui-react';
 
 const icon = iconName => ({ icon: iconName, iconPosition: 'left' });
 
 export default ({
+  error,
+  loading,
   onPoesessidChange,
   onSubmit,
   onUsernameChange,
   poesessid,
   username,
 }) => (
-  <Form size="small">
+  <Form
+    error={error}
+    loading={loading}
+    size="small"
+  >
     <Segment size="small">
       <Form.Field>
         <Input
@@ -29,6 +35,9 @@ export default ({
         />
       </Form.Field>
       <Button content="Login" fluid onClick={onSubmit} />
+      <Message error>
+        Invalid username or POESESSID.
+      </Message>
     </Segment>
   </Form>
 );

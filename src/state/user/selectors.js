@@ -7,3 +7,5 @@ export const loggingIn = prop('loggingIn');
 export const username = prop('username');
 
 export const poesessid = prop('poesessid');
+
+export const loginError = prop('error');
