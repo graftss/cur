@@ -34,8 +34,15 @@ class Navbar extends Component {
             <span>Logged in as <b>{username}</b></span>
         }
       </Menu.Item>
-    )
+    );
+  }
 
+  logoItem() {
+    return (
+      <Menu.Item fitted="vertically">
+        <h2>Cur</h2>
+      </Menu.Item>
+    )
   }
 
   render() {
@@ -44,11 +51,8 @@ class Navbar extends Component {
     return (
       <Menu fixed="top">
         <Container>
-          <Menu.Item>
-            <b>Cur</b>
-          </Menu.Item>
+          {this.logoItem()}
           {this.loginStateItem()}
-
           <Menu.Menu position="right">
             {this.menuLink('Track', '/track')}
             {this.menuLink('New', '/new')}

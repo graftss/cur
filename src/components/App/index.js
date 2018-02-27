@@ -25,8 +25,6 @@ class App extends Component {
       routerPathname,
     } = this.props;
 
-    console.log('loggingIn', loggingIn);
-
     return (
       loggedIn ?
         <IdentifiedApp
