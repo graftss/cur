@@ -1,10 +1,20 @@
 import React from 'react';
 
 import AppraisalsList from '../AppraisalsList';
+import withState from '../../state/withState';
 
-export default () => (
+const connections = {
+  selectors: ['allAppraisals'],
+};
+
+const AllAppraisalsRoute = ({
+  allAppraisals,
+}) => (
   <div>
-    wahey
-    <AppraisalsList />
+    <AppraisalsList
+      allAppraisals={allAppraisals}
+    />
   </div>
 );
+
+export default withState(connections)(AllAppraisalsRoute);

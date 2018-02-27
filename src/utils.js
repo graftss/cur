@@ -7,6 +7,11 @@ import {
   values,
   zipObj,
 } from 'ramda';
+import uuidv4 from 'uuid/v4';
+
+export const uuid = () => uuidv4().replace('-', '');
+
+export const getTime = () => new Date().getTime();
 
 export const keyMirror = keys => zipObj(keys, keys);
 

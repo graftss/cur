@@ -1,11 +1,13 @@
 import { curry, map, mapObjIndexed, prop, useWith } from 'ramda';
 
+import * as appraisals from './appraisals/selectors';
 import * as router from './router/selectors';
 import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
 import { mergeValues, pickDefined } from '../utils';
 
 const baseSubstateSelectors = {
+  appraisals,
   router,
   tabs,
   user,

@@ -2,9 +2,11 @@ import React, { Component } from 'react';
 import { assoc, filter } from 'ramda';
 
 import NewAppraisalRouteComponent from './NewAppraisalRouteComponent';
+import { newAppraisal } from '../../state/schema/appraisal';
 import withState from '../../state/withState';
 
 const connections = {
+  actions: ['createAppraisal'],
   selectors: ['allTabs'],
 };
 
@@ -32,10 +34,8 @@ class NewAppraisalRouteContainer extends Component {
   )
 
   onAppraisalSubmit = () => {
-    const tabIds = this.selectedTabIds();
-    const name = this.state.name;
-
-    console.log({ name, tabIds });
+    const appraisal = newAppraisal(this.state.name, this.selectedTabIds());
+    this.props.createAppraisal(appraisal);
   }
 
   canSubmit = () => {
