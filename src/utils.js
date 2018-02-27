@@ -9,7 +9,7 @@ import {
 } from 'ramda';
 import uuidv4 from 'uuid/v4';
 
-export const uuid = () => uuidv4().replace('-', '');
+export const uuid = () => uuidv4().replace(/-/g, '');
 
 export const getTime = () => new Date().getTime();
 

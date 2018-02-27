@@ -12,3 +12,25 @@ body {
 .stretch {
   height: 100%;
 }
+
+.shrink-to-fit {
+  height: -moz-min-content;
+  height: -webkit-min-content;
+}
+
+.brighten-hover {
+  transition: filter .1s;
+}
+
+.brighten-hover:hover {
+  filter: brightness(70%);
+  transition: filter .25s;
+}
+
+.no-select {
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}

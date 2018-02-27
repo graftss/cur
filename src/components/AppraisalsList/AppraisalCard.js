@@ -1,7 +1,10 @@
 import React from 'react';
 import { Card } from 'semantic-ui-react';
 
+import Link from '../Link';
+
 export default ({
+  onDeleteClick,
   name,
   tabCount,
 }) => (
@@ -9,6 +12,10 @@ export default ({
     description="description"
     extra="extra"
     header={name}
-    meta={`tracking ${tabCount} tabs`}
+    meta={
+      <div>
+        <Link onClick={onDeleteClick}> delete </Link>
+      </div>
+    }
   />
 );
