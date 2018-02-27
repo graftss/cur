@@ -15,6 +15,9 @@ export default ({ history }) => {
 
   return createStore(
     reducer,
-    compose(middleware, persistState()),
+    compose(
+      middleware,
+      // persistState(),
+    ),
   );
 };

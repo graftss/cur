@@ -1,18 +1,22 @@
-import React, { Component } from 'react';
-import { Route } from 'react-router';
+import React from 'react';
 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
-import LoginRoute from '../LoginRoute';
+import IdentifiedApp from './IdentifiedApp';
+import UnidentifiedApp from './UnidentifiedApp';
+import withState from '../../state/withState';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Route path="/login" component={LoginRoute} />
-      </div>
-    );
-  }
-}
+const connections = {
+  selectors: ['loggedIn', 'routerPathname'],
+};
 
-export default App;
+const App = ({
+  loggedIn,
+  routerPathname,
+}) => (
+  loggedIn ?
+    <IdentifiedApp /> :
+    <UnidentifiedApp routerPathname={routerPathname} />
+);
+
+export default withState(connections)(App);
