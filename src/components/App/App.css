@@ -2,3 +2,7 @@
   text-align: center;
   height: 100%;
 }
+
+.App-content {
+  margin-top: 7em;
+}
