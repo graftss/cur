@@ -6,6 +6,8 @@ import Link from '../Link';
 export default ({
   lastUpdated,
   onDeleteClick,
+  onEditClick,
+  onTrackClick,
   name,
   tabCount,
 }) => (
@@ -13,6 +15,8 @@ export default ({
     description={`tracking ${tabCount} tabs`}
     extra={
       <div>
+        <Link onClick={onEditClick}> edit(?) </Link>
+        <Link onClick={onTrackClick}> track </Link>
         <Link onClick={onDeleteClick}> delete </Link>
       </div>
     }

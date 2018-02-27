@@ -5,7 +5,7 @@ import AppraisalsList from '../AppraisalsList';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['deleteAppraisal'],
+  actions: ['deleteAppraisal', 'push'],
   selectors: ['allAppraisals'],
 };
 
@@ -31,6 +31,8 @@ class AllAppraisalsRoute extends Component {
     this.props.deleteAppraisal(this.state.deletingAppraisal.id);
   }
 
+  trackAppraisal = (appraisal) => this.props.push(`/track/${appraisal.id}`);
+
   render() {
     const { allAppraisals } = this.props;
 
@@ -39,6 +41,7 @@ class AllAppraisalsRoute extends Component {
         <AppraisalsList
           allAppraisals={allAppraisals}
           onDeleteClick={this.openDeleteModal}
+          onTrackClick={this.trackAppraisal}
         />
         <DeleteAppraisalModal
           appraisalName={this.state.deletingAppraisal && this.state.deletingAppraisal.name}

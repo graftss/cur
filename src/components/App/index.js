@@ -28,6 +28,7 @@ class App extends Component {
     return (
       loggedIn ?
         <IdentifiedApp
+          routerPathname={routerPathname}
           verifyingLogin={loggingIn}
         /> :
         <UnidentifiedApp

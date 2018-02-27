@@ -9,6 +9,8 @@ const { id, lastUpdated, name, tabIds } = appraisalSchema;
 export default ({
   allAppraisals,
   onDeleteClick,
+  onEditClick,
+  onTrackClick,
 }) => (
   <Card.Group>
     {allAppraisals.map(appraisal => (
@@ -16,7 +18,9 @@ export default ({
         key={id(appraisal)}
         lastUpdated={lastUpdated(appraisal)}
         name={name(appraisal)}
+        onEditClick={() => onEditClick(appraisal)}
         onDeleteClick={() => onDeleteClick(appraisal)}
+        onTrackClick={() => onTrackClick(appraisal)}
         tabCount={tabIds(appraisal).length}
       />
     ))}
