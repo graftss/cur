@@ -52,8 +52,8 @@ class Navbar extends Component {
           {this.logoItem()}
           {this.loginStateItem()}
           <Menu.Menu position="right">
-            {this.menuLink('Track', '/track')}
             {this.menuLink('New', '/new')}
+            {this.menuLink('All', '/all')}
           </Menu.Menu>
         </Container>
       </Menu>
