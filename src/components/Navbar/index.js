@@ -46,8 +46,6 @@ class Navbar extends Component {
   }
 
   render() {
-    const { username } = this.props;
-
     return (
       <Menu fixed="top">
         <Container>

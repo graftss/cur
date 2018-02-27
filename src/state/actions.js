@@ -38,7 +38,6 @@ export const login = (username, poesessid) => (
       .then(dispatchTabsResponse(dispatch))
       .then(a => {
         dispatch(loginSuccess(username, poesessid));
-        console.log('a', a);
       })
       .catch(a => {
         dispatch(loginFailure());
