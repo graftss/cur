@@ -5,7 +5,7 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['push'],
-  selectors: ['routerPathname'],
+  selectors: ['routerPathname', 'username', 'loggingIn'],
 };
 
 class Navbar extends Component {
@@ -18,12 +18,28 @@ class Navbar extends Component {
         content={label}
         link
         onClick={() => push(link)}
+        position="right"
       />
     )
   }
 
+  loginStateItem() {
+    const { username, loggingIn } = this.props;
+
+    return (
+      <Menu.Item>
+        {
+          loggingIn ?
+            <span>Logging in...</span> :
+            <span>Logged in as <b>{username}</b></span>
+        }
+      </Menu.Item>
+    )
+
+  }
+
   render() {
-    const { push, routerPathname } = this.props;
+    const { username } = this.props;
 
     return (
       <Menu fixed="top">
@@ -31,8 +47,12 @@ class Navbar extends Component {
           <Menu.Item>
             <b>Cur</b>
           </Menu.Item>
-          {this.menuLink('Track', '/track')}
-          {this.menuLink('New', '/new')}
+          {this.loginStateItem()}
+
+          <Menu.Menu position="right">
+            {this.menuLink('Track', '/track')}
+            {this.menuLink('New', '/new')}
+          </Menu.Menu>
         </Container>
       </Menu>
     );

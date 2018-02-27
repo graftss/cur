@@ -29,6 +29,12 @@ export default (state = initialState, action) => {
       return { ...state, ...loginState, username, poesessid };
     }
 
+    case TYPES.USER_LOGIN_VERIFY: {
+      const loginState = { loggingIn: true, loggedIn: true, error: false };
+
+      return { ...state, ...loginState };
+    }
+
     default: return state;
   }
 }

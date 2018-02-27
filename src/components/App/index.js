@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 import './App.css';
 import 'semantic-ui-css/semantic.min.css';
@@ -7,16 +7,36 @@ import UnidentifiedApp from './UnidentifiedApp';
 import withState from '../../state/withState';
 
 const connections = {
-  selectors: ['loggedIn', 'routerPathname'],
+  actions: ['verifyLogin'],
+  selectors: ['loggedIn', 'loggingIn', 'routerPathname'],
 };
 
-const App = ({
-  loggedIn,
-  routerPathname,
-}) => (
-  loggedIn ?
-    <IdentifiedApp /> :
-    <UnidentifiedApp routerPathname={routerPathname} />
-);
+class App extends Component {
+  componentDidMount() {
+    if (this.props.loggedIn) {
+      this.props.verifyLogin();
+    }
+  }
+
+  render() {
+    const {
+      loggedIn,
+      loggingIn,
+      routerPathname,
+    } = this.props;
+
+    console.log('loggingIn', loggingIn);
+
+    return (
+      loggedIn ?
+        <IdentifiedApp
+          verifyingLogin={loggingIn}
+        /> :
+        <UnidentifiedApp
+          routerPathname={routerPathname}
+        />
+    );
+  }
+}
 
 export default withState(connections)(App);
