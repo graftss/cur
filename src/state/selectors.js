@@ -1,11 +1,13 @@
 import { curry, map, mapObjIndexed, prop, useWith } from 'ramda';
 
 import * as router from './router/selectors';
+import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
 import { mergeValues, pickDefined } from '../utils';
 
 const baseSubstateSelectors = {
   router,
+  tabs,
   user,
 };
 
@@ -19,11 +21,11 @@ const substateSelectorsByType = mapObjIndexed(
   baseSubstateSelectors,
 );
 
-// TODO: check unique selector names
+// TODO: check for unique selector names
 
 const substateSelectors = mergeValues(substateSelectorsByType);
 
-const selectors = { ...substateSelectors };
+export const selectors = { ...substateSelectors };
 
 export const mapSelectorsToProps = curry((selectorNames, state) => (
   map(selector => selector(state), pickDefined(selectorNames, selectors))
