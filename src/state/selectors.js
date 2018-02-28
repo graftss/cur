@@ -68,7 +68,7 @@ const computedSelectors = (() => {
     }),
 
     appraisedStacks: curry((state, league, appraisalId) => {
-      const prices = selectors.leaguePrices(state, league);
+      const prices = selectors.leaguePrices(state, league) || {};
       const combinedStacks = result.combinedItemStacks(state, appraisalId);
       const round = roundToPlaces(2);
 

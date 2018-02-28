@@ -54,6 +54,7 @@ export const login = (username, poesessid) => (
       .then(dispatchTabsResponse(dispatch))
       .then(a => {
         dispatch(loginSuccess(username, poesessid));
+        dispatch(push('/all'));
       })
       .catch(a => {
         dispatch(loginFailure());
