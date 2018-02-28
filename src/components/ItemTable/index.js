@@ -1,13 +1,9 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class ItemTable extends Component {
-  render() {
-    return (
-      <div>
-        item table
-      </div>
-    );
-  }
-}
-
-export default ItemTable;
+export default ({
+  items,
+}) => console.log('hello', items) || (
+  <div>
+    item table
+  </div>
+);

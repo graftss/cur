@@ -40,8 +40,8 @@ module.exports = ({ DEFAULT_LEAGUE, priceMonitor }) => {
       tabIds: Array.isArray(tabIds) ? tabIds : [tabIds],
     };
 
-    return respondWithJsonPromise(readJson('sanitized-stash-tab'), res);
-    // return respondWithJsonPromise(tabResponse(query), res);
+    // return respondWithJsonPromise(readJson('sanitized-stash-tab'), res);
+    return respondWithJsonPromise(tabResponse(query), res);
   });
 
   return apiRouter;

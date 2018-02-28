@@ -6,6 +6,7 @@ import * as router from './router/selectors';
 import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
 import { mergeValues, pickDefined } from '../utils';
+import { appraisalSchema } from './schema/appraisal';
 
 const baseSubstateSelectors = {
   appraisals,
@@ -25,11 +26,21 @@ const substateSelectorsByType = mapObjIndexed(
   baseSubstateSelectors,
 );
 
-// TODO: check for unique selector names
+// TODO: sanity check for unique selector names
 
 const substateSelectors = mergeValues(substateSelectorsByType);
 
-export const selectors = { ...substateSelectors };
+const computedSelectors = (() => {
+  return {
+    appraisalItems: curry((state, appraisalId) => {
+      const appraisal = selectors.appraisalById(state, appraisalId);
+      const tabIds = appraisalSchema.tabIds(appraisal);
+      return selectors.itemsByTabId(state, tabIds);
+    }),
+  };
+})();
+
+export const selectors = { ...substateSelectors, ...computedSelectors };
 
 export const mapSelectorsToProps = curry((selectorNames, state) => (
   map(selector => selector(state), pickDefined(selectorNames, selectors))
