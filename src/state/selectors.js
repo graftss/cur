@@ -1,4 +1,14 @@
-import { curry, map, mapObjIndexed, prop, useWith } from 'ramda';
+import {
+  assoc,
+  concat,
+  curry,
+  map,
+  mapObjIndexed,
+  prop,
+  reduce,
+  useWith,
+  values,
+} from 'ramda';
 
 import * as appraisals from './appraisals/selectors';
 import * as items from './items/selectors';
@@ -33,13 +43,32 @@ const substateSelectorsByType = mapObjIndexed(
 const substateSelectors = mergeValues(substateSelectorsByType);
 
 const computedSelectors = (() => {
-  return {
-    appraisalItems: curry((state, appraisalId) => {
+  const result = {
+    appraisalItemsByTabId: curry((state, appraisalId) => {
       const appraisal = selectors.appraisalById(state, appraisalId);
       const tabIds = appraisalSchema.tabIds(appraisal);
       return selectors.itemsByTabId(state, tabIds);
     }),
+
+    combinedItemStacks: curry((state, appraisalId) => {
+      const combineStacks = (a, b) => a ? ({
+        ...a,
+        stackSize: a.stackSize + b.stackSize,
+      }) : b;
+
+      const combineStacksReducer = (combinedStacks, stack) => {
+        const name = stack.typeLine;
+        return assoc(name, combineStacks(combinedStacks[name], stack), combinedStacks);
+      };
+
+      const itemsByTabId = result.appraisalItemsByTabId(state, appraisalId);
+      const allItems = reduce(concat, [], values(itemsByTabId));
+      const combinedStacksByName = reduce(combineStacksReducer, {}, allItems);
+      return values(combinedStacksByName);
+    })
   };
+
+  return result;
 })();
 
 export const selectors = { ...substateSelectors, ...computedSelectors };

@@ -5,13 +5,13 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['fetchAppraisalItems'],
-  selectors: ['appraisalItems', 'routeAppraisalId'],
+  selectors: ['combinedItemStacks', 'routeAppraisalId'],
 };
 
 class TrackAppraisalRoute extends Component {
   render() {
     const {
-      appraisalItems,
+      combinedItemStacks,
       fetchAppraisalItems,
       routeAppraisalId,
     } = this.props;
@@ -20,7 +20,7 @@ class TrackAppraisalRoute extends Component {
       <div>
         tracking
         <ItemTable
-          items={appraisalItems(routeAppraisalId)}
+          items={combinedItemStacks(routeAppraisalId)}
         />
         <button onClick={() => fetchAppraisalItems(routeAppraisalId) }>hi</button>
       </div>
