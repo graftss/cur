@@ -34,7 +34,9 @@ class TrackAppraisalRoute extends Component {
     } = this.props;
 
     const { items, total } = appraisedStacks('Standard', routeAppraisalId);
-    const appraisal = appraisalById(routeAppraisalId);
+
+    // default to `{}` here so that it's not `undefined` on browser back
+    const appraisal = appraisalById(routeAppraisalId) || {};
     const sortedItems = sort(descend(prop('value')), items);
 
 
