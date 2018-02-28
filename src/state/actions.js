@@ -3,6 +3,7 @@ import qs from 'querystring';
 import { push } from 'react-router-redux';
 
 import { itemsRequest, itemsSuccess } from './items/actions';
+import { pricesFailure, pricesRequest, pricesSuccess } from './prices/actions';
 import { appraisalSchema } from './schema/appraisal';
 import { selectors } from './selectors';
 import { tabsSuccess } from './tabs/actions';
@@ -11,15 +12,24 @@ import { loginFailure, loginRequest, loginSuccess, loginVerify } from './user/ac
 export { push };
 export * from './appraisals/actions';
 export * from './items/actions';
+export * from './prices/actions';
 export * from './tabs/actions';
 export * from './user/actions';
 
 const server = 'http://localhost:3333/api';
 const url = {
+  prices: () => `${server}/prices`,
   tabs: (username, poesessid, tabIds) => (
     `${server}/tabs?${qs.stringify({ username, poesessid, tabIds })}`
   ),
 };
+
+const requestPrices = () => (
+  axios.request({
+    url: url.prices(),
+    responseType: 'json',
+  })
+);
 
 const requestItems = (username, poesessid, tabIds) => (
   axios.request({
@@ -81,5 +91,15 @@ export const fetchAppraisalItems = appraisalId => (
     return requestItems(username, poesessid, tabIds)
       .then(dispatchTabsResponse(dispatch))
       .catch(a => console.log("oops", a));
+  }
+);
+
+export const fetchPrices = () => (
+  dispatch => {
+    dispatch(pricesRequest());
+
+    requestPrices()
+      .then(({ data }) => dispatch(pricesSuccess(data)))
+      .catch(a => dispatch(pricesFailure()))
   }
 );

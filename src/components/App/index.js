@@ -8,7 +8,7 @@ import UnidentifiedApp from './UnidentifiedApp';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['verifyLogin'],
+  actions: ['verifyLogin', 'fetchPrices'],
   selectors: ['loggedIn', 'loggingIn', 'routerPathname'],
 };
 
@@ -16,6 +16,7 @@ class App extends Component {
   componentDidMount() {
     if (this.props.loggedIn) {
       this.props.verifyLogin();
+      this.props.fetchPrices();
     }
   }
 
