@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { descend, prop, sort } from 'ramda';
 
 import ItemTable from '../ItemTable';
 import ItemTableHeader from './ItemTableHeader';
@@ -24,6 +25,8 @@ class TrackAppraisalRoute extends Component {
 
     const { items, total } = appraisedStacks('Standard', routeAppraisalId);
     const appraisal = appraisalById(routeAppraisalId);
+    const sortedItems = sort(descend(prop('value')), items);
+
 
     return (
       <div>
@@ -33,7 +36,7 @@ class TrackAppraisalRoute extends Component {
         />
         <ItemTable
           appraisal={appraisal}
-          items={items}
+          items={sortedItems}
           total={total}
         />
         <button onClick={() => fetchAppraisalItems(routeAppraisalId) }>hi</button>
