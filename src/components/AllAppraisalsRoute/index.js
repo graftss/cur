@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'semantic-ui-react';
 
 import DeleteAppraisalModal from './DeleteAppraisalModal';
 import AppraisalsList from '../AppraisalsList';
@@ -33,16 +34,24 @@ class AllAppraisalsRoute extends Component {
 
   trackAppraisal = (appraisal) => this.props.push(`/track/${appraisal.id}`);
 
+  renderAppraisalList() {
+    const { allAppraisals, push } = this.props;
+
+    return allAppraisals.length === 0 ?
+      <Button onClick={() => push('/new')}>Create an appraisal</Button> :
+      <AppraisalsList
+        allAppraisals={allAppraisals}
+        onDeleteClick={this.openDeleteModal}
+        onTrackClick={this.trackAppraisal}
+      />
+  }
+
   render() {
     const { allAppraisals } = this.props;
 
     return (
       <div>
-        <AppraisalsList
-          allAppraisals={allAppraisals}
-          onDeleteClick={this.openDeleteModal}
-          onTrackClick={this.trackAppraisal}
-        />
+        {this.renderAppraisalList()}
         <DeleteAppraisalModal
           appraisalName={this.state.deletingAppraisal && this.state.deletingAppraisal.name}
           closeModal={this.closeDeleteModal}
