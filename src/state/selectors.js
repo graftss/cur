@@ -16,7 +16,7 @@ import * as prices from './prices/selectors';
 import * as router from './router/selectors';
 import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
-import { mergeValues, pickDefined } from '../utils';
+import { mergeValues, pickDefined, roundToPlaces } from '../utils';
 import { appraisalSchema } from './schema/appraisal';
 
 const baseSubstateSelectors = {
@@ -65,7 +65,30 @@ const computedSelectors = (() => {
       const allItems = reduce(concat, [], values(itemsByTabId));
       const combinedStacksByName = reduce(combineStacksReducer, {}, allItems);
       return values(combinedStacksByName);
-    })
+    }),
+
+    appraisedStacks: curry((state, league, appraisalId) => {
+      const prices = selectors.leaguePrices(state, league);
+      const combinedStacks = result.combinedItemStacks(state, appraisalId);
+      const round = roundToPlaces(2);
+
+      const isPriced = stack => prices[stack.typeLine] !== undefined;
+      const addValue = stack => ({
+        ...stack,
+        value: round(stack.stackSize * prices[stack.typeLine].value),
+        type: prices[stack.typeLine].type,
+      });
+
+      const items = combinedStacks
+        .filter(isPriced)
+        .map(addValue);
+
+      const total = {
+        value: round(items.reduce((acc, item) => acc + item.value, 0)),
+      };
+
+      return { items, total };
+    }),
   };
 
   return result;

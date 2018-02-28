@@ -43,3 +43,8 @@ export const pickDefined = curry((props, obj) => reduce(
   {},
   props,
 ));
+
+export const roundToPlaces = places => {
+  const shift = Math.pow(10, places);
+  return r => Math.round(r * shift) / shift;
+};

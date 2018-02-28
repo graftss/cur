@@ -88,6 +88,8 @@ export const fetchAppraisalItems = appraisalId => (
     const appraisal = selectors.appraisalById(state, appraisalId);
     const tabIds = appraisalSchema.tabIds(appraisal);
 
+    dispatch(itemsRequest());
+
     return requestItems(username, poesessid, tabIds)
       .then(dispatchTabsResponse(dispatch))
       .catch(a => console.log("oops", a));

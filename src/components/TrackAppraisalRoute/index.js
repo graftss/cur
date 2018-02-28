@@ -1,26 +1,40 @@
 import React, { Component } from 'react';
 
 import ItemTable from '../ItemTable';
+import ItemTableHeader from './ItemTableHeader';
 import withState from '../../state/withState';
 
 const connections = {
   actions: ['fetchAppraisalItems'],
-  selectors: ['combinedItemStacks', 'routeAppraisalId'],
+  selectors: ['appraisalById', 'appraisedStacks', 'routeAppraisalId'],
 };
 
 class TrackAppraisalRoute extends Component {
+  constructor() {
+    super();
+  }
+
   render() {
     const {
-      combinedItemStacks,
+      appraisalById,
+      appraisedStacks,
       fetchAppraisalItems,
       routeAppraisalId,
     } = this.props;
 
+    const { items, total } = appraisedStacks('Standard', routeAppraisalId);
+    const appraisal = appraisalById(routeAppraisalId);
+
     return (
       <div>
-        tracking
+        <ItemTableHeader
+          appraisal={appraisal}
+          total={total}
+        />
         <ItemTable
-          items={combinedItemStacks(routeAppraisalId)}
+          appraisal={appraisal}
+          items={items}
+          total={total}
         />
         <button onClick={() => fetchAppraisalItems(routeAppraisalId) }>hi</button>
       </div>
