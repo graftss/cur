@@ -16,7 +16,10 @@ export * from './prices/actions';
 export * from './tabs/actions';
 export * from './user/actions';
 
-const server = 'http://localhost:3333/api';
+const server = window.location.hostname.includes('heroku') ?
+  `${window.location.origin}/api` :
+  'http://localhost:3333/api';
+
 const url = {
   prices: () => `${server}/prices`,
   tabs: (username, poesessid, tabIds) => (

@@ -5,9 +5,7 @@ import { Provider } from 'react-redux';
 
 import './index.css';
 import 'semantic-ui-css/semantic.min.css';
-import 'react-table/react-table.css';
 import App from './components/App';
-import registerServiceWorker from './registerServiceWorker';
 import createStore from './state/store';
 
 const history = createBrowserHistory();
@@ -19,4 +17,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root')
 );
-registerServiceWorker();

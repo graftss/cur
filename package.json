@@ -29,7 +29,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "server": "nodemon src/server"
+    "server:dev": "nodemon src/server",
+    "postinstall": "npm run build",
+    "server": "node src/server"
   },
   "devDependencies": {
     "nodemon": "^1.15.1"
