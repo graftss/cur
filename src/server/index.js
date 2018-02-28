@@ -6,12 +6,14 @@ const PriceMonitor = require('./price-monitor');
 const getMockPrices = require('./api/get-mock-prices');
 const getPoeNinjaPrices = require('./api/get-poe-ninja-prices');
 const apiRouter = require('./routes/api');
+const indexRouter = require('./routes/index');
 
 const app = express();
 
 app.use(cors());
 
 const inProduction = process.env.NODE_ENV === 'production';
+const PORT = process.env.PORT || 3333;
 
 const CONFIG = {
   DEFAULT_LEAGUE: 'Standard',
@@ -31,4 +33,6 @@ app.use('/api', apiRouter({
   priceMonitor,
 }));
 
-app.listen(3333, () => console.log('listening on 3333'));
+app.use('/', indexRouter());
+
+app.listen(PORT, () => console.log(`listening on ${PORT}`));
