@@ -7,7 +7,12 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['fetchAppraisalItems'],
-  selectors: ['appraisalById', 'appraisedStacks', 'routeAppraisalId'],
+  selectors: [
+    'appraisalById',
+    'appraisedStacks',
+    'fetchingItems',
+    'routeAppraisalId',
+  ],
 };
 
 class TrackAppraisalRoute extends Component {
@@ -15,11 +20,16 @@ class TrackAppraisalRoute extends Component {
     super();
   }
 
+  fetchAppraisalItems = () => {
+    const { fetchAppraisalItems, routeAppraisalId } = this.props;
+    fetchAppraisalItems(routeAppraisalId);
+  }
+
   render() {
     const {
       appraisalById,
       appraisedStacks,
-      fetchAppraisalItems,
+      fetchingItems,
       routeAppraisalId,
     } = this.props;
 
@@ -32,6 +42,8 @@ class TrackAppraisalRoute extends Component {
       <div>
         <ItemTableHeader
           appraisal={appraisal}
+          fetchingItems={fetchingItems}
+          fetchItems={this.fetchAppraisalItems}
           total={total}
         />
         <ItemTable
@@ -39,7 +51,6 @@ class TrackAppraisalRoute extends Component {
           items={sortedItems}
           total={total}
         />
-        <button onClick={() => fetchAppraisalItems(routeAppraisalId) }>hi</button>
       </div>
     )
   }
