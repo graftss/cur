@@ -35,9 +35,7 @@ class App extends Component {
               routerPathname={routerPathname}
               verifyingLogin={loggingIn}
             /> :
-            <UnidentifiedApp
-              routerPathname={routerPathname}
-            />
+            <UnidentifiedApp />
          }
        </ConnectedRouter>
     );
