@@ -2,12 +2,15 @@ import axios from 'axios';
 import qs from 'querystring';
 import { push } from 'react-router-redux';
 
+import { itemsRequest, itemsSuccess } from './items/actions';
+import { appraisalSchema } from './schema/appraisal';
+import { selectors } from './selectors';
 import { tabsSuccess } from './tabs/actions';
 import { loginFailure, loginRequest, loginSuccess, loginVerify } from './user/actions';
-import { selectors } from './selectors';
 
 export { push };
 export * from './appraisals/actions';
+export * from './items/actions';
 export * from './tabs/actions';
 export * from './user/actions';
 
@@ -18,16 +21,18 @@ const url = {
   ),
 };
 
-const requestLogin = (username, poesessid) => (
+const requestItems = (username, poesessid, tabIds) => (
   axios.request({
-    url: url.tabs(username, poesessid),
+    url: url.tabs(username, poesessid, tabIds),
     responseType: 'json',
   })
 );
 
+const requestLogin = (username, poesessid) => requestItems(username, poesessid);
+
 const dispatchTabsResponse = dispatch => response => {
   dispatch(tabsSuccess(response.data.tabList));
-
+  dispatch(itemsSuccess(response.data.items));
   return response;
 };
 
@@ -58,10 +63,23 @@ export const verifyLogin = () => (
       .then(dispatchTabsResponse(dispatch))
       .then(a => {
         dispatch(loginSuccess(username, poesessid));
-        console.log('a', a);
       })
       .catch(a => {
         dispatch(loginFailure());
       });
+  }
+);
+
+export const fetchAppraisalItems = appraisalId => (
+  (dispatch, getState) => {
+    const state = getState();
+    const username = selectors.username(state);
+    const poesessid = selectors.poesessid(state);
+    const appraisal = selectors.appraisalById(state, appraisalId);
+    const tabIds = appraisalSchema.tabIds(appraisal);
+
+    requestItems(username, poesessid, tabIds)
+      .then(dispatchTabsResponse(dispatch))
+      .catch(a => console.log("oops", a));
   }
 );

@@ -30,6 +30,8 @@ module.exports = ({ DEFAULT_LEAGUE, priceMonitor }) => {
   apiRouter.get('/tabs', (req, res) => {
     const { username, poesessid, tabIds } = req.query;
 
+    console.log(req.query);
+
     const query = {
       accountName: username,
       league: DEFAULT_LEAGUE,

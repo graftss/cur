@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 
+import ItemTable from '../ItemTable';
 import withState from '../../state/withState';
 
 const connections = {
-  selectors: ['routerPathname'],
+  actions: ['fetchAppraisalItems'],
+  selectors: ['routeAppraisalId'],
 };
 
 class TrackAppraisalRoute extends Component {
   render() {
-    console.log('router pathname', this.props.routerPathname);
-
     return (
       <div>
         tracking
+        <ItemTable />
+        <button onClick={() => this.props.fetchAppraisalItems(this.props.routeAppraisalId) }>hi</button>
       </div>
     )
   }
