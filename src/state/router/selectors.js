@@ -11,3 +11,8 @@ export const editedAppraisalId = compose(
   replace('/edit/', ''),
   routerPathname,
 );
+
+export const trackedLogId = compose(
+  replace('/log/', ''),
+  routerPathname,
+);

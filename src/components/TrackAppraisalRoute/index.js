@@ -16,6 +16,10 @@ const connections = {
 };
 
 class TrackAppraisalRoute extends Component {
+  addToLog = () => {
+    console.log('howdy')
+  }
+
   fetchAppraisalItems = () => {
     const { fetchAppraisalItems, trackedAppraisalId } = this.props;
     fetchAppraisalItems(trackedAppraisalId);
@@ -39,6 +43,7 @@ class TrackAppraisalRoute extends Component {
       <div>
         <ItemTableHeader
           appraisal={appraisal}
+          addToLog={this.addToLog}
           fetchingItems={fetchingItems}
           fetchItems={this.fetchAppraisalItems}
           totalValue={totalValue}

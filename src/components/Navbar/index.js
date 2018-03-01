@@ -54,6 +54,7 @@ class Navbar extends Component {
           <Menu.Menu position="right">
             {this.menuLink('New', '/new')}
             {this.menuLink('All', '/all')}
+            {this.menuLink('Logs', '/logs')}
           </Menu.Menu>
         </Container>
       </Menu>

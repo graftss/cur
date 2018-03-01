@@ -4,6 +4,7 @@ import { Header } from 'semantic-ui-react';
 import IconGroup from './IconGroup';
 
 export default ({
+  addToLog,
   appraisal,
   fetchingItems,
   fetchItems,
@@ -13,6 +14,7 @@ export default ({
     {`${appraisal.name} - ${totalValue}c`}
     <IconGroup
       fetchingItems={fetchingItems}
+      onLogClick={addToLog}
       onUpdateClick={fetchItems}
     />
   </Header>
