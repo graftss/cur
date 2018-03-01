@@ -9,7 +9,7 @@ const connections = {
   actions: ['fetchAppraisalItems'],
   selectors: [
     'appraisalById',
-    'appraisedStacks',
+    'appraisedItems',
     'fetchingItems',
     'trackedAppraisalId',
   ],
@@ -28,12 +28,12 @@ class TrackAppraisalRoute extends Component {
   render() {
     const {
       appraisalById,
-      appraisedStacks,
+      appraisedItems,
       fetchingItems,
       trackedAppraisalId,
     } = this.props;
 
-    const { items, total } = appraisedStacks;
+    const { items, totalValue } = appraisedItems;
 
     // default to `{}` here so that it's not `undefined` on browser back
     const appraisal = appraisalById(trackedAppraisalId) || {};
@@ -45,12 +45,11 @@ class TrackAppraisalRoute extends Component {
           appraisal={appraisal}
           fetchingItems={fetchingItems}
           fetchItems={this.fetchAppraisalItems}
-          total={total}
+          totalValue={totalValue}
         />
         <ItemTable
           appraisal={appraisal}
           items={sortedItems}
-          total={total}
         />
       </div>
     )

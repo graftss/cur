@@ -7,11 +7,11 @@ const readJson = path => parseJson(read(path));
 
 const { getStashTabsByIndex, getStashTabsById } = require('./api/get-stash-tabs');
 const getPoeNinjaPrices = require('./api/get-poe-ninja-prices');
-const appraise = require('./appraise');
+// const appraise = require('./appraise');
 
 const testData = {
-  sessionId: '7d37b7fbfd0a0636873eef6470daecfb',
-  league: 'harbinger',
+  sessionId: '242a9695b3a7b1ffd73f1e328f19d837',
+  league: 'standard',
   accountName: 'grasss',
   tabIndices: [],
   tabIds: [
@@ -20,7 +20,8 @@ const testData = {
     // '81bba92p2f22b84a53df4c1e93f37b2b3bccc344e49a313e95a5368c25612e1ad',
     // 'f20f5ce55c140d44f97bfd9f3ed8e2260e25754d763ae2197ba2fc4d169549fc',
     // "ae391a714207afd4f1edcea0ab996332e8a629942d2cf31e5673dd476ed5972a",
-    "4f989644ed79a8041491d09b1123c2104bd524a15d1b758dd4b3c60a96ba125f",
+    // "4f989644ed79a8041491d09b1123c2104bd524a15d1b758dd4b3c60a96ba125f",
+    "5f2400049d0692d1aa39a09864e05db6afa928a0150464919092df2f4fef2fca",
   ],
 };
 

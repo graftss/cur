@@ -18,8 +18,11 @@ import * as prices from './prices/selectors';
 import * as router from './router/selectors';
 import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
-import { mergeValues, pickDefined, roundToPlaces } from '../utils';
+
+import appraiseItems from './appraiseItems';
 import { appraisalSchema } from './schema/appraisal';
+import { itemSchema } from './schema/item';
+import { mergeValues, pickDefined, roundToPlaces } from '../utils';
 
 const baseSubstateSelectors = {
   appraisals,
@@ -63,54 +66,17 @@ const computedSelectors = (() => {
     (allItems, appraisal) => appraisal ? pick(appraisal.tabIds, allItems) : {},
   );
 
-  const trackedAppraisalItemStacks = createSelector(
-    trackedAppraisalItemsByTabId,
-    (itemsByTabId) => {
-      const combineStacks = (a, b) => a ? ({
-        ...a,
-        stackSize: a.stackSize + b.stackSize,
-      }) : b;
-
-      const combineStacksReducer = (combinedStacks, stack) => {
-        const name = stack.typeLine;
-        return assoc(name, combineStacks(combinedStacks[name], stack), combinedStacks);
-      };
-
-      const allItems = reduce(concat, [], values(itemsByTabId));
-      const combinedStacksByName = reduce(combineStacksReducer, {}, allItems);
-      return values(combinedStacksByName);
-    },
-  );
-
-  const appraisedStacks = createSelector(
-    trackedAppraisalItemStacks,
+  const appraisedItems = createSelector(
     substateSelectors.standardPrices,
-    (stacks, prices) => {
-      const round = roundToPlaces(2);
-
-      if (!stacks || !prices) return { items: [], total: { value: 0 } };
-
-      const isPriced = stack => prices[stack.typeLine] !== undefined;
-      const addValue = stack => ({
-        ...stack,
-        value: round(stack.stackSize * prices[stack.typeLine].value),
-        type: prices[stack.typeLine].type,
-      });
-
-      const items = stacks
-        .filter(isPriced)
-        .map(addValue);
-
-      const total = {
-        value: round(items.reduce((acc, item) => acc + item.value, 0)),
-      };
-
-      return { items, total };
+    trackedAppraisalItemsByTabId,
+    (prices, itemsByTabId) => {
+      const items = reduce(concat, [], values(itemsByTabId));
+      return appraiseItems(prices, items);
     },
   );
 
   return {
-    appraisedStacks,
+    appraisedItems,
     editingAppraisal,
     trackedAppraisal,
   };

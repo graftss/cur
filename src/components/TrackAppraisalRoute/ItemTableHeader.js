@@ -7,10 +7,10 @@ export default ({
   appraisal,
   fetchingItems,
   fetchItems,
-  total,
+  totalValue,
 }) => (
   <Header>
-    {`${appraisal.name} - ${total.value}c`}
+    {`${appraisal.name} - ${totalValue}c`}
     <IconGroup
       fetchingItems={fetchingItems}
       onUpdateClick={fetchItems}
