@@ -15,12 +15,12 @@ class App extends Component {
   componentDidMount() {
     if (this.props.loggedIn) {
       this.props.verifyLogin();
-      this.props.fetchPrices();
     }
   }
 
   render() {
     const {
+      fetchPrices,
       history,
       loggedIn,
       loggingIn,
@@ -32,6 +32,7 @@ class App extends Component {
        {
           loggedIn ?
             <IdentifiedApp
+              fetchPrices={fetchPrices}
               routerPathname={routerPathname}
               verifyingLogin={loggingIn}
             /> :

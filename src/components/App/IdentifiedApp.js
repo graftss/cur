@@ -8,6 +8,10 @@ import NewAppraisalRoute from '../NewAppraisalRoute';
 import TrackAppraisalRoute from '../TrackAppraisalRoute';
 
 class IdentifiedApp extends Component{
+  componentDidMount() {
+    this.props.fetchPrices();
+  }
+
   render() {
     return (
       <div className="App">

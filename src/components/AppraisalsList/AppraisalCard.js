@@ -4,6 +4,12 @@ import { Card } from 'semantic-ui-react';
 
 import Link from '../Link';
 
+const lastUpdatedSpan = lastUpdated => (
+  lastUpdated === undefined ?
+    <span>never updated</span> :
+    <span>last updated <Timeago date={lastUpdated} /></span>
+);
+
 export default ({
   lastUpdated,
   onDeleteClick,
@@ -22,6 +28,6 @@ export default ({
       </div>
     }
     header={name}
-    meta={<span>last updated <Timeago date={lastUpdated} /></span>}
+    meta={lastUpdatedSpan(lastUpdated)}
   />
 );

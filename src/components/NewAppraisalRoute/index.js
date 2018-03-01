@@ -6,7 +6,7 @@ import { newAppraisal } from '../../state/schema/appraisal';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['createAppraisal', 'push'],
+  actions: ['createAppraisal', 'fetchAppraisalItems', 'push'],
   selectors: ['allTabs'],
 };
 

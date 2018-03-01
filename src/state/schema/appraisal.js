@@ -4,7 +4,7 @@ import { getTime, uuid } from '../../utils';
 
 export const newAppraisal = (name, tabIds) => ({
   id: uuid(),
-  lastUpdated: getTime(),
+  lastUpdated: undefined,
   name,
   tabIds,
 });

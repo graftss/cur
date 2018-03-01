@@ -54,7 +54,7 @@ const computedSelectors = (() => {
   const trackedAppraisalItemsByTabId = createSelector(
     substateSelectors.allItems,
     trackedAppraisal,
-    (allItems, appraisal) => pick(appraisal.tabIds, allItems),
+    (allItems, appraisal) => appraisal ? pick(appraisal.tabIds, allItems) : {},
   );
 
   const trackedAppraisalItemStacks = createSelector(
@@ -81,6 +81,8 @@ const computedSelectors = (() => {
     substateSelectors.standardPrices,
     (stacks, prices) => {
       const round = roundToPlaces(2);
+
+      if (!stacks || !prices) return { items: [], total: { value: 0 } };
 
       const isPriced = stack => prices[stack.typeLine] !== undefined;
       const addValue = stack => ({

@@ -39,7 +39,6 @@ class TrackAppraisalRoute extends Component {
     const appraisal = appraisalById(routeAppraisalId) || {};
     const sortedItems = sort(descend(prop('value')), items);
 
-
     return (
       <div>
         <ItemTableHeader

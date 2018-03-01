@@ -45,8 +45,11 @@ const requestItems = (username, poesessid, tabIds) => (
 const requestLogin = (username, poesessid) => requestItems(username, poesessid);
 
 const dispatchTabsResponse = dispatch => response => {
-  dispatch(tabsSuccess(response.data.tabList));
-  dispatch(itemsSuccess(response.data.items));
+  const { items, tabList } = response.data;
+
+  dispatch(tabsSuccess(tabList));
+  if (items.length) dispatch(itemsSuccess(items));
+
   return response;
 };
 
@@ -112,6 +115,6 @@ export const fetchPrices = () => (
 
     requestPrices()
       .then(({ data }) => dispatch(pricesSuccess(data)))
-      .catch(a => dispatch(pricesFailure()))
+      .catch(a => dispatch(pricesFailure()));
   }
 );
