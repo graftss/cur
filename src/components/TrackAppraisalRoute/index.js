@@ -11,7 +11,7 @@ const connections = {
     'appraisalById',
     'appraisedStacks',
     'fetchingItems',
-    'routeAppraisalId',
+    'trackedAppraisalId',
   ],
 };
 
@@ -21,8 +21,8 @@ class TrackAppraisalRoute extends Component {
   }
 
   fetchAppraisalItems = () => {
-    const { fetchAppraisalItems, routeAppraisalId } = this.props;
-    fetchAppraisalItems(routeAppraisalId);
+    const { fetchAppraisalItems, trackedAppraisalId } = this.props;
+    fetchAppraisalItems(trackedAppraisalId);
   }
 
   render() {
@@ -30,13 +30,13 @@ class TrackAppraisalRoute extends Component {
       appraisalById,
       appraisedStacks,
       fetchingItems,
-      routeAppraisalId,
+      trackedAppraisalId,
     } = this.props;
 
     const { items, total } = appraisedStacks;
 
     // default to `{}` here so that it's not `undefined` on browser back
-    const appraisal = appraisalById(routeAppraisalId) || {};
+    const appraisal = appraisalById(trackedAppraisalId) || {};
     const sortedItems = sort(descend(prop('value')), items);
 
     return (

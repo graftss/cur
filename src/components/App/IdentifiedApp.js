@@ -3,6 +3,7 @@ import { Redirect, Route, Switch } from 'react-router';
 import { Container } from 'semantic-ui-react';
 
 import AllAppraisalsRoute from '../AllAppraisalsRoute';
+import EditAppraisalRoute from '../EditAppraisalRoute';
 import Navbar from '../Navbar';
 import NewAppraisalRoute from '../NewAppraisalRoute';
 import TrackAppraisalRoute from '../TrackAppraisalRoute';
@@ -22,6 +23,7 @@ class IdentifiedApp extends Component{
               <Route path="/new" component={NewAppraisalRoute} />
               <Route path="/all" component={AllAppraisalsRoute} />
               <Route path="/track/:id" component={TrackAppraisalRoute} />
+              <Route path="/edit/:id" component={EditAppraisalRoute} />
               <Route path="*" render={() => <Redirect to={{ pathname: '/all' }} />} />
             </Switch>
           </Container>

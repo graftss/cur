@@ -32,7 +32,9 @@ class AllAppraisalsRoute extends Component {
     this.props.deleteAppraisal(this.state.deletingAppraisal.id);
   }
 
-  trackAppraisal = (appraisal) => this.props.push(`/track/${appraisal.id}`);
+  onEditClick = appraisal => this.props.push(`/edit/${appraisal.id}`)
+
+  onTrackClick = appraisal => this.props.push(`/track/${appraisal.id}`)
 
   renderAppraisalList() {
     const { allAppraisals, push } = this.props;
@@ -42,7 +44,8 @@ class AllAppraisalsRoute extends Component {
       <AppraisalsList
         allAppraisals={allAppraisals}
         onDeleteClick={this.openDeleteModal}
-        onTrackClick={this.trackAppraisal}
+        onEditClick={this.onEditClick}
+        onTrackClick={this.onTrackClick}
       />
   }
 

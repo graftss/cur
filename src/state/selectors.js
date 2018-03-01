@@ -47,7 +47,13 @@ const substateSelectors = mergeValues(substateSelectorsByType);
 const computedSelectors = (() => {
   const trackedAppraisal = createSelector(
     substateSelectors.allAppraisals,
-    substateSelectors.routeAppraisalId,
+    substateSelectors.trackedAppraisalId,
+    (allAppraisals, appraisalId) => allAppraisals.find(a => a.id === appraisalId),
+  );
+
+  const editingAppraisal = createSelector(
+    substateSelectors.allAppraisals,
+    substateSelectors.editedAppraisalId,
     (allAppraisals, appraisalId) => allAppraisals.find(a => a.id === appraisalId),
   );
 
@@ -105,6 +111,8 @@ const computedSelectors = (() => {
 
   return {
     appraisedStacks,
+    editingAppraisal,
+    trackedAppraisal,
   };
 })();
 

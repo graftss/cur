@@ -10,6 +10,12 @@ export const newAppraisal = (name, tabIds) => ({
   tabIds,
 });
 
+export const editAppraisal = (appraisal, name, tabIds) => ({
+  ...appraisal,
+  name,
+  tabIds,
+});
+
 export const appraisalSchema = {
   createdOn: prop('createdOn'),
   id: prop('id'),
