@@ -14,4 +14,6 @@ export const appraisalSchema = {
   lastUpdated: prop('lastUpdated'),
   name: prop('name'),
   tabIds: prop('tabIds'),
+
+  update: appraisal => ({ ...appraisal, lastUpdated: getTime() }),
 };

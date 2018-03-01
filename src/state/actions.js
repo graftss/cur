@@ -2,6 +2,7 @@ import axios from 'axios';
 import qs from 'querystring';
 import { push } from 'react-router-redux';
 
+import { updateAppraisal } from './appraisals/actions';
 import { itemsRequest, itemsSuccess } from './items/actions';
 import { pricesFailure, pricesRequest, pricesSuccess } from './prices/actions';
 import { appraisalSchema } from './schema/appraisal';
@@ -95,7 +96,12 @@ export const fetchAppraisalItems = appraisalId => (
     dispatch(itemsRequest());
 
     return requestItems(username, poesessid, tabIds)
-      .then(dispatchTabsResponse(dispatch))
+      .then(response => {
+        dispatchTabsResponse(dispatch)(response);
+
+        const updatedAppraisal = appraisalSchema.update(appraisal);
+        dispatch(updateAppraisal(updatedAppraisal));
+      })
       .catch(a => console.log("oops", a));
   }
 );

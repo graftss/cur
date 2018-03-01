@@ -1,4 +1,5 @@
 import React from 'react';
+import Timeago from 'react-timeago';
 import { Card } from 'semantic-ui-react';
 
 import Link from '../Link';
@@ -21,6 +22,6 @@ export default ({
       </div>
     }
     header={name}
-    meta={`last updated ${lastUpdated}`}
+    meta={<span>last updated <Timeago date={lastUpdated} /></span>}
   />
 );
