@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router';
+import { Redirect, Route, Switch } from 'react-router';
 import { Container } from 'semantic-ui-react';
 
 import AllAppraisalsRoute from '../AllAppraisalsRoute';
@@ -18,9 +18,12 @@ class IdentifiedApp extends Component{
         <Navbar />
         <div className="App-content">
           <Container textAlign="center">
-            <Route path="/new" component={NewAppraisalRoute} />
-            <Route path="/all" component={AllAppraisalsRoute} />
-            <Route path="/track/:id" component={TrackAppraisalRoute} />
+            <Switch>
+              <Route path="/new" component={NewAppraisalRoute} />
+              <Route path="/all" component={AllAppraisalsRoute} />
+              <Route path="/track/:id" component={TrackAppraisalRoute} />
+              <Route path="*" render={() => <Redirect to={{ pathname: '/all' }} />} />
+            </Switch>
           </Container>
         </div>
       </div>
