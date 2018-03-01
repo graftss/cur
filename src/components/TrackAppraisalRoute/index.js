@@ -33,7 +33,7 @@ class TrackAppraisalRoute extends Component {
       routeAppraisalId,
     } = this.props;
 
-    const { items, total } = appraisedStacks('Standard', routeAppraisalId);
+    const { items, total } = appraisedStacks;
 
     // default to `{}` here so that it's not `undefined` on browser back
     const appraisal = appraisalById(routeAppraisalId) || {};

@@ -1,9 +1,11 @@
+import { createSelector } from 'reselect';
 import {
   assoc,
   concat,
   curry,
   map,
   mapObjIndexed,
+  pick,
   prop,
   reduce,
   useWith,
@@ -43,14 +45,21 @@ const substateSelectorsByType = mapObjIndexed(
 const substateSelectors = mergeValues(substateSelectorsByType);
 
 const computedSelectors = (() => {
-  const result = {
-    appraisalItemsByTabId: curry((state, appraisalId) => {
-      const appraisal = selectors.appraisalById(state, appraisalId);
-      const tabIds = appraisalSchema.tabIds(appraisal);
-      return selectors.itemsByTabId(state, tabIds);
-    }),
+  const trackedAppraisal = createSelector(
+    substateSelectors.allAppraisals,
+    substateSelectors.routeAppraisalId,
+    (allAppraisals, appraisalId) => allAppraisals.find(a => a.id === appraisalId),
+  );
 
-    combinedItemStacks: curry((state, appraisalId) => {
+  const trackedAppraisalItemsByTabId = createSelector(
+    substateSelectors.allItems,
+    trackedAppraisal,
+    (allItems, appraisal) => pick(appraisal.tabIds, allItems),
+  );
+
+  const trackedAppraisalItemStacks = createSelector(
+    trackedAppraisalItemsByTabId,
+    (itemsByTabId) => {
       const combineStacks = (a, b) => a ? ({
         ...a,
         stackSize: a.stackSize + b.stackSize,
@@ -61,15 +70,16 @@ const computedSelectors = (() => {
         return assoc(name, combineStacks(combinedStacks[name], stack), combinedStacks);
       };
 
-      const itemsByTabId = result.appraisalItemsByTabId(state, appraisalId);
       const allItems = reduce(concat, [], values(itemsByTabId));
       const combinedStacksByName = reduce(combineStacksReducer, {}, allItems);
       return values(combinedStacksByName);
-    }),
+    },
+  );
 
-    appraisedStacks: curry((state, league, appraisalId) => {
-      const prices = selectors.leaguePrices(state, league) || {};
-      const combinedStacks = result.combinedItemStacks(state, appraisalId);
+  const appraisedStacks = createSelector(
+    trackedAppraisalItemStacks,
+    substateSelectors.standardPrices,
+    (stacks, prices) => {
       const round = roundToPlaces(2);
 
       const isPriced = stack => prices[stack.typeLine] !== undefined;
@@ -79,7 +89,7 @@ const computedSelectors = (() => {
         type: prices[stack.typeLine].type,
       });
 
-      const items = combinedStacks
+      const items = stacks
         .filter(isPriced)
         .map(addValue);
 
@@ -88,10 +98,12 @@ const computedSelectors = (() => {
       };
 
       return { items, total };
-    }),
-  };
+    },
+  );
 
-  return result;
+  return {
+    appraisedStacks,
+  };
 })();
 
 export const selectors = { ...substateSelectors, ...computedSelectors };

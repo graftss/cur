@@ -10,3 +10,5 @@ export const leaguePrices = curry((state, league) => (
     allPrices,
   )(state)
 ));
+
+export const standardPrices = state => state.prices.Standard;
