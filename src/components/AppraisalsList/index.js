@@ -4,7 +4,7 @@ import { Card } from 'semantic-ui-react';
 import AppraisalCard from './AppraisalCard';
 import { appraisalSchema } from '../../state/schema/appraisal';
 
-const { id, lastUpdated, name, tabIds } = appraisalSchema;
+const { createdOn, id, lastUpdated, name, tabIds } = appraisalSchema;
 
 export default ({
   allAppraisals,
@@ -15,6 +15,7 @@ export default ({
   <Card.Group>
     {allAppraisals.map(appraisal => (
       <AppraisalCard
+        createdOn={createdOn(appraisal)}
         key={id(appraisal)}
         lastUpdated={lastUpdated(appraisal)}
         name={name(appraisal)}

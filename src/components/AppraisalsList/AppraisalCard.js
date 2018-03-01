@@ -10,7 +10,15 @@ const lastUpdatedSpan = lastUpdated => (
     <span>last updated <Timeago date={lastUpdated} /></span>
 );
 
+const timeInfo = (createdOn, lastUpdated) => console.log({createdOn, lastUpdated}) || (
+  <div>
+    created <Timeago date={createdOn} /><br />
+    {lastUpdatedSpan(lastUpdated)}
+  </div>
+);
+
 export default ({
+  createdOn,
   lastUpdated,
   onDeleteClick,
   onEditClick,
@@ -28,6 +36,6 @@ export default ({
       </div>
     }
     header={name}
-    meta={lastUpdatedSpan(lastUpdated)}
+    meta={timeInfo(createdOn, lastUpdated)}
   />
 );

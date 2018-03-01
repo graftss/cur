@@ -3,6 +3,7 @@ import { prop } from 'ramda';
 import { getTime, uuid } from '../../utils';
 
 export const newAppraisal = (name, tabIds) => ({
+  createdOn: getTime(),
   id: uuid(),
   lastUpdated: undefined,
   name,
@@ -10,6 +11,7 @@ export const newAppraisal = (name, tabIds) => ({
 });
 
 export const appraisalSchema = {
+  createdOn: prop('createdOn'),
   id: prop('id'),
   lastUpdated: prop('lastUpdated'),
   name: prop('name'),
