@@ -16,10 +16,6 @@ const connections = {
 };
 
 class TrackAppraisalRoute extends Component {
-  constructor() {
-    super();
-  }
-
   fetchAppraisalItems = () => {
     const { fetchAppraisalItems, trackedAppraisalId } = this.props;
     fetchAppraisalItems(trackedAppraisalId);

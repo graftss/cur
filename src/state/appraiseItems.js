@@ -1,6 +1,5 @@
 import {
   assocPath,
-  chain as flatMap,
   compose,
   filter,
   map,

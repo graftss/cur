@@ -50,8 +50,6 @@ class AllAppraisalsRoute extends Component {
   }
 
   render() {
-    const { allAppraisals } = this.props;
-
     return (
       <div>
         {this.renderAppraisalList()}

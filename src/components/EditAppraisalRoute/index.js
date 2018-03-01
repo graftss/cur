@@ -11,10 +11,6 @@ const connections = {
 };
 
 class NewAppraisalRouteContainer extends Component {
-  constructor() {
-    super();
-  }
-
   componentWillMount() {
     const { editingAppraisal } = this.props;
 

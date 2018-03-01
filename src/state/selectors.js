@@ -1,6 +1,5 @@
 import { createSelector } from 'reselect';
 import {
-  assoc,
   concat,
   curry,
   map,
@@ -20,9 +19,7 @@ import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
 
 import appraiseItems from './appraiseItems';
-import { appraisalSchema } from './schema/appraisal';
-import { itemSchema } from './schema/item';
-import { mergeValues, pickDefined, roundToPlaces } from '../utils';
+import { mergeValues, pickDefined } from '../utils';
 
 const baseSubstateSelectors = {
   appraisals,

@@ -3,7 +3,6 @@ import { Grid, Image } from 'semantic-ui-react';
 
 import './ItemTable.css';
 import Popup from '../Popup';
-import { itemSchema } from '../../state/schema/item';
 
 const itemToJSX = item => (
   <Grid.Column key={item.name}>
