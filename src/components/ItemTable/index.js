@@ -16,7 +16,6 @@ const itemToJSX = item => (
 );
 
 export default ({
-  appraisal,
   items,
 }) => (
   <div>

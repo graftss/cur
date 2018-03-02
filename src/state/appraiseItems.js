@@ -1,6 +1,7 @@
 import {
   assocPath,
   compose,
+  curry,
   filter,
   map,
   merge,
@@ -66,7 +67,7 @@ const attachMetadata = items => ({
   totalValue: itemsTotalValue(items),
 });
 
-export default (prices, tabResponses) => (
+export const appraiseParsedItems = curry((prices, items) => (
   compose(
     attachMetadata,
     sortBy(decreasingTotalValue),
@@ -75,6 +76,12 @@ export default (prices, tabResponses) => (
     map(addValue(prices)),
     values,
     countItems,
+  )(items)
+));
+
+export default (prices = {}, tabResponses = []) => (
+  compose(
+    appraiseParsedItems(prices),
     map(parseItem),
   )(tabResponses)
 );

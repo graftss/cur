@@ -12,6 +12,7 @@ export default class AddBatchModal extends Component {
 
   render() {
     const {
+      addBatchToLog,
       closeModal,
       logDropdownOptions,
       open,
@@ -21,6 +22,7 @@ export default class AddBatchModal extends Component {
     return (
       <Modal size="mini" open={open}>
         <Modal.Content>
+          Select a log to add to:
           <Dropdown
             fluid
             onChange={this.onDropdownChange}
@@ -28,25 +30,27 @@ export default class AddBatchModal extends Component {
             placeholder="select log"
             search
             selection
+            value={logId}
           />
         </Modal.Content>
         <Modal.Actions>
           <Button
-            negative
+            content="Cancel"
             icon="ban"
             labelPosition="right"
-            content="Cancel"
+            negative
             onClick={closeModal}
           />
           <Button
-            positive
+            content="Log"
             disabled={logId === undefined}
             icon="checkmark"
             labelPosition="right"
-            content="Log"
             onClick={() => {
               closeModal();
+              addBatchToLog(logId);
             }}
+            positive
           />
         </Modal.Actions>
       </Modal>

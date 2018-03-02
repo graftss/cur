@@ -14,6 +14,7 @@ const connections = {
     'appraisedItems',
     'fetchingItems',
     'trackedAppraisalId',
+    'trackedAppraisalBatch',
   ],
 };
 
@@ -28,8 +29,9 @@ class TrackAppraisalRoute extends Component {
 
   closeAddBatchModal = () => this.setState({ addBatchModalOpen: false })
 
-  addToLog = () => {
-    this.openAddBatchModal();
+  addBatchToLog = logId => {
+    const { addLogBatch, trackedAppraisalBatch } = this.props;
+    addLogBatch(logId, trackedAppraisalBatch);
   }
 
   fetchAppraisalItems = () => {
@@ -57,16 +59,16 @@ class TrackAppraisalRoute extends Component {
       <div>
         <ItemTableHeader
           appraisal={appraisal}
-          addToLog={this.addToLog}
+          addToLog={this.openAddBatchModal}
           fetchingItems={fetchingItems}
           fetchItems={this.fetchAppraisalItems}
           totalValue={totalValue}
         />
         <ItemTable
-          appraisal={appraisal}
           items={sortedItems}
         />
         <AddBatchModal
+          addBatchToLog={this.addBatchToLog}
           closeModal={this.closeAddBatchModal}
           logDropdownOptions={logDropdownOptions}
           open={addBatchModalOpen}

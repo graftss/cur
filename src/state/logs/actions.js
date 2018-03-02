@@ -12,5 +12,5 @@ export const createLog = argCreator(TYPES.LOG_CREATE, ['log']);
 export const deleteLog = argCreator(TYPES.LOG_DELETE, ['id']);
 export const updateLog = argCreator(TYPES.LOG_UPDATE, ['log']);
 
-export const addLogBatch = argCreator(TYPES.LOG_UPDATE, ['logId', 'items']);
-export const removeLogBatch = argCreator(TYPES.LOG_UPDATE, ['logId', 'batchId']);
+export const addLogBatch = argCreator(TYPES.LOG_ADD_BATCH, ['logId', 'items']);
+export const removeLogBatch = argCreator(TYPES.LOG_REMOVE_BATCH, ['logId', 'batchId']);

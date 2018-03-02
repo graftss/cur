@@ -1,1 +1,4 @@
 delete log modal
+edit log modal
+
+make "new appraisal" a modal and link to it in '/all'

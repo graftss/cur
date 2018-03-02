@@ -43,6 +43,19 @@ export default (state = initialState, action) => {
       };
     }
 
+    case TYPES.LOG_REMOVE_BATCH: {
+      const { batchId, logId } = payload;
+
+      return {
+        ...state,
+        logs: state.logs.map(
+          log => log.id === logId ?
+            { ...log, batches: log.batches.filter(b => b.id !== batchId) } :
+            log
+        ),
+      };
+    }
+
     default: return state;
   }
 }
