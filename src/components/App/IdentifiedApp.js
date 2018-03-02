@@ -5,6 +5,7 @@ import { Container } from 'semantic-ui-react';
 import AllAppraisalsRoute from '../AllAppraisalsRoute';
 import AllLogsRoute from '../AllLogsRoute';
 import EditAppraisalRoute from '../EditAppraisalRoute';
+import EditLogRoute from '../EditLogRoute';
 import Navbar from '../Navbar';
 import NewAppraisalRoute from '../NewAppraisalRoute';
 import NewLogRoute from '../NewLogRoute';
@@ -29,6 +30,7 @@ class IdentifiedApp extends Component{
               <Route path="/edit/:id" component={EditAppraisalRoute} />
               <Route path="/logs" component={AllLogsRoute} />
               <Route path="/newlog" component={NewLogRoute} />
+              <Route path="/editlog/:id" component={EditLogRoute} />
               <Route path="/log/:id" component={TrackLogRoute} />
               <Route path="*" render={() => <Redirect to={{ pathname: '/all' }} />} />
             </Switch>

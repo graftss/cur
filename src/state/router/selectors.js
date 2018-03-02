@@ -16,3 +16,8 @@ export const trackedLogId = compose(
   replace('/log/', ''),
   routerPathname,
 );
+
+export const editedLogId = compose(
+  replace('/editlog/', ''),
+  routerPathname,
+);

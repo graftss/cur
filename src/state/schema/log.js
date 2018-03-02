@@ -11,6 +11,12 @@ export const logSchema = {
     name,
   }),
 
+  edit: (log, name, description) => ({
+    ...log,
+    name,
+    description,
+  }),
+
   newBatch: items => ({
     addedOn: getTime(),
     id: uuid(),

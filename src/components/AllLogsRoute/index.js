@@ -33,9 +33,7 @@ class TrackLogRoute extends Component {
     this.props.deleteLog(logSchema.id(this.state.deletingLog));
   }
 
-  onEditLogClick = () => {
-    console.log('whoops cant edit yet haha');
-  }
+  onEditLogClick = log => this.props.push(`/editlog/${logSchema.id(log)}`)
 
   onTrackLogClick = log => this.props.push(`/log/${logSchema.id(log)}`)
 

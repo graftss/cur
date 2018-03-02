@@ -58,6 +58,11 @@ const computedSelectors = (() => {
     return logById(state, trackedLogId(state));
   };
 
+  const editedLog = state => {
+    const { logById, editedLogId }= substateSelectors;
+    return logById(state, editedLogId(state));
+  };
+
   const logDropdownOptions = createSelector(
     substateSelectors.allLogs,
     allLogs => allLogs.map(log => ({
@@ -105,6 +110,7 @@ const computedSelectors = (() => {
   return {
     appraisedItems,
     editingAppraisal,
+    editedLog,
     logDropdownOptions,
     trackedAppraisal,
     trackedAppraisalBatch,
