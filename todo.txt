@@ -1,5 +1,1 @@
-redirect to `track` route after login
-
-abbreviate tab names in tab list
-
-make two columsn of tabs, unselected and sleected!!!!!
+delete log modal

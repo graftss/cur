@@ -18,16 +18,17 @@ const timeInfo = (createdOn, lastUpdated) => (
 );
 
 export default ({
+  batchCount,
   createdOn,
+  description,
   lastUpdated,
   onDeleteClick,
   onEditClick,
   onTrackClick,
   name,
-  tabCount,
 }) => (
   <Card
-    description={`tracking ${tabCount} tabs`}
+    description={description}
     extra={
       <div>
         <Link onClick={onEditClick}> edit </Link>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, Input, Message, Modal, Segment } from 'semantic-ui-react';
+import { Button, Form, Input, Modal } from 'semantic-ui-react';
 
 const clearedFields = { description: '', name: '' };
 
@@ -27,7 +27,7 @@ class NewLogModal extends Component {
   onDescriptionChange = e => this.setState({ description: e.target.value })
 
   render() {
-    const { closeModal, open } = this.props;
+    const { open } = this.props;
     const { description, name } = this.state;
 
     const submitDisabled = name.length === 0 || description.length === 0;
