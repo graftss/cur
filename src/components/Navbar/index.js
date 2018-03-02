@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Menu } from 'semantic-ui-react';
+import { Container, Dropdown, Menu } from 'semantic-ui-react';
 
 import withState from '../../state/withState';
 
@@ -9,19 +9,15 @@ const connections = {
 };
 
 class Navbar extends Component {
-  menuLink(label, link) {
-    const { push, routerPathname } = this.props;
+  appraisalDropdownData = [
+    { text: 'All', url: '/all' },
+    { text: 'New', url: '/new' },
+  ];
 
-    return (
-      <Menu.Item
-        active={routerPathname === link}
-        content={label}
-        link
-        onClick={() => push(link)}
-        position="right"
-      />
-    )
-  }
+  logDropdownData = [
+    { text: 'All', url: '/logs' },
+    { text: 'New', url: '/newlog' },
+  ];
 
   loginStateItem() {
     const { username, loggingIn } = this.props;
@@ -45,6 +41,22 @@ class Navbar extends Component {
     )
   }
 
+  renderDropdown(data, title) {
+    return (
+      <Menu.Menu position="right">
+        <Dropdown item text={title}>
+          <Dropdown.Menu>
+            {data.map(({ text, url }) => (
+              <Dropdown.Item key={text} onClick={() => this.props.push(url)}>
+                {text}
+              </Dropdown.Item>
+            ))}
+          </Dropdown.Menu>
+        </Dropdown>
+      </Menu.Menu>
+    );
+  }
+
   render() {
     return (
       <Menu fixed="top">
@@ -52,9 +64,8 @@ class Navbar extends Component {
           {this.logoItem()}
           {this.loginStateItem()}
           <Menu.Menu position="right">
-            {this.menuLink('New', '/new')}
-            {this.menuLink('All', '/all')}
-            {this.menuLink('Logs', '/logs')}
+            {this.renderDropdown(this.appraisalDropdownData, 'Appraisals')}
+            {this.renderDropdown(this.logDropdownData, 'Logs')}
           </Menu.Menu>
         </Container>
       </Menu>

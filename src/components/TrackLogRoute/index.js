@@ -20,7 +20,7 @@ class TrackLogRoute extends Component {
           name={logSchema.name(trackedLog)}
           totalValue={totalValue}
         />
-        <ItemTable items={trackedLogAppraisal.items} />
+        <ItemTable items={items} />
       </div>
     );
   }

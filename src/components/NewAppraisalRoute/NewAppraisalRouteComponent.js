@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Grid, Input } from 'semantic-ui-react';
+import { Button, Grid, Input, Segment } from 'semantic-ui-react';
 
 import TabList from '../TabList';
 
@@ -12,7 +12,7 @@ export default ({
   onAppraisalNameChange,
   onItemClick,
 }) => (
-  <div>
+  <Segment raised>
     <Input
       onChange={onAppraisalNameChange}
       placeholder="name your appraisal"
@@ -43,5 +43,5 @@ export default ({
         />
       </div>
     </Grid>
-  </div>
+  </Segment>
 );
