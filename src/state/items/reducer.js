@@ -4,6 +4,7 @@ import { TYPES } from './actions';
 import { itemResponseSchema } from '../schema/itemResponse';
 
 const initialState = {
+  error: false,
   fetching: false,
   items: {},
 };
@@ -33,6 +34,14 @@ export default (state = initialState, action) => {
         fetching: false,
         items: addItems(state.items, payload.items),
       };
+    }
+
+    case TYPES.ITEMS_REQUEST_FAILURE: {
+      return {
+        ...state,
+        fetching: false,
+        error: true,
+      }
     }
 
     default: return state;

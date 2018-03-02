@@ -3,7 +3,7 @@ import qs from 'querystring';
 import { push } from 'react-router-redux';
 
 import { updateAppraisal } from './appraisals/actions';
-import { itemsRequest, itemsSuccess } from './items/actions';
+import { itemsFailure, itemsRequest, itemsSuccess } from './items/actions';
 import { pricesFailure, pricesRequest, pricesSuccess } from './prices/actions';
 import { appraisalSchema } from './schema/appraisal';
 import { selectors } from './selectors';
@@ -64,9 +64,7 @@ export const login = (username, poesessid) => (
         dispatch(loginSuccess(username, poesessid));
         dispatch(push('/all'));
       })
-      .catch(a => {
-        dispatch(loginFailure());
-      });
+      .catch(err => dispatch(loginFailure(err)));
   }
 );
 
@@ -80,12 +78,8 @@ export const verifyLogin = () => (
 
     requestLogin(username, poesessid)
       .then(dispatchTabsResponse(dispatch))
-      .then(a => {
-        dispatch(loginSuccess(username, poesessid));
-      })
-      .catch(a => {
-        dispatch(loginFailure());
-      });
+      .then(() => dispatch(loginSuccess(username, poesessid)))
+      .catch(err => dispatch(loginFailure(err)));
   }
 );
 
@@ -106,7 +100,7 @@ export const fetchAppraisalItems = appraisalId => (
         const updatedAppraisal = appraisalSchema.update(appraisal);
         dispatch(updateAppraisal(updatedAppraisal));
       })
-      .catch(a => console.log("oops", a));
+      .catch(err => dispatch(itemsFailure(err)));
   }
 );
 
