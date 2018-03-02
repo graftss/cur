@@ -1,18 +1,41 @@
 import React, { Component } from 'react';
+import { Input } from 'semantic-ui-react';
 
 import withState from '../../state/withState';
 
 const connections = {
-  selectors: [],
+  selectors: ['allLogs'],
 };
 
 class TrackLogRoute extends Component {
+  constructor() {
+    super();
+
+    this.state = { newLogName: '' };
+  }
+
+  createLog = () => {
+
+  }
+
   render() {
-    console.log(this.props.location);
+    const { allLogs } = this.props;
+    const { newLogName } = this.state;
 
     return (
       <div>
-        hello
+        <div>
+          <Input
+            onChange={this.onNewLogNameChange}
+            type="text"
+            value={newLogName}
+          />
+        </div>
+        <div>
+          {
+            allLogs.map(a => <div>JSON.stringify(a)</div>)
+          }
+        </div>
       </div>
     );
   }

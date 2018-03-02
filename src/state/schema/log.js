@@ -1,9 +1,10 @@
 import { getTime, uuid } from '../../utils';
 
 export const logSchema = {
-  new: name => ({
+  new: (name, description) => ({
     batches: [],
     createdOn: getTime(),
+    description,
     id: uuid(),
     name,
   }),
