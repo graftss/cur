@@ -53,6 +53,20 @@ const computedSelectors = (() => {
     (allAppraisals, appraisalId) => allAppraisals.find(a => a.id === appraisalId),
   );
 
+  const trackedLog = state => {
+    const { logById, trackedLogId } = substateSelectors;
+    return logById(state, trackedLogId(state));
+  };
+
+  const logDropdownOptions = createSelector(
+    substateSelectors.allLogs,
+    allLogs => allLogs.map(log => ({
+      key: log.id,
+      value: log.id,
+      text: log.name,
+    })),
+  );
+
   const editingAppraisal = createSelector(
     substateSelectors.allAppraisals,
     substateSelectors.editedAppraisalId,
@@ -77,7 +91,9 @@ const computedSelectors = (() => {
   return {
     appraisedItems,
     editingAppraisal,
+    logDropdownOptions,
     trackedAppraisal,
+    trackedLog,
   };
 })();
 

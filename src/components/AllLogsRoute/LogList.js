@@ -4,7 +4,7 @@ import { Card } from 'semantic-ui-react';
 import LogCard from './LogCard';
 import { logSchema } from '../../state/schema/log';
 
-const { batches, createdOn, description, lastUpdated, name } = logSchema;
+const { batches, createdOn, description, id, lastUpdated, name } = logSchema;
 
 export default ({
   allLogs,
@@ -18,6 +18,7 @@ export default ({
         batchCount={batches(log).length}
         createdOn={createdOn(log)}
         description={description(log)}
+        key={id(log)}
         lastUpdated={lastUpdated(log)}
         onDeleteClick={() => onDeleteClick(log)}
         onEditClick={() => onEditClick(log)}

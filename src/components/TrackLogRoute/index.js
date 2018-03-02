@@ -4,37 +4,18 @@ import { Input } from 'semantic-ui-react';
 import withState from '../../state/withState';
 
 const connections = {
-  selectors: ['allLogs'],
+  selectors: ['trackedLog'],
 };
 
 class TrackLogRoute extends Component {
-  constructor() {
-    super();
-
-    this.state = { newLogName: '' };
-  }
-
-  createLog = () => {
-
-  }
-
   render() {
-    const { allLogs } = this.props;
-    const { newLogName } = this.state;
+    const { trackedLog } = this.props;
+
+    console.log('tracked log', trackedLog);
 
     return (
       <div>
         <div>
-          <Input
-            onChange={this.onNewLogNameChange}
-            type="text"
-            value={newLogName}
-          />
-        </div>
-        <div>
-          {
-            allLogs.map(a => <div>JSON.stringify(a)</div>)
-          }
         </div>
       </div>
     );

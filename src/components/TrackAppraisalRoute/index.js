@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { descend, prop, sort } from 'ramda';
 
+import AddBatchModal from './AddBatchModal';
 import ItemTable from '../ItemTable';
 import ItemTableHeader from './ItemTableHeader';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['fetchAppraisalItems'],
+  actions: ['addLogBatch', 'fetchAppraisalItems'],
   selectors: [
+    'logDropdownOptions',
     'appraisalById',
     'appraisedItems',
     'fetchingItems',
@@ -16,8 +18,18 @@ const connections = {
 };
 
 class TrackAppraisalRoute extends Component {
+  constructor() {
+    super();
+
+    this.state = { addBatchModalOpen: false };
+  }
+
+  openAddBatchModal = () => this.setState({ addBatchModalOpen: true })
+
+  closeAddBatchModal = () => this.setState({ addBatchModalOpen: false })
+
   addToLog = () => {
-    console.log('howdy')
+    this.openAddBatchModal();
   }
 
   fetchAppraisalItems = () => {
@@ -30,8 +42,10 @@ class TrackAppraisalRoute extends Component {
       appraisalById,
       appraisedItems,
       fetchingItems,
+      logDropdownOptions,
       trackedAppraisalId,
     } = this.props;
+    const { addBatchModalOpen } = this.state;
 
     const { items, totalValue } = appraisedItems;
 
@@ -51,6 +65,11 @@ class TrackAppraisalRoute extends Component {
         <ItemTable
           appraisal={appraisal}
           items={sortedItems}
+        />
+        <AddBatchModal
+          closeModal={this.closeAddBatchModal}
+          logDropdownOptions={logDropdownOptions}
+          open={addBatchModalOpen}
         />
       </div>
     )

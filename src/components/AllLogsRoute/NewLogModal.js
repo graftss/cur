@@ -59,7 +59,7 @@ class NewLogModal extends Component {
             negative
             icon="ban"
             labelPosition="right"
-            content="No"
+            content="Cancel"
             onClick={this.close}
           />
           <Button
@@ -67,7 +67,7 @@ class NewLogModal extends Component {
             positive
             icon="checkmark"
             labelPosition="right"
-            content="Yes"
+            content="Create new"
             onClick={() => {
               this.createLog();
               this.close();
