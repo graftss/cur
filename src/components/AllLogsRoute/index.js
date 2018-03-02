@@ -1,17 +1,36 @@
 import React, { Component } from 'react';
 
+import DeleteLogModal from './DeleteLogModal';
 import LogList from './LogList';
 import { logSchema } from '../../state/schema/log';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['push'],
+  actions: ['deleteLog', 'push'],
   selectors: ['allLogs'],
 };
 
 class TrackLogRoute extends Component {
-  onDeleteLogClick = () => {
-    console.log('whoops cant delete yet haha');
+  constructor() {
+    super();
+
+    this.state = {
+      deleteModalOpen: false,
+      deletingLog: undefined,
+    };
+  }
+
+  closeDeleteModal = () => this.setState({ deleteModalOpen: false })
+
+  onDeleteLogClick = log => {
+    this.setState({
+      deleteModalOpen: true,
+      deletingLog: log,
+    });
+  }
+
+  deleteLog = () => {
+    this.props.deleteLog(logSchema.id(this.state.deletingLog));
   }
 
   onEditLogClick = () => {
@@ -22,6 +41,7 @@ class TrackLogRoute extends Component {
 
   render() {
     const { allLogs } = this.props;
+    const { deleteModalOpen, deletingLog } = this.state;
 
     return (
       <div>
@@ -33,6 +53,12 @@ class TrackLogRoute extends Component {
             onTrackClick={this.onTrackLogClick}
           />
         </div>
+        <DeleteLogModal
+          closeModal={this.closeDeleteModal}
+          deleteLog={this.deleteLog}
+          open={deleteModalOpen}
+          name={logSchema.name(deletingLog)}
+        />
       </div>
     );
   }
