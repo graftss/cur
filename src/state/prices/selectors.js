@@ -11,4 +11,4 @@ export const leaguePrices = curry((state, league) => (
   )(state)
 ));
 
-export const standardPrices = state => state.prices.Standard;
+export const standardPrices = state => state.prices.Bestiary;

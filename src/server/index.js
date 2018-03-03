@@ -16,8 +16,8 @@ const inProduction = process.env.NODE_ENV === 'production';
 const PORT = process.env.PORT || 3333;
 
 const CONFIG = {
-  DEFAULT_LEAGUE: 'Standard',
-  LEAGUES: ['Standard'],
+  DEFAULT_LEAGUE: 'Bestiary',
+  LEAGUES: ['Bestiary'],
   PRICES_UPDATE_INTERVAL: 1000 * 60 * 60 * 6,
 };
 
