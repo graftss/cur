@@ -13,6 +13,7 @@ import {
 
 import * as appraisals from './appraisals/selectors';
 import * as items from './items/selectors';
+import * as league from './league/selectors';
 import * as logs from './logs/selectors';
 import * as prices from './prices/selectors';
 import * as router from './router/selectors';
@@ -25,6 +26,7 @@ import { mergeValues, pickDefined } from '../utils';
 const baseSubstateSelectors = {
   appraisals,
   items,
+  league,
   logs,
   prices,
   router,

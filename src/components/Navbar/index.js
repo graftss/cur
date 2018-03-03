@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import { Container, Dropdown, Menu } from 'semantic-ui-react';
 
+import LeagueDropdown from './LeagueDropdown';
 import withState from '../../state/withState';
 
 const connections = {
   actions: ['push'],
-  selectors: ['routerPathname', 'username', 'loggingIn'],
+  selectors: [
+    'loggingIn',
+    'routerPathname',
+    'username',
+  ],
 };
 
 class Navbar extends Component {
@@ -63,6 +68,7 @@ class Navbar extends Component {
         <Container>
           {this.logoItem()}
           {this.loginStateItem()}
+          <Menu.Item><LeagueDropdown /></Menu.Item>
           <Menu.Menu position="right">
             {this.renderDropdown(this.appraisalDropdownData, 'Appraisals')}
             {this.renderDropdown(this.logDropdownData, 'Logs')}
