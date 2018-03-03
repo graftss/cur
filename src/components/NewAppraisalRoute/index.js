@@ -7,7 +7,7 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['createAppraisal', 'fetchAppraisalItems', 'push'],
-  selectors: ['allTabs'],
+  selectors: ['allTabs', 'currentLeague'],
 };
 
 class NewAppraisalRouteContainer extends Component {
@@ -34,9 +34,16 @@ class NewAppraisalRouteContainer extends Component {
   )
 
   onAppraisalSubmit = () => {
-    const appraisal = newAppraisal(this.state.name, this.selectedTabIds());
-    this.props.createAppraisal(appraisal);
-    this.props.push('/all');
+    const { createAppraisal, currentLeague, push } = this.props;
+
+    const appraisal = newAppraisal(
+      this.state.name,
+      this.selectedTabIds(),
+      currentLeague,
+    );
+
+    createAppraisal(appraisal);
+    push('/all');
   }
 
   canSubmit = () => {

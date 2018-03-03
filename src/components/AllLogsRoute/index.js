@@ -7,7 +7,7 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['deleteLog', 'push'],
-  selectors: ['allLogs'],
+  selectors: ['allLogs', 'currentLeague'],
 };
 
 class TrackLogRoute extends Component {
@@ -37,6 +37,12 @@ class TrackLogRoute extends Component {
 
   onTrackLogClick = log => this.props.push(`/log/${logSchema.id(log)}`)
 
+  getVisibleLogs = () => {
+    const { allLogs, currentLeague } = this.props;
+
+    return allLogs.filter(l => l.league === currentLeague);
+  }
+
   render() {
     const { allLogs } = this.props;
     const { deleteModalOpen, deletingLog } = this.state;
@@ -45,7 +51,7 @@ class TrackLogRoute extends Component {
       <div>
         <div style={{ marginTop: '20px' }}>
           <LogList
-            allLogs={allLogs}
+            allLogs={this.getVisibleLogs()}
             onDeleteClick={this.onDeleteLogClick}
             onEditClick={this.onEditLogClick}
             onTrackClick={this.onTrackLogClick}

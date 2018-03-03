@@ -24,21 +24,15 @@ class Navbar extends Component {
     { text: 'New', url: '/newlog' },
   ];
 
-  loginStateItem() {
+  renderLoginState() {
     const { username, loggingIn } = this.props;
 
-    return (
-      <Menu.Item>
-        {
-          loggingIn ?
-            <span>Logging in...</span> :
-            <span>Logged in as <b>{username}</b></span>
-        }
-      </Menu.Item>
-    );
+    return loggingIn ?
+      <span>Logging in...</span> :
+      <span>Logged in as <b>{username}</b></span>;
   }
 
-  logoItem() {
+  renderLogoItem() {
     return (
       <Menu.Item fitted="vertically">
         <h2>Cur</h2>
@@ -66,9 +60,15 @@ class Navbar extends Component {
     return (
       <Menu fixed="top">
         <Container>
-          {this.logoItem()}
-          {this.loginStateItem()}
-          <Menu.Item><LeagueDropdown /></Menu.Item>
+          <Menu.Item fitted="vertically">
+            <h2>Cur</h2>
+          </Menu.Item>
+          <Menu.Item>
+            {this.renderLoginState()}
+          </Menu.Item>
+          <Menu.Item>
+            <LeagueDropdown />
+          </Menu.Item>
           <Menu.Menu position="right">
             {this.renderDropdown(this.appraisalDropdownData, 'Appraisals')}
             {this.renderDropdown(this.logDropdownData, 'Logs')}

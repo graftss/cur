@@ -7,7 +7,7 @@ import withState from '../../state/withState';
 
 const connections = {
   actions: ['deleteAppraisal', 'push'],
-  selectors: ['allAppraisals'],
+  selectors: ['allAppraisals', 'currentLeague'],
 };
 
 class AllAppraisalsRoute extends Component {
@@ -36,13 +36,19 @@ class AllAppraisalsRoute extends Component {
 
   onTrackClick = appraisal => this.props.push(`/track/${appraisal.id}`)
 
+  getVisibleAppraisals = () => {
+    const { allAppraisals, currentLeague } = this.props;
+
+    return allAppraisals.filter(a => a.league === currentLeague);
+  }
+
   renderAppraisalList() {
     const { allAppraisals, push } = this.props;
 
     return allAppraisals.length === 0 ?
       <Button onClick={() => push('/new')}>Create an appraisal</Button> :
       <AppraisalsList
-        allAppraisals={allAppraisals}
+        allAppraisals={this.getVisibleAppraisals()}
         onDeleteClick={this.openDeleteModal}
         onEditClick={this.onEditClick}
         onTrackClick={this.onTrackClick}

@@ -8,6 +8,7 @@ const clearedFields = { description: '', name: '' };
 
 const connections = {
   actions: ['createLog', 'push'],
+  selectors: ['currentLeague'],
 };
 
 class NewLogRoute extends Component {
@@ -18,10 +19,12 @@ class NewLogRoute extends Component {
   }
 
   createLog = () => {
+    const { currentLeague, createLog, push } = this.props;
     const { description, name } = this.state;
-    const newLog = logSchema.new(name, description);
-    this.props.createLog(newLog);
-    this.props.push('/logs');
+
+    const newLog = logSchema.new(name, description, currentLeague);
+    createLog(newLog);
+    push('/logs');
   }
 
   clearFields = () => this.setState(clearedFields)

@@ -3,11 +3,12 @@ import { last, prop } from 'ramda';
 import { getTime, uuid } from '../../utils';
 
 export const logSchema = {
-  new: (name, description) => ({
+  new: (name, description, league) => ({
     batches: [],
     createdOn: getTime(),
     description,
     id: uuid(),
+    league,
     name,
   }),
 
@@ -34,5 +35,6 @@ export const logSchema = {
   createdOn: prop('createdOn'),
   description: prop('description'),
   id: prop('id'),
+  league: prop('league'),
   name: prop('name'),
 };
