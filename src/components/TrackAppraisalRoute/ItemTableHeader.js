@@ -11,7 +11,7 @@ export default ({
   totalValue,
 }) => (
   <Header>
-    {`${appraisal.name} - ${totalValue}c`}
+    {`${appraisal.name} - ${totalValue}c (${appraisal.league})`}
     <IconGroup
       fetchingItems={fetchingItems}
       onLogClick={addToLog}

@@ -49,6 +49,11 @@ const substateSelectorsByType = mapObjIndexed(
 const substateSelectors = mergeValues(substateSelectorsByType);
 
 const computedSelectors = (() => {
+  const currentLeaguePrices = state => {
+    const currentLeague = substateSelectors.currentLeague(state);
+    return substateSelectors.leaguePrices(state, currentLeague);
+  };
+
   const trackedAppraisal = createSelector(
     substateSelectors.allAppraisals,
     substateSelectors.trackedAppraisalId,
@@ -87,7 +92,7 @@ const computedSelectors = (() => {
   );
 
   const appraisedItems = createSelector(
-    substateSelectors.standardPrices,
+    currentLeaguePrices,
     trackedAppraisalItemsByTabId,
     (prices, itemsByTabId) => {
       const items = reduce(concat, [], values(itemsByTabId));
@@ -101,7 +106,7 @@ const computedSelectors = (() => {
   );
 
   const trackedLogAppraisal = createSelector(
-    substateSelectors.standardPrices,
+    currentLeaguePrices,
     trackedLog,
     (prices, log) => {
       const logItems = reduce(concat, [], log.batches.map(prop('items')));

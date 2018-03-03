@@ -17,7 +17,7 @@ const PORT = process.env.PORT || 3333;
 
 const CONFIG = {
   DEFAULT_LEAGUE: 'Bestiary',
-  LEAGUES: ['Bestiary'],
+  LEAGUES: ['Bestiary', 'Standard'],
   PRICES_UPDATE_INTERVAL: 1000 * 60 * 60 * 6,
 };
 

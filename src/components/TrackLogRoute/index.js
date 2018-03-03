@@ -17,6 +17,7 @@ class TrackLogRoute extends Component {
     return (
       <div>
         <ItemTableHeader
+          league={logSchema.league(trackedLog)}
           name={logSchema.name(trackedLog)}
           totalValue={totalValue}
         />
