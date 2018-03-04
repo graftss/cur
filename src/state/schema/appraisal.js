@@ -8,6 +8,7 @@ export const newAppraisal = (name, tabIds, league) => ({
   lastUpdated: undefined,
   league,
   name,
+  snapshots: [],
   tabIds,
 });
 
@@ -23,6 +24,7 @@ export const appraisalSchema = {
   lastUpdated: prop('lastUpdated'),
   league: prop('league'),
   name: prop('name'),
+  snapshots: prop('snapshots'),
   tabIds: prop('tabIds'),
 
   update: appraisal => ({ ...appraisal, lastUpdated: getTime() }),

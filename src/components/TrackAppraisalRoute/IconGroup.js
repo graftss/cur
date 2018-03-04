@@ -19,12 +19,22 @@ const LogIcon = ({ onClick }) => (
   </span>
 );
 
+const SnapshotIcon = ({ onClick }) => (
+  <span>
+    <Popup content="Snapshot">
+      <Icon name="camera" onClick={onClick} link={true} />
+    </Popup>
+  </span>
+);
+
 export default ({
   fetchingItems,
   onLogClick,
+  onSnapshotClick,
   onUpdateClick,
 }) => (
   <div style={{ float: 'right' }}>
+    <SnapshotIcon onClick={onSnapshotClick} />
     <LogIcon onClick={onLogClick} />
     <UpdateIcon fetching={fetchingItems} onClick={onUpdateClick} />
   </div>

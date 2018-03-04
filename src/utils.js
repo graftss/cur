@@ -1,6 +1,7 @@
 import {
   assoc,
   curry,
+  concat,
   map,
   merge,
   reduce,
@@ -48,3 +49,5 @@ export const roundToPlaces = places => {
   const shift = Math.pow(10, places);
   return r => Math.round(r * shift) / shift;
 };
+
+export const concatAll = reduce(concat, []);

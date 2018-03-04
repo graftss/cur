@@ -1,12 +1,10 @@
 import { createSelector } from 'reselect';
 import {
-  concat,
   curry,
   map,
   mapObjIndexed,
   pick,
   prop,
-  reduce,
   useWith,
   values,
 } from 'ramda';
@@ -21,7 +19,7 @@ import * as tabs from './tabs/selectors';
 import * as user from './user/selectors';
 
 import appraiseItems, { appraiseParsedItems } from './appraiseItems';
-import { mergeValues, pickDefined } from '../utils';
+import { concatAll, getTime, mergeValues, pickDefined } from '../utils';
 
 const baseSubstateSelectors = {
   appraisals,
@@ -95,24 +93,33 @@ const computedSelectors = (() => {
     currentLeaguePrices,
     trackedAppraisalItemsByTabId,
     (prices, itemsByTabId) => {
-      const items = reduce(concat, [], values(itemsByTabId));
+      const items = concatAll(values(itemsByTabId));
       return appraiseItems(prices, items);
     },
   );
 
   const trackedAppraisalBatch = createSelector(
     appraisedItems,
-    appraisedItems => appraisedItems.items.map(pick(['name', 'quantity', 'iconUrl'])),
+    ({ items }) => items.map(pick(['name', 'quantity', 'iconUrl'])),
   );
 
   const trackedLogAppraisal = createSelector(
     currentLeaguePrices,
     trackedLog,
     (prices, log) => {
-      const logItems = reduce(concat, [], log.batches.map(prop('items')));
+      const logItems = concatAll(log.batches.map(prop('items')));
       return appraiseParsedItems(prices, logItems);
     }
-  )
+  );
+
+  const trackedAppraisalSnapshot = state => {
+    const items = appraisedItems(state);
+
+    return {
+      ...items,
+      time: getTime()
+    };
+  };
 
   return {
     appraisedItems,
@@ -121,6 +128,7 @@ const computedSelectors = (() => {
     logDropdownOptions,
     trackedAppraisal,
     trackedAppraisalBatch,
+    trackedAppraisalSnapshot,
     trackedLog,
     trackedLogAppraisal,
   };

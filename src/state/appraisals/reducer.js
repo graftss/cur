@@ -4,6 +4,11 @@ const initialState = {
   appraisals: [],
 };
 
+const addSnapshot = (appraisal, snapshot) => ({
+  ...appraisal,
+  snapshots: [...appraisal.snapshots, snapshot],
+});
+
 export default (state = initialState, action) => {
   const { payload, type } = action;
 
@@ -26,6 +31,17 @@ export default (state = initialState, action) => {
       return {
         ...state,
         appraisals: state.appraisals.map(a => a.id === appraisal.id ? appraisal : a),
+      };
+    }
+
+    case TYPES.APPRAISALS_SNAPSHOT: {
+      const { id, snapshot } = payload;
+
+      return {
+        ...state,
+        appraisals: state.appraisals.map(
+          a => a.id === id ? addSnapshot(a, snapshot) : a
+        ),
       };
     }
 

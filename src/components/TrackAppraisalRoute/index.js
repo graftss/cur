@@ -7,14 +7,19 @@ import ItemTableHeader from './ItemTableHeader';
 import withState from '../../state/withState';
 
 const connections = {
-  actions: ['addLogBatch', 'fetchAppraisalItems'],
+  actions: [
+    'addAppraisalSnapshot',
+    'addLogBatch',
+    'fetchAppraisalItems',
+  ],
   selectors: [
-    'logDropdownOptions',
     'appraisalById',
     'appraisedItems',
     'fetchingItems',
-    'trackedAppraisalId',
+    'logDropdownOptions',
+    'trackedAppraisal',
     'trackedAppraisalBatch',
+    'trackedAppraisalSnapshot',
   ],
 };
 
@@ -39,20 +44,29 @@ class TrackAppraisalRoute extends Component {
     fetchAppraisalItems(trackedAppraisalId);
   }
 
+  takeSnapshot = () => {
+    const {
+      addAppraisalSnapshot,
+      trackedAppraisal,
+      trackedAppraisalSnapshot,
+    } = this.props;
+
+    addAppraisalSnapshot(trackedAppraisal.id, trackedAppraisalSnapshot);
+  }
+
   render() {
     const {
       appraisalById,
       appraisedItems,
       fetchingItems,
       logDropdownOptions,
-      trackedAppraisalId,
+      trackedAppraisal: appraisal,
     } = this.props;
     const { addBatchModalOpen } = this.state;
 
     const { items, totalValue } = appraisedItems;
 
     // default to `{}` here so that it's not `undefined` on browser back
-    const appraisal = appraisalById(trackedAppraisalId) || {};
     const sortedItems = sort(descend(prop('value')), items);
 
     return (
@@ -62,6 +76,7 @@ class TrackAppraisalRoute extends Component {
           addToLog={this.openAddBatchModal}
           fetchingItems={fetchingItems}
           fetchItems={this.fetchAppraisalItems}
+          takeSnapshot={this.takeSnapshot}
           totalValue={totalValue}
         />
         <ItemTable

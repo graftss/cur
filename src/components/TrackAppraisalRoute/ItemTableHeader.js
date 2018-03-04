@@ -8,6 +8,7 @@ export default ({
   appraisal,
   fetchingItems,
   fetchItems,
+  takeSnapshot,
   totalValue,
 }) => (
   <Header>
@@ -16,6 +17,7 @@ export default ({
       fetchingItems={fetchingItems}
       onLogClick={addToLog}
       onUpdateClick={fetchItems}
+      onSnapshotClick={takeSnapshot}
     />
   </Header>
 );
