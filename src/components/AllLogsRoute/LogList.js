@@ -7,13 +7,13 @@ import { logSchema } from '../../state/schema/log';
 const { batches, createdOn, description, id, lastUpdated, name } = logSchema;
 
 export default ({
-  allLogs,
+  logs,
   onDeleteClick,
   onEditClick,
   onTrackClick,
 }) => (
   <Card.Group>
-    {allLogs.map(log => (
+    {logs.map(log => (
       <LogCard
         batchCount={batches(log).length}
         createdOn={createdOn(log)}

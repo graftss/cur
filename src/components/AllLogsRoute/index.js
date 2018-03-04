@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'semantic-ui-react';
 
 import DeleteLogModal from './DeleteLogModal';
 import LogList from './LogList';
@@ -43,18 +44,26 @@ class TrackLogRoute extends Component {
     return allLogs.filter(l => l.league === currentLeague);
   }
 
+  renderLogList() {
+    const logs = this.getVisibleLogs();
+
+    return logs.length === 0 ?
+      <Button onClick={() => this.props.push('/newlog')}>Create a log</Button> :
+      <LogList
+        logs={logs}
+        onDeleteClick={this.onDeleteLogClick}
+        onEditClick={this.onEditLogClick}
+        onTrackClick={this.onTrackLogClick}
+      />;
+  }
+
   render() {
     const { deleteModalOpen, deletingLog } = this.state;
 
     return (
       <div>
         <div style={{ marginTop: '20px' }}>
-          <LogList
-            allLogs={this.getVisibleLogs()}
-            onDeleteClick={this.onDeleteLogClick}
-            onEditClick={this.onEditLogClick}
-            onTrackClick={this.onTrackLogClick}
-          />
+          {this.renderLogList()}
         </div>
         <DeleteLogModal
           closeModal={this.closeDeleteModal}
