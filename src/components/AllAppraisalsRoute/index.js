@@ -43,12 +43,13 @@ class AllAppraisalsRoute extends Component {
   }
 
   renderAppraisalList() {
-    const { allAppraisals, push } = this.props;
+    const { push } = this.props;
+    const appraisals = this.getVisibleAppraisals();
 
-    return allAppraisals.length === 0 ?
+    return appraisals.length === 0 ?
       <Button onClick={() => push('/new')}>Create an appraisal</Button> :
       <AppraisalsList
-        allAppraisals={this.getVisibleAppraisals()}
+        allAppraisals={appraisals}
         onDeleteClick={this.openDeleteModal}
         onEditClick={this.onEditClick}
         onTrackClick={this.onTrackClick}
