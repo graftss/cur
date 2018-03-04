@@ -40,8 +40,8 @@ class TrackAppraisalRoute extends Component {
   }
 
   fetchAppraisalItems = () => {
-    const { fetchAppraisalItems, trackedAppraisalId } = this.props;
-    fetchAppraisalItems(trackedAppraisalId);
+    const { fetchAppraisalItems, trackedAppraisal } = this.props;
+    fetchAppraisalItems(trackedAppraisal.id);
   }
 
   takeSnapshot = () => {

@@ -38,9 +38,9 @@ const requestPrices = () => (
   })
 );
 
-const requestItems = (username, poesessid, tabIds) => (
+const requestItems = (username, poesessid, tabIds, league) => (
   axios.request({
-    url: url.tabs(username, poesessid, tabIds),
+    url: url.tabs(username, poesessid, tabIds, league),
     responseType: 'json',
   })
 );
@@ -99,10 +99,11 @@ export const fetchAppraisalItems = appraisalId => (
     const poesessid = selectors.poesessid(state);
     const appraisal = selectors.appraisalById(state, appraisalId);
     const tabIds = appraisalSchema.tabIds(appraisal);
+    const league = appraisalSchema.league(appraisal);
 
     dispatch(itemsRequest());
 
-    return requestItems(username, poesessid, tabIds)
+    return requestItems(username, poesessid, tabIds, league)
       .then(response => {
         dispatchTabsResponse(dispatch)(response);
 
