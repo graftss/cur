@@ -1,20 +1,26 @@
+import { assoc } from 'ramda';
+
 import { TYPES } from './actions';
 
 const initialState = {
   fetching: false,
-  tabs: [],
+  tabs: {},
 };
 
 export default (state = initialState, action) => {
-  const { payload, type } = action;
-
-  switch (type) {
+  switch (action.type) {
     case TYPES.TABS_REQUEST: {
       return { ...state, fetching: true };
     }
 
     case TYPES.TABS_SUCCESS: {
-      return { ...state, fetching: false, tabs: payload.tabs };
+      const { league, tabs } = action.payload;
+
+      return {
+        ...state,
+        fetching: false,
+        tabs: assoc(league, tabs, state.tabs),
+      };
     }
 
     default: return state;

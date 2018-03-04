@@ -28,20 +28,23 @@ module.exports = ({ DEFAULT_LEAGUE, priceMonitor }) => {
   });
 
   apiRouter.get('/tabs', (req, res) => {
-    const { username, poesessid, tabIds } = req.query;
+    const { username, poesessid, tabIds, league: paramLeague } = req.query;
+    const league = paramLeague || DEFAULT_LEAGUE;
 
     console.log(req.query);
 
     const query = {
       accountName: username,
-      league: DEFAULT_LEAGUE,
+      league,
       sessionId: poesessid,
-      // tabIds: parseTabIds(tabIds || ''),
       tabIds: Array.isArray(tabIds) ? tabIds : [tabIds],
     };
 
     // return respondWithJsonPromise(readJson('sanitized-stash-tab'), res);
-    return respondWithJsonPromise(tabResponse(query), res);
+    return respondWithJsonPromise(
+      tabResponse(query).then(res => Object.assign(res, { league })),
+      res
+    ).catch(a => console.log('woop', a));
   });
 
   return apiRouter;

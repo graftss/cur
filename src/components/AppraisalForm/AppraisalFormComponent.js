@@ -1,19 +1,23 @@
 import React from 'react';
-import { Button, Grid, Input, Segment } from 'semantic-ui-react';
+import { Button, Dimmer, Grid, Input, Loader, Segment } from 'semantic-ui-react';
 
 import TabList from '../TabList';
 
 export default ({
-  allTabs,
   appraisalName,
   canSubmitAppraisal,
   isIdSelected,
+  loading,
   onAppraisalSubmit,
   onAppraisalNameChange,
   onItemClick,
   submitPrompt,
+  tabs,
 }) => (
   <Segment raised>
+    <Dimmer active={tabs.length === 0}>
+      <Loader>Requesting tabs</Loader>
+    </Dimmer>
     <Input
       onChange={onAppraisalNameChange}
       placeholder="name your appraisal"
@@ -30,7 +34,7 @@ export default ({
       <div>
         <h1>untracked</h1>
         <TabList
-          allTabs={allTabs}
+          tabs={tabs}
           onItemClick={onItemClick}
           isIdSelected={isIdSelected}
         />
@@ -38,7 +42,7 @@ export default ({
       <div>
         <h1>tracked</h1>
         <TabList
-          allTabs={allTabs}
+          tabs={tabs}
           onItemClick={onItemClick}
           isIdSelected={id => !isIdSelected(id)}
         />

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { assoc, filter } from 'ramda';
 
-import AppraisalFormComponent from '../AppraisalFormComponent';
+import AppraisalForm from '../AppraisalForm';
 import { newAppraisal } from '../../state/schema/appraisal';
 import withState from '../../state/withState';
 
 const connections = {
   actions: ['createAppraisal', 'fetchAppraisalItems', 'push'],
-  selectors: ['allTabs', 'currentLeague'],
+  selectors: ['currentLeague', 'currentLeagueTabs'],
 };
 
 class NewAppraisalRouteContainer extends Component {
@@ -53,12 +53,11 @@ class NewAppraisalRouteContainer extends Component {
   onNameChange = e => this.setState({ name: e.target.value })
 
   render() {
-    const { allTabs } = this.props;
+    const { currentLeagueTabs } = this.props;
     const { name, selectedIds } = this.state;
 
     return (
-      <AppraisalFormComponent
-        allTabs={allTabs}
+      <AppraisalForm
         appraisalName={name}
         canSubmitAppraisal={this.canSubmit()}
         isIdSelected={id => !!selectedIds[id]}
@@ -66,6 +65,7 @@ class NewAppraisalRouteContainer extends Component {
         onAppraisalNameChange={this.onNameChange}
         onItemClick={this.onItemClick}
         submitPrompt="Create"
+        tabs={currentLeagueTabs}
       />
     );
   }

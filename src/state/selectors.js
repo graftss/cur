@@ -52,6 +52,11 @@ const computedSelectors = (() => {
     return substateSelectors.leaguePrices(state, currentLeague);
   };
 
+  const currentLeagueTabs = state => {
+    const currentLeague = substateSelectors.currentLeague(state);
+    return substateSelectors.leagueTabs(state, currentLeague);
+  };
+
   const trackedAppraisal = createSelector(
     substateSelectors.allAppraisals,
     substateSelectors.trackedAppraisalId,
@@ -123,6 +128,7 @@ const computedSelectors = (() => {
 
   return {
     appraisedItems,
+    currentLeagueTabs,
     editingAppraisal,
     editedLog,
     logDropdownOptions,

@@ -9,19 +9,19 @@ const leagueToOption = league => ({
 });
 
 const connections = {
-  actions: ['setLeague'],
+  actions: ['changeLeague'],
   selectors: ['allLeagues', 'currentLeague'],
 }
 
 const LeagueDropdown = ({
   allLeagues,
   currentLeague,
-  setLeague,
+  changeLeague,
 }) => (
   <span>
     <Dropdown
       inline
-      onChange={(_, e) => setLeague(e.value)}
+      onChange={(_, e) => changeLeague(e.value)}
       options={allLeagues.map(leagueToOption)}
       value={currentLeague}
     />

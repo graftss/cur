@@ -12,4 +12,4 @@ export const TYPES = keyMirror([
 
 export const tabsRequest = constantCreator(TYPES.TABS_REQUEST);
 
-export const tabsSuccess = argCreator(TYPES.TABS_SUCCESS, ['tabs']);
+export const tabsSuccess = argCreator(TYPES.TABS_SUCCESS, ['league', 'tabs']);

@@ -4,6 +4,7 @@ import { push } from 'react-router-redux';
 
 import { updateAppraisal } from './appraisals/actions';
 import { itemsFailure, itemsRequest, itemsSuccess } from './items/actions';
+import { setLeague } from './league/actions';
 import { pricesFailure, pricesRequest, pricesSuccess } from './prices/actions';
 import { appraisalSchema } from './schema/appraisal';
 import { selectors } from './selectors';
@@ -25,8 +26,8 @@ const server = window.location.hostname.includes('heroku') ?
 
 const url = {
   prices: () => `${server}/prices`,
-  tabs: (username, poesessid, tabIds) => (
-    `${server}/tabs?${qs.stringify({ username, poesessid, tabIds })}`
+  tabs: (username, poesessid, tabIds, league) => (
+    `${server}/tabs?${qs.stringify({ username, poesessid, tabIds, league })}`
   ),
 };
 
@@ -44,12 +45,19 @@ const requestItems = (username, poesessid, tabIds) => (
   })
 );
 
+const requestTabs = (username, poesessid, league) => (
+  axios.request({
+    url: url.tabs(username, poesessid, undefined, league),
+    responseType:'json',
+  })
+);
+
 const requestLogin = (username, poesessid) => requestItems(username, poesessid);
 
 const dispatchTabsResponse = dispatch => response => {
-  const { items, tabList } = response.data;
+  const { items, tabList, league } = response.data;
 
-  dispatch(tabsSuccess(tabList));
+  dispatch(tabsSuccess(league, tabList));
   if (items.length) dispatch(itemsSuccess(items));
 
   return response;
@@ -112,5 +120,23 @@ export const fetchPrices = () => (
     requestPrices()
       .then(({ data }) => dispatch(pricesSuccess(data)))
       .catch(a => dispatch(pricesFailure()));
+  }
+);
+
+export const changeLeague = league => (
+  (dispatch, getState) => {
+    const state = getState();
+
+    const tabs = selectors.leagueTabs(state, league);
+
+    if (tabs.length === 0) {
+      const username = selectors.username(state);
+      const poesessid = selectors.poesessid(state);
+
+      requestTabs(username, poesessid, league)
+        .then(dispatchTabsResponse(dispatch));
+    }
+
+    dispatch(setLeague(league));
   }
 );

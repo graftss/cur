@@ -4,14 +4,14 @@ import { List, Segment } from 'semantic-ui-react';
 import TabListItem from './TabListItem';
 
 export default ({
-  allTabs,
   isIdSelected,
   onItemClick,
+  tabs,
 }) => (
   <div>
     <Segment style={{ width: '250px', margin: '0 auto' }}>
       <List>
-        {allTabs.map(tab => (
+        {tabs.map(tab => (
           <TabListItem
             key={tab.id}
             onClick={onItemClick}
