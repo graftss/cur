@@ -6,11 +6,12 @@ export default ({
   name,
   onDescriptionChange,
   onNameChange,
-  saveEditedLog,
+  onSubmit,
+  headerPrompt,
   submitDisabled,
 }) => (
   <Segment raised>
-    <p>Edit log:</p>
+    <p>{headerPrompt}</p>
     <Form>
       <Form.Field>
         <Input
@@ -27,10 +28,10 @@ export default ({
         />
       </Form.Field>
       <Button
-        content="Save log"
+        content="Save"
         disabled={submitDisabled}
         fluid
-        onClick={saveEditedLog}
+        onClick={onSubmit}
       />
     </Form>
   </Segment>

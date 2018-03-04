@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import EditLogRouteComponent from './EditLogRouteComponent';
+import LogFormComponent from '../LogFormComponent';
 import { logSchema } from '../../state/schema/log';
 import withState from '../../state/withState';
 
@@ -31,18 +31,24 @@ class EditLogRoute extends Component {
     push('/logs');
   }
 
+  headerPrompt() {
+    const originalName = logSchema.name(this.props.editedLog);
+    return <span>Editing log <b>{originalName}</b>:</span>
+  }
+
   render() {
     const { description, name } = this.state;
 
     const submitDisabled = description.length === 0 || name.length === 0;
 
     return (
-      <EditLogRouteComponent
+      <LogFormComponent
         description={description}
+        headerPrompt={this.headerPrompt()}
         name={name}
         onDescriptionChange={this.onDescriptionChange}
         onNameChange={this.onNameChange}
-        saveEditedLog={this.saveEditedLog}
+        onSubmit={this.saveEditedLog}
         submitDisabled={submitDisabled}
       />
     );

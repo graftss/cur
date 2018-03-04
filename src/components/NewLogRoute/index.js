@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import NewLogRouteComponent from './NewLogRouteComponent';
+import LogFormComponent from '../LogFormComponent';
 import { logSchema } from '../../state/schema/log';
 import withState from '../../state/withState';
 
@@ -44,12 +44,13 @@ class NewLogRoute extends Component {
     const submitDisabled = name.length === 0 || description.length === 0;
 
     return (
-      <NewLogRouteComponent
-        createLog={this.createLog}
+      <LogFormComponent
         description={description}
+        headerPrompt="Create a new log:"
         name={name}
         onDescriptionChange={this.onDescriptionChange}
         onNameChange={this.onNameChange}
+        onSubmit={this.createLog}
         submitDisabled={submitDisabled}
       />
     );
