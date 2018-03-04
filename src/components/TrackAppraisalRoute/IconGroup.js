@@ -27,13 +27,23 @@ const SnapshotIcon = ({ onClick }) => (
   </span>
 );
 
+const EditIcon = ({ onClick }) => (
+  <span>
+    <Popup content="Edit">
+      <Icon name="edit" onClick={onClick} link />
+    </Popup>
+  </span>
+);
+
 export default ({
   fetchingItems,
+  onEditClick,
   onLogClick,
   onSnapshotClick,
   onUpdateClick,
 }) => (
   <div style={{ float: 'right' }}>
+    <EditIcon onClick={onEditClick} />
     <SnapshotIcon onClick={onSnapshotClick} />
     <LogIcon onClick={onLogClick} />
     <UpdateIcon fetching={fetchingItems} onClick={onUpdateClick} />

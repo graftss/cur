@@ -8,6 +8,7 @@ export default ({
   appraisal,
   fetchingItems,
   fetchItems,
+  linkToEdit,
   takeSnapshot,
   totalValue,
 }) => (
@@ -15,6 +16,7 @@ export default ({
     {`${appraisal.name} - ${totalValue}c (${appraisal.league})`}
     <IconGroup
       fetchingItems={fetchingItems}
+      onEditClick={linkToEdit}
       onLogClick={addToLog}
       onUpdateClick={fetchItems}
       onSnapshotClick={takeSnapshot}

@@ -11,6 +11,7 @@ const connections = {
     'addAppraisalSnapshot',
     'addLogBatch',
     'fetchAppraisalItems',
+    'push',
   ],
   selectors: [
     'appraisalById',
@@ -42,6 +43,12 @@ class TrackAppraisalRoute extends Component {
   fetchAppraisalItems = () => {
     const { fetchAppraisalItems, trackedAppraisal } = this.props;
     fetchAppraisalItems(trackedAppraisal.id);
+  }
+
+  linkToEdit = () => {
+    const { push, trackedAppraisal } = this.props;
+
+    push(`/edit/${trackedAppraisal.id}`);
   }
 
   takeSnapshot = () => {
@@ -76,6 +83,7 @@ class TrackAppraisalRoute extends Component {
           addToLog={this.openAddBatchModal}
           fetchingItems={fetchingItems}
           fetchItems={this.fetchAppraisalItems}
+          linkToEdit={this.linkToEdit}
           takeSnapshot={this.takeSnapshot}
           totalValue={totalValue}
         />
