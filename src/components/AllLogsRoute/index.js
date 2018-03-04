@@ -44,7 +44,6 @@ class TrackLogRoute extends Component {
   }
 
   render() {
-    const { allLogs } = this.props;
     const { deleteModalOpen, deletingLog } = this.state;
 
     return (

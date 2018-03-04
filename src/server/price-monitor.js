@@ -1,3 +1,12 @@
+const addChaosOrbToPriceMap = priceMap => {
+  priceMap['Chaos Orb'] = {
+    type: 'currency',
+    value: 1,
+  };
+
+  return priceMap;
+};
+
 class PriceMonitor {
   constructor({ leagues, updateInterval, getLeaguePrices, onUpdateError }) {
     this.leagues = leagues;
@@ -16,7 +25,8 @@ class PriceMonitor {
 
   updateLeaguePrices(league) {
     return this.getLeaguePrices(league)
-      .then(prices => this.currentPrices[league] = prices);
+      .then(prices => this.currentPrices[league] = prices)
+      .then(addChaosOrbToPriceMap);
   }
 
   updateAllPrices() {

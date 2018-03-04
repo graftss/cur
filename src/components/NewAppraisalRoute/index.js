@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { assoc, filter } from 'ramda';
 
-import NewAppraisalRouteComponent from './NewAppraisalRouteComponent';
+import AppraisalFormComponent from '../AppraisalFormComponent';
 import { newAppraisal } from '../../state/schema/appraisal';
 import withState from '../../state/withState';
 
@@ -57,7 +57,7 @@ class NewAppraisalRouteContainer extends Component {
     const { name, selectedIds } = this.state;
 
     return (
-      <NewAppraisalRouteComponent
+      <AppraisalFormComponent
         allTabs={allTabs}
         appraisalName={name}
         canSubmitAppraisal={this.canSubmit()}
@@ -65,6 +65,7 @@ class NewAppraisalRouteContainer extends Component {
         onAppraisalSubmit={this.onAppraisalSubmit}
         onAppraisalNameChange={this.onNameChange}
         onItemClick={this.onItemClick}
+        submitPrompt="Create"
       />
     );
   }

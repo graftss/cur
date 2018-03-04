@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Grid, Input } from 'semantic-ui-react';
+import { Button, Grid, Input, Segment } from 'semantic-ui-react';
 
 import TabList from '../TabList';
 
@@ -11,15 +11,16 @@ export default ({
   onAppraisalSubmit,
   onAppraisalNameChange,
   onItemClick,
+  submitPrompt,
 }) => (
-  <div>
+  <Segment raised>
     <Input
       onChange={onAppraisalNameChange}
       placeholder="name your appraisal"
       value={appraisalName}
     />
     <Button
-      content="Edit"
+      content={submitPrompt}
       disabled={!canSubmitAppraisal}
       onClick={onAppraisalSubmit}
       primary
@@ -43,5 +44,5 @@ export default ({
         />
       </div>
     </Grid>
-  </div>
+  </Segment>
 );
